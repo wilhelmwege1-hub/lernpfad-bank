@@ -22,7 +22,7 @@ window.LERNFELDER = [
   "nr": 1,
   "titel": "Die eigene Rolle im Betrieb und im Wirtschaftsleben mitgestalten",
   "std": 80,
-  "quelle": "Ergänzt aus offiziellen Quellen (Gesetze, Rahmenlehrplan AO 2020) und den Zusammenfassungen der Prüfungsbereiche. Wird durch deine Mitschrift ersetzt bzw. abgeglichen. Wechselnde Werte Stand 09.11.2026: SV 2026, Mindestlohn 13,90 €, EZB-Sätze seit 16.09.2026 (2,65 / 2,90 / 2,50 %), Inflation Euroraum Okt. 2026 4,0 % vorläufig. EZB-Sitzung 29.10.2026: Sätze unverändert. Nächste EZB-Sitzung 17.12.2026.",
+  "quelle": "Ergänzt aus offiziellen Quellen (Gesetze, Rahmenlehrplan AO 2020) und den Zusammenfassungen der Prüfungsbereiche. Wird durch deine Mitschrift ersetzt bzw. abgeglichen. Wechselnde Werte Stand 09.11.2026: SV 2026, Mindestlohn 13,90 €, EZB-Sätze seit 16.09.2026 (2,65 / 2,90 / 2,50 %), Inflation Euroraum Okt. 2026 4,0 % vorläufig. EZB-Sitzung 29.10.2026: Sätze unverändert. Nächste EZB-Sitzung 17.12.2026. Ergänzt am 11.11.2026 nach dem sächsischen Lehrplan Bankkaufleute (2020): Rechtsgeschäfte: Willenserklärung, Form, Nichtigkeit, Anfechtung, Kaufvertrag und Störungen beim Kaufvertrag, Verjährung und gerichtliches Mahnverfahren, Arbeitszeugnis und besondere Schutzgesetze.",
   "kapitel": [
    {
     "id": "lf01-k1",
@@ -428,6 +428,227 @@ window.LERNFELDER = [
     "merksatz": "Prokura darf fast alles, nur nicht das Geschäft selbst aufgeben oder weitergeben.",
     "tipp": "Operator „Begründen“: Immer sagen, ob das Geschäft gewöhnlich ist, und den Paragrafen nennen.",
     "achtung": "Beschränkungen der Prokura im Innenverhältnis gelten gegenüber Dritten nicht (§ 50 HGB)."
+   },
+   {
+    "id": "lf01-k9",
+    "titel": "Rechtsgeschäfte: Willenserklärung, Form, Nichtigkeit, Anfechtung",
+    "erklaert": "Ein Rechtsgeschäft entsteht durch Willenserklärungen. Einseitig reicht eine Erklärung (Kündigung, Testament), zweiseitig braucht es zwei übereinstimmende: Antrag und Annahme ergeben einen Vertrag (§§ 145 ff. BGB). Werbung, Schaufenster und Online-Shop-Seiten sind noch kein Antrag, sondern nur eine Aufforderung, selbst ein Angebot zu machen. Meist ist die Form frei. Manche Geschäfte brauchen aber Schriftform, notarielle Beurkundung oder öffentliche Beglaubigung. Nichtig ist ein Geschäft von Anfang an, wenn es gegen Gesetz oder gute Sitten verstößt, die Form fehlt oder ein Geschäftsunfähiger handelt. Anfechtbar ist es bei Irrtum, arglistiger Täuschung oder Drohung. Wird wirksam angefochten, gilt das Geschäft als von Anfang an nichtig (§ 142 BGB).",
+    "beispiel": "Ein Kunde unterschreibt eine Bürgschaft für den Kredit seines Bruders nur per E-Mail. Er ist kein Kaufmann, deshalb braucht die Bürgschaftserklärung Schriftform (§ 766 BGB). Ohne eigenhändige Unterschrift ist sie nichtig (§ 125 BGB). Anderes Beispiel: Ein Händler tippt im Angebot 150 € statt 510 €. Das ist ein Erklärungsirrtum, er muss unverzüglich anfechten (§§ 119, 121 BGB).",
+    "tabelle": {
+     "kopf": [
+      "Fall",
+      "Folge",
+      "Fundstelle"
+     ],
+     "zeilen": [
+      [
+       "Geschäftsunfähiger (unter 7 Jahren) handelt",
+       "nichtig",
+       "§§ 104, 105 BGB"
+      ],
+      [
+       "vorgeschriebene Form fehlt",
+       "nichtig",
+       "§ 125 BGB"
+      ],
+      [
+       "Verstoß gegen gesetzliches Verbot",
+       "nichtig",
+       "§ 134 BGB"
+      ],
+      [
+       "sittenwidrig, Wucher",
+       "nichtig",
+       "§ 138 BGB"
+      ],
+      [
+       "Scheingeschäft, Scherzgeschäft",
+       "nichtig",
+       "§§ 117, 118 BGB"
+      ],
+      [
+       "Inhalts- oder Erklärungsirrtum, Irrtum über wesentliche Eigenschaft",
+       "anfechtbar, unverzüglich",
+       "§§ 119, 121 BGB"
+      ],
+      [
+       "arglistige Täuschung, widerrechtliche Drohung",
+       "anfechtbar, binnen 1 Jahr ab Entdeckung bzw. Ende der Zwangslage",
+       "§§ 123, 124 BGB"
+      ],
+      [
+       "Schriftform: Bürgschaft (Nichtkaufmann), Kündigung Arbeitsvertrag, Verbraucherdarlehen",
+       "eigenhändige Unterschrift",
+       "§§ 766, 623, 492 BGB"
+      ],
+      [
+       "notarielle Beurkundung: Grundstückskauf",
+       "Notar beurkundet den ganzen Vertrag",
+       "§ 311b BGB"
+      ],
+      [
+       "öffentliche Beglaubigung: Anmeldung zum Handelsregister",
+       "Notar bestätigt nur die Unterschrift",
+       "§ 12 HGB"
+      ]
+     ]
+    },
+    "merksatz": "**Nichtig** ist von Anfang an ungültig, **anfechtbar** gilt, bis jemand anficht.",
+    "tipp": "Operator „Beurteilen“: Prüfe der Reihe nach Geschäftsfähigkeit, Form, Inhalt (Gesetz, Sitte) und erst dann Anfechtungsgründe. Nenne immer die Folge (nichtig oder anfechtbar).",
+    "achtung": "Ein Irrtum im Motiv (Kunde kauft Aktien, weil er auf steigende Kurse hofft) berechtigt nicht zur Anfechtung. Und: Beglaubigung ist nicht Beurkundung.",
+    "ergaenzt": true
+   },
+   {
+    "id": "lf01-k10",
+    "titel": "Kaufvertrag und Störungen beim Kaufvertrag",
+    "erklaert": "Mit dem Kaufvertrag (§ 433 BGB) verpflichtet sich der Verkäufer, die Sache mangelfrei zu übergeben und das Eigentum zu verschaffen, der Käufer, zu zahlen und die Sache abzunehmen. Das ist das Verpflichtungsgeschäft. Erst das Erfüllungsgeschäft überträgt das Eigentum: Einigung und Übergabe (§ 929 BGB). Beide sind rechtlich getrennt (Abstraktionsprinzip). Störungen: Mangelhafte Lieferung, Lieferungsverzug, Zahlungsverzug und Annahmeverzug. Bei einem Mangel hat der Käufer zuerst Anspruch auf Nacherfüllung, er wählt Nachbesserung oder Neulieferung (§ 439 BGB). Erst wenn diese scheitert, kann er zurücktreten, mindern oder Schadensersatz verlangen (§ 437 BGB). Die Mängelrechte verjähren bei beweglichen Sachen in 2 Jahren ab Ablieferung (§ 438 BGB). Verzug setzt Fälligkeit, in der Regel eine Mahnung und Verschulden voraus (§ 286 BGB).",
+    "beispiel": "Die Sparkasse bestellt am 02.03. bei einem Händler 20 Bürostühle, Liefertermin „bis 31.03.“. Der Termin ist kalendermäßig bestimmt, also kommt der Händler ab 01.04. auch ohne Mahnung in Verzug. Die Sparkasse kann weiter Lieferung und Ersatz des Verzugsschadens verlangen. Nach einer angemessenen Nachfrist kann sie zurücktreten und Schadensersatz statt der Leistung fordern. Bei einem Kaufmann als Käufer gilt außerdem: Mängel unverzüglich rügen (§ 377 HGB), sonst gilt die Ware als genehmigt.",
+    "tabelle": {
+     "kopf": [
+      "Störung",
+      "Voraussetzungen",
+      "Rechte des Vertragspartners"
+     ],
+     "zeilen": [
+      [
+       "mangelhafte Lieferung (§§ 434, 437 BGB)",
+       "Sachmangel bei Gefahrübergang",
+       "1. Nacherfüllung; danach Rücktritt oder Minderung, zusätzlich Schadensersatz"
+      ],
+      [
+       "Lieferungsverzug (§ 286 BGB)",
+       "fällig, Mahnung (entfällt bei Kalendertermin), Verschulden",
+       "Lieferung + Verzugsschaden; nach Nachfrist Rücktritt, Schadensersatz statt der Leistung"
+      ],
+      [
+       "Zahlungsverzug (§§ 286, 288 BGB)",
+       "fällig, Mahnung oder 30 Tage nach Rechnung (bei Verbrauchern nur mit Hinweis auf der Rechnung)",
+       "Zahlung + Verzugszinsen: 5 Prozentpunkte über Basiszins mit Verbraucher, 9 Prozentpunkte + 40 € Pauschale zwischen Unternehmen"
+      ],
+      [
+       "Annahmeverzug (§§ 293 ff. BGB, § 373 HGB)",
+       "Käufer nimmt ordnungsgemäß angebotene Ware nicht an",
+       "Ware einlagern, Klage auf Abnahme, nach Androhung Selbsthilfeverkauf; Verkäufer haftet nur noch für Vorsatz und grobe Fahrlässigkeit"
+      ]
+     ]
+    },
+    "merksatz": "Erst **Nacherfüllung**, dann Rücktritt, Minderung oder Schadensersatz.",
+    "tipp": "Operator „Erläutern“: Nenne die Störung, prüfe ihre Voraussetzungen am Fall und leite daraus die Rechte ab. Beim Verzug immer die Mahnung prüfen.",
+    "achtung": "Beim Verbrauchsgüterkauf wird 1 Jahr lang vermutet, dass der Mangel schon bei Übergabe da war (§ 477 BGB). Das ist die Beweislastumkehr, nicht die Gewährleistungsfrist, die beträgt 2 Jahre.",
+    "ergaenzt": true
+   },
+   {
+    "id": "lf01-k11",
+    "titel": "Verjährung und gerichtliches Mahnverfahren",
+    "erklaert": "Nach Ablauf der Verjährung darf der Schuldner die Leistung verweigern (Einrede, § 214 BGB). Die Forderung erlischt aber nicht. Wer trotzdem zahlt, kann das Geld nicht zurückverlangen. Die regelmäßige Frist beträgt 3 Jahre und beginnt am Ende des Jahres, in dem der Anspruch entstanden ist und der Gläubiger davon weiß (§§ 195, 199 BGB). Hemmung hält die Uhr an, zum Beispiel durch Klage, Mahnbescheid oder Verhandlungen (§§ 203, 204 BGB). Neubeginn setzt die Uhr auf null, zum Beispiel durch ein Anerkenntnis des Schuldners wie eine Abschlagszahlung (§ 212 BGB). Das gerichtliche Mahnverfahren ist der schnelle Weg zu einem Vollstreckungstitel: Antrag auf Mahnbescheid, dann Vollstreckungsbescheid, dann Zwangsvollstreckung.",
+    "beispiel": "Ein Handwerker stellt am 10.05.2023 eine Rechnung über 1.200 €, fällig sofort. Die Verjährung beginnt am 31.12.2023 um 24 Uhr und endet am 31.12.2026. Zahlt der Kunde am 15.03.2025 eine Rate von 200 €, beginnt die Verjährung neu: Ende jetzt am 15.03.2028. Ein Mahnbescheid hemmt dagegen nur, solange das Verfahren läuft (plus 6 Monate).",
+    "tabelle": {
+     "kopf": [
+      "Anspruch",
+      "Frist",
+      "Fundstelle"
+     ],
+     "zeilen": [
+      [
+       "regelmäßige Verjährung (z. B. Kaufpreis, Darlehensrückzahlung)",
+       "3 Jahre ab Jahresende",
+       "§§ 195, 199 BGB"
+      ],
+      [
+       "Mängelansprüche bei beweglichen Sachen",
+       "2 Jahre ab Ablieferung",
+       "§ 438 BGB"
+      ],
+      [
+       "Mängelansprüche bei Bauwerken",
+       "5 Jahre",
+       "§ 438 BGB"
+      ],
+      [
+       "Rechte an Grundstücken",
+       "10 Jahre",
+       "§ 196 BGB"
+      ],
+      [
+       "rechtskräftig festgestellte Ansprüche, Vollstreckungsbescheid",
+       "30 Jahre",
+       "§ 197 BGB"
+      ],
+      [
+       "Mahnverfahren: Widerspruch gegen Mahnbescheid",
+       "2 Wochen, dann streitiges Verfahren",
+       "§ 692 ZPO"
+      ],
+      [
+       "Mahnverfahren: Einspruch gegen Vollstreckungsbescheid",
+       "2 Wochen, sonst vollstreckbarer Titel",
+       "§§ 700, 339 ZPO"
+      ]
+     ]
+    },
+    "merksatz": "**Hemmung** hält die Uhr an, **Neubeginn** stellt sie auf null.",
+    "tipp": "Operator „Ermitteln“ beim Verjährungsende: Entstehung, Jahresende, plus Frist, dann Hemmung oder Neubeginn prüfen. Datum am Ende ausschreiben (31.12., 24 Uhr).",
+    "achtung": "Die regelmäßige Verjährung beginnt nicht am Tag der Rechnung, sondern erst am Jahresende. Die 2-Jahres-Frist für Mängel beginnt dagegen taggenau mit der Ablieferung.",
+    "ergaenzt": true
+   },
+   {
+    "id": "lf01-k12",
+    "titel": "Arbeitszeugnis und besondere Schutzgesetze",
+    "erklaert": "Jeder Arbeitnehmer hat beim Ausscheiden Anspruch auf ein schriftliches Zeugnis (§ 109 GewO), Auszubildende nach § 16 BBiG. Das einfache Zeugnis nennt Art und Dauer der Tätigkeit. Das qualifizierte Zeugnis bewertet zusätzlich Leistung und Verhalten, aber nur auf Wunsch. Es muss wahr und wohlwollend sein, deshalb hat sich eine Zeugnissprache entwickelt. Besondere Gruppen schützt das Gesetz extra: Schwangere und Mütter (Mutterschutzgesetz), Eltern in Elternzeit (BEEG), schwerbehinderte Menschen (SGB IX) und Jugendliche (JArbSchG). Gemeinsam ist ihnen ein besonderer Kündigungsschutz.",
+    "beispiel": "Eine Kollegin ist schwanger, Geburtstermin 20.06. Die Schutzfrist beginnt 6 Wochen vorher am 09.05. und endet 8 Wochen nach der Geburt. Vom Beginn der Schwangerschaft bis 4 Monate nach der Entbindung darf ihr nicht gekündigt werden. Will sie danach Elternzeit bis zum 2. Geburtstag des Kindes nehmen, muss sie das spätestens 7 Wochen vor Beginn schriftlich verlangen.",
+    "tabelle": {
+     "kopf": [
+      "Regel",
+      "Inhalt",
+      "Fundstelle"
+     ],
+     "zeilen": [
+      [
+       "„stets zu unserer vollsten Zufriedenheit“",
+       "sehr gut",
+       "Zeugnissprache"
+      ],
+      [
+       "„stets zu unserer vollen Zufriedenheit“",
+       "gut",
+       "Zeugnissprache"
+      ],
+      [
+       "„zu unserer vollen Zufriedenheit“",
+       "befriedigend",
+       "Zeugnissprache"
+      ],
+      [
+       "„zu unserer Zufriedenheit“",
+       "ausreichend",
+       "Zeugnissprache"
+      ],
+      [
+       "Mutterschutzfristen",
+       "6 Wochen vor, 8 Wochen nach der Geburt (12 bei Früh- und Mehrlingsgeburt)",
+       "§ 3 MuSchG"
+      ],
+      [
+       "Kündigungsverbot Mutterschutz",
+       "Schwangerschaft bis 4 Monate nach Entbindung",
+       "§ 17 MuSchG"
+      ],
+      [
+       "Elternzeit",
+       "bis 3 Jahre je Kind; Anmeldung 7 Wochen vorher (bis 3. Geburtstag); Kündigungsschutz ab Verlangen, frühestens 8 Wochen vor Beginn",
+       "§§ 15, 16, 18 BEEG"
+      ],
+      [
+       "Schwerbehinderte (Grad der Behinderung ab 50)",
+       "5 Arbeitstage Zusatzurlaub; Kündigung nur mit Zustimmung des Integrationsamts",
+       "§§ 208, 168 SGB IX"
+      ]
+     ]
+    },
+    "merksatz": "Zeugnis: **wahr und wohlwollend**, qualifiziert nur auf Wunsch.",
+    "tipp": "Operator „Unterscheiden“ beim Zeugnis: Merkmal Inhalt nennen, dann einfach (Art, Dauer) und qualifiziert (zusätzlich Leistung, Verhalten) gegenüberstellen.",
+    "achtung": "Der besondere Kündigungsschutz verbietet die Kündigung durch den Arbeitgeber. Die Arbeitnehmerin selbst darf weiter kündigen.",
+    "ergaenzt": true
    }
   ],
   "uebung": {
@@ -486,6 +707,56 @@ window.LERNFELDER = [
      "thema": "lf01-k8",
      "vorne": "Darf ein Prokurist ein Grundstück der Firma verkaufen?",
      "hinten": "Nur mit besonderer Befugnis (§ 49 Abs. 2 HGB)."
+    },
+    {
+     "thema": "lf01-k9",
+     "vorne": "Nichtig oder anfechtbar: Kaufvertrag eines 6-Jährigen?",
+     "hinten": "Nichtig, ein Kind unter 7 ist geschäftsunfähig (§§ 104, 105 BGB)."
+    },
+    {
+     "thema": "lf01-k9",
+     "vorne": "Anfechtungsfrist bei arglistiger Täuschung?",
+     "hinten": "1 Jahr ab Entdeckung der Täuschung (§ 124 BGB)."
+    },
+    {
+     "thema": "lf01-k9",
+     "vorne": "Welche Form braucht ein Grundstückskaufvertrag?",
+     "hinten": "Notarielle Beurkundung (§ 311b BGB)."
+    },
+    {
+     "thema": "lf01-k10",
+     "vorne": "Erstes Recht des Käufers bei einem Sachmangel?",
+     "hinten": "Nacherfüllung: Nachbesserung oder Neulieferung nach Wahl des Käufers (§ 439 BGB)."
+    },
+    {
+     "thema": "lf01-k10",
+     "vorne": "Wann kommt ein Schuldner ohne Mahnung in Verzug?",
+     "hinten": "Bei kalendermäßig bestimmtem Termin, bei ernsthafter Verweigerung, bei Geldschulden 30 Tage nach Fälligkeit und Rechnung (§ 286 BGB)."
+    },
+    {
+     "thema": "lf01-k10",
+     "vorne": "Verzugszinssatz zwischen Unternehmen?",
+     "hinten": "9 Prozentpunkte über dem Basiszinssatz plus 40 € Pauschale (§ 288 BGB)."
+    },
+    {
+     "thema": "lf01-k11",
+     "vorne": "Regelmäßige Verjährungsfrist und Beginn?",
+     "hinten": "3 Jahre, Beginn am Ende des Jahres der Entstehung und Kenntnis (§§ 195, 199 BGB)."
+    },
+    {
+     "thema": "lf01-k11",
+     "vorne": "Unterschied Hemmung und Neubeginn?",
+     "hinten": "Hemmung: Zeit läuft nicht weiter. Neubeginn: Frist startet von vorn, z. B. nach Abschlagszahlung."
+    },
+    {
+     "thema": "lf01-k12",
+     "vorne": "Was enthält ein qualifiziertes Arbeitszeugnis?",
+     "hinten": "Art und Dauer der Tätigkeit sowie Leistung und Verhalten."
+    },
+    {
+     "thema": "lf01-k12",
+     "vorne": "Mutterschutzfristen?",
+     "hinten": "6 Wochen vor und 8 Wochen nach der Geburt (§ 3 MuSchG)."
     }
    ],
    "mc": [
@@ -566,6 +837,84 @@ window.LERNFELDER = [
      ],
      "richtig": 2,
      "erklaerung": "Bilanz und Steuererklärung sind höchstpersönliche Pflichten des Kaufmanns (§ 245 HGB)."
+    },
+    {
+     "thema": "lf01-k9",
+     "operator": "Beurteilen",
+     "frage": "Ein Privatkunde erklärt eine Bürgschaft nur mündlich am Schalter. Wie ist die Bürgschaft zu beurteilen?",
+     "optionen": [
+      "Wirksam, weil Verträge formfrei sind",
+      "Nichtig, weil die Bürgschaft eines Nichtkaufmanns Schriftform braucht",
+      "Anfechtbar wegen Irrtums",
+      "Schwebend unwirksam bis zur Genehmigung der Eltern"
+     ],
+     "richtig": 1,
+     "erklaerung": "§ 766 BGB verlangt die schriftliche Bürgschaftserklärung, ohne Form ist sie nach § 125 BGB nichtig. Nur für Kaufleute gilt die Ausnahme nach § 350 HGB."
+    },
+    {
+     "thema": "lf01-k9",
+     "operator": "Zuordnen",
+     "frage": "Ein Kunde kauft Aktien in der Hoffnung auf steigende Kurse. Die Kurse fallen. Was liegt vor?",
+     "optionen": [
+      "Inhaltsirrtum, anfechtbar",
+      "Erklärungsirrtum, anfechtbar",
+      "Motivirrtum, nicht anfechtbar",
+      "Sittenwidrigkeit, nichtig"
+     ],
+     "richtig": 2,
+     "erklaerung": "Eine enttäuschte Erwartung ist ein Irrtum im Beweggrund (Motiv). Er berechtigt nicht zur Anfechtung."
+    },
+    {
+     "thema": "lf01-k10",
+     "operator": "Beurteilen",
+     "frage": "Ein Kunde reklamiert einen defekten Laptop und verlangt sofort sein Geld zurück. Wie ist das zu beurteilen?",
+     "optionen": [
+      "Berechtigt, Rücktritt ist immer sofort möglich",
+      "Nicht berechtigt, zuerst hat der Verkäufer das Recht auf Nacherfüllung",
+      "Berechtigt, wenn der Kaufpreis über 500 € liegt",
+      "Nicht berechtigt, weil Laptops vom Umtausch ausgeschlossen sind"
+     ],
+     "richtig": 1,
+     "erklaerung": "Nach §§ 437, 439, 323 BGB hat die Nacherfüllung Vorrang. Erst wenn sie fehlschlägt oder verweigert wird, kann der Käufer zurücktreten."
+    },
+    {
+     "thema": "lf01-k11",
+     "operator": "Ermitteln",
+     "frage": "Ein Darlehensrückzahlungsanspruch wird am 15.08.2024 fällig. Wann verjährt er ohne Hemmung oder Neubeginn?",
+     "optionen": [
+      "15.08.2027",
+      "31.12.2027",
+      "31.12.2026",
+      "15.08.2034"
+     ],
+     "richtig": 1,
+     "erklaerung": "Regelmäßige Verjährung 3 Jahre ab Ende 2024: Ablauf am 31.12.2027."
+    },
+    {
+     "thema": "lf01-k11",
+     "operator": "Nennen",
+     "frage": "Was passiert, wenn der Schuldner gegen einen Mahnbescheid nichts unternimmt?",
+     "optionen": [
+      "Die Forderung erlischt",
+      "Der Gläubiger kann einen Vollstreckungsbescheid beantragen",
+      "Es folgt automatisch ein Gerichtsverfahren",
+      "Die Verjährung beginnt neu"
+     ],
+     "richtig": 1,
+     "erklaerung": "Ohne Widerspruch binnen 2 Wochen kann der Gläubiger den Vollstreckungsbescheid beantragen. Er ist ein Titel für die Zwangsvollstreckung."
+    },
+    {
+     "thema": "lf01-k12",
+     "operator": "Zuordnen",
+     "frage": "Welche Note bedeutet „Sie erledigte ihre Aufgaben stets zu unserer vollen Zufriedenheit“?",
+     "optionen": [
+      "sehr gut",
+      "gut",
+      "befriedigend",
+      "ausreichend"
+     ],
+     "richtig": 1,
+     "erklaerung": "„stets zur vollsten“ = sehr gut, „stets zur vollen“ = gut, „zur vollen“ = befriedigend, „zur“ = ausreichend."
     }
    ],
    "rechnen": [
@@ -588,6 +937,16 @@ window.LERNFELDER = [
      "toleranz": 0.01,
      "ergaenzt": true,
      "weg": "Beitrag nur bis zur BBG: 8.450 · 9,3 % = 785,85 €."
+    },
+    {
+     "thema": "lf01-k10",
+     "operator": "Ermitteln",
+     "frage": "Ein Verbraucher zahlt eine Rechnung über 2.400 € 45 Tage zu spät. Basiszinssatz angenommen 1,27 %. Ermitteln Sie die Verzugszinsen (taggenau, Jahr mit 365 Tagen).",
+     "ergebnis": 18.55,
+     "einheit": "€",
+     "toleranz": 0.02,
+     "ergaenzt": true,
+     "weg": "Verzugszins mit Verbraucher: 1,27 % + 5 Prozentpunkte = 6,27 % (§ 288 Abs. 1 BGB). 2.400 · 6,27 % · 45 : 365 = 18,55 €."
     }
    ],
    "frei": [
@@ -602,6 +961,18 @@ window.LERNFELDER = [
      "operator": "Erläutern",
      "frage": "Erläutern Sie den Ablauf eines Arbeitskampfes bis zum neuen Tarifvertrag.",
      "loesung": "Nach Ablauf des Tarifvertrags und der Friedenspflicht verhandeln Gewerkschaft und Arbeitgeber. Scheitern die Verhandlungen, kann eine Schlichtung folgen. Scheitert auch sie, stimmen die Mitglieder in einer Urabstimmung über einen Streik ab (meist mind. 75 %). Es folgt Streik, der Arbeitgeber kann mit Aussperrung reagieren. Nach einer Einigung stimmen die Mitglieder erneut ab (meist mind. 25 %), dann gilt der neue Tarifvertrag."
+    },
+    {
+     "thema": "lf01-k10",
+     "operator": "Unterscheiden",
+     "frage": "Unterscheiden Sie Verpflichtungsgeschäft und Erfüllungsgeschäft am Beispiel eines Autokaufs.",
+     "loesung": "Verpflichtungsgeschäft: Der Kaufvertrag (§ 433 BGB) begründet nur Pflichten: Der Verkäufer muss das Auto übergeben und übereignen, der Käufer muss zahlen und abnehmen. Erfüllungsgeschäft: Die Pflichten werden erfüllt. Eigentum am Auto geht durch Einigung und Übergabe über (§ 929 BGB), das Eigentum am Geld ebenso. Beide Geschäfte sind rechtlich getrennt (Abstraktionsprinzip)."
+    },
+    {
+     "thema": "lf01-k11",
+     "operator": "Erläutern",
+     "frage": "Erläutern Sie, wie sich eine Abschlagszahlung des Schuldners auf die Verjährung auswirkt.",
+     "loesung": "Eine Abschlagszahlung ist ein Anerkenntnis des Schuldners (§ 212 Abs. 1 Nr. 1 BGB). Dadurch beginnt die Verjährung neu, und zwar ab dem Tag der Zahlung, nicht erst am Jahresende. Die volle Frist läuft also noch einmal."
     }
    ]
   }
@@ -2165,7 +2536,7 @@ window.LERNFELDER = [
   "nr": 6,
   "titel": "Marktmodelle anwenden",
   "std": 40,
-  "quelle": "Ergänzt aus offiziellen Quellen (Gesetze, Rahmenlehrplan AO 2020) und den Zusammenfassungen der Prüfungsbereiche. Wird durch deine Mitschrift ersetzt bzw. abgeglichen. Wechselnde Werte Stand 09.11.2026: SV 2026, Mindestlohn 13,90 €, EZB-Sätze seit 16.09.2026 (2,65 / 2,90 / 2,50 %), Inflation Euroraum Okt. 2026 4,0 % vorläufig. EZB-Sitzung 29.10.2026: Sätze unverändert. Nächste EZB-Sitzung 17.12.2026.",
+  "quelle": "Ergänzt aus offiziellen Quellen (Gesetze, Rahmenlehrplan AO 2020) und den Zusammenfassungen der Prüfungsbereiche. Wird durch deine Mitschrift ersetzt bzw. abgeglichen. Wechselnde Werte Stand 09.11.2026: SV 2026, Mindestlohn 13,90 €, EZB-Sätze seit 16.09.2026 (2,65 / 2,90 / 2,50 %), Inflation Euroraum Okt. 2026 4,0 % vorläufig. EZB-Sitzung 29.10.2026: Sätze unverändert. Nächste EZB-Sitzung 17.12.2026. Ergänzt am 11.11.2026 nach dem sächsischen Lehrplan Bankkaufleute (2020): Unlauterer Wettbewerb (UWG).",
   "kapitel": [
    {
     "id": "lf06-k1",
@@ -2539,6 +2910,55 @@ window.LERNFELDER = [
     "merksatz": "So viel Markt wie möglich, so viel Staat wie nötig.",
     "tipp": "Operator „Nennen“: drei staatliche Eingriffe der sozialen Marktwirtschaft mit Bankbezug (Einlagensicherung, Basiskonto, Verbraucherschutz beim Kredit).",
     "achtung": "Das Grundgesetz schreibt keine bestimmte Wirtschaftsordnung vor, es setzt nur den Rahmen."
+   },
+   {
+    "id": "lf06-k9",
+    "titel": "Unlauterer Wettbewerb (UWG)",
+    "erklaert": "Das Kartellrecht (GWB) schützt, dass es Wettbewerb überhaupt gibt. Das Gesetz gegen den unlauteren Wettbewerb (UWG) schützt, dass fair gekämpft wird. Es schützt Mitbewerber, Verbraucher und die Allgemeinheit. Verboten sind unter anderem irreführende Werbung, aggressive Verkaufsmethoden und unzumutbare Belästigung. Vergleichende Werbung ist erlaubt, wenn sie sachlich und nachprüfbar ist. Wer gegen das UWG verstößt, kann von Mitbewerbern, Verbänden und Kammern abgemahnt werden und muss Beseitigung und Unterlassung, bei Verschulden auch Schadensersatz leisten.",
+    "beispiel": "Ein Kundenberater ruft Privatkunden aus dem Telefonbuch an, um Bausparverträge zu verkaufen. Die Angerufenen haben nie eingewilligt. Das ist eine unzumutbare Belästigung (§ 7 UWG). Mit Werbung für ein „Tagesgeld mit 5 % Zinsen“, obwohl der Zins nur 1 Monat gilt und das klein gedruckt ist, liegt außerdem irreführende Werbung vor (§ 5 UWG).",
+    "tabelle": {
+     "kopf": [
+      "Verbot",
+      "Beispiel",
+      "Fundstelle"
+     ],
+     "zeilen": [
+      [
+       "aggressive geschäftliche Handlung",
+       "Kunde wird unter Druck gesetzt, sofort zu unterschreiben",
+       "§ 4a UWG"
+      ],
+      [
+       "irreführende Werbung",
+       "falsche oder verschleierte Angaben zu Preis, Zins, Eigenschaften",
+       "§ 5 UWG"
+      ],
+      [
+       "Irreführung durch Unterlassen",
+       "wichtige Kosten werden verschwiegen",
+       "§ 5a UWG"
+      ],
+      [
+       "vergleichende Werbung",
+       "erlaubt, wenn sachlich, nachprüfbar, nicht herabsetzend",
+       "§ 6 UWG"
+      ],
+      [
+       "unzumutbare Belästigung",
+       "Werbeanruf bei Verbrauchern ohne vorherige ausdrückliche Einwilligung, Werbe-E-Mail ohne Einwilligung",
+       "§ 7 UWG"
+      ],
+      [
+       "Rechtsfolgen",
+       "Beseitigung, Unterlassung, Schadensersatz, Gewinnabschöpfung",
+       "§§ 8 bis 10 UWG"
+      ]
+     ]
+    },
+    "merksatz": "**GWB** schützt, dass Wettbewerb da ist, **UWG**, dass er fair ist.",
+    "tipp": "Operator „Unterscheiden“ GWB und UWG: Merkmal Schutzziel nennen, dann je ein Beispiel (Kartell, irreführende Werbung).",
+    "achtung": "Telefonwerbung bei Verbrauchern braucht eine vorherige ausdrückliche Einwilligung. Eine bestehende Kundenbeziehung allein reicht nicht.",
+    "ergaenzt": true
    }
   ],
   "uebung": {
@@ -2587,6 +3007,21 @@ window.LERNFELDER = [
      "thema": "lf06-k8",
      "vorne": "Wer gilt als Vater der sozialen Marktwirtschaft?",
      "hinten": "Ludwig Erhard (Begriff von Alfred Müller-Armack)."
+    },
+    {
+     "thema": "lf06-k9",
+     "vorne": "Was schützt das UWG?",
+     "hinten": "Mitbewerber, Verbraucher und Allgemeinheit vor unlauteren geschäftlichen Handlungen (faire Mittel im Wettbewerb)."
+    },
+    {
+     "thema": "lf06-k9",
+     "vorne": "Ist vergleichende Werbung erlaubt?",
+     "hinten": "Ja, wenn sie sachlich, nachprüfbar und nicht herabsetzend ist (§ 6 UWG)."
+    },
+    {
+     "thema": "lf06-k9",
+     "vorne": "Wann ist Telefonwerbung bei Verbrauchern erlaubt?",
+     "hinten": "Nur mit vorheriger ausdrücklicher Einwilligung (§ 7 UWG)."
     }
    ],
    "mc": [
@@ -2654,6 +3089,19 @@ window.LERNFELDER = [
      ],
      "richtig": 2,
      "erklaerung": "§ 18 Abs. 4 GWB: Vermutung ab 40 % Marktanteil."
+    },
+    {
+     "thema": "lf06-k9",
+     "operator": "Zuordnen",
+     "frage": "Zwei Banken sprechen ihre Kontoentgelte ab. Welches Gesetz ist verletzt?",
+     "optionen": [
+      "UWG, weil die Werbung irreführend ist",
+      "GWB, weil eine Preisabsprache den Wettbewerb beschränkt",
+      "BGB, weil der Kontovertrag nichtig ist",
+      "Kein Gesetz, Absprachen sind erlaubt"
+     ],
+     "richtig": 1,
+     "erklaerung": "Preisabsprachen sind Kartelle und nach § 1 GWB verboten. Das UWG betrifft unfaire Mittel einzelner Anbieter, z. B. irreführende Werbung."
     }
    ],
    "rechnen": [
@@ -2700,6 +3148,12 @@ window.LERNFELDER = [
      "operator": "Erläutern",
      "frage": "Erläutern Sie zwei Merkmale der sozialen Marktwirtschaft mit je einem Beispiel aus der Kreditwirtschaft.",
      "loesung": "1. Freier Wettbewerb und Preisbildung am Markt: Banken legen Zinsen und Kontopreise selbst fest. 2. Sozialer Ausgleich durch den Staat: Anspruch auf ein Basiskonto für jeden Verbraucher, gesetzliche Einlagensicherung bis 100.000 €. (Weitere: Schutz des Wettbewerbs durch das Kartellamt, Verbraucherschutz bei Krediten.)"
+    },
+    {
+     "thema": "lf06-k9",
+     "operator": "Unterscheiden",
+     "frage": "Unterscheiden Sie GWB und UWG nach Schutzziel und nennen Sie je ein Beispiel für einen Verstoß.",
+     "loesung": "GWB (Kartellrecht): schützt den Wettbewerb als solchen vor Beschränkung, Beispiel: Preisabsprache zwischen Banken, Missbrauch einer marktbeherrschenden Stellung. UWG: schützt die Lauterkeit, also faire Mittel im Wettbewerb, Beispiel: irreführende Zinswerbung oder Werbeanrufe ohne Einwilligung."
     }
    ]
   }
@@ -2708,7 +3162,7 @@ window.LERNFELDER = [
   "nr": 7,
   "titel": "Wertströme und Geschäftsprozesse erfassen und dokumentieren",
   "std": 60,
-  "quelle": "Ergänzt aus offiziellen Quellen (Gesetze, Rahmenlehrplan AO 2020) und den Zusammenfassungen der Prüfungsbereiche. Wird durch deine Mitschrift ersetzt bzw. abgeglichen. Stand 09.11.2026: GWG-Grenze 800 €, CRR-Mindestquoten. Antizyklischer Puffer und Systemrisikopuffer nicht eingetragen.",
+  "quelle": "Ergänzt aus offiziellen Quellen (Gesetze, Rahmenlehrplan AO 2020) und den Zusammenfassungen der Prüfungsbereiche. Wird durch deine Mitschrift ersetzt bzw. abgeglichen. Stand 09.11.2026: GWG-Grenze 800 €, CRR-Mindestquoten. Antizyklischer Puffer und Systemrisikopuffer nicht eingetragen. Ergänzt am 11.11.2026 nach dem sächsischen Lehrplan Bankkaufleute (2020): Grundsätze ordnungsmäßiger Buchführung und Aufbewahrung, Anlagenabgang, GWG, Sammelposten und Umsatzsteuer.",
   "kapitel": [
    {
     "id": "lf07-k1",
@@ -2882,6 +3336,119 @@ window.LERNFELDER = [
     "merksatz": "**Vorher bezahlt** heißt Rechnungsabgrenzung, **später bezahlt** heißt sonstige Forderung oder Verbindlichkeit.",
     "tipp": "Operator „Ermitteln“: Zeichne einen Zeitstrahl mit dem 31.12. und teile die Monate auf. Dann ist der Betrag fast von selbst klar.",
     "achtung": "Rechnungsabgrenzung nur für bestimmte Zeiträume nach dem Stichtag (§ 250 HGB). Und: Grundlage ist kaufmännisch, jeder Monat zählt gleich."
+   },
+   {
+    "id": "lf07-k5",
+    "titel": "Grundsätze ordnungsmäßiger Buchführung und Aufbewahrung",
+    "erklaert": "Jeder Kaufmann muss Bücher führen und darin seine Geschäfte nach den Grundsätzen ordnungsmäßiger Buchführung (GoB) sichtbar machen (§ 238 HGB). Ein sachverständiger Dritter muss sich in angemessener Zeit einen Überblick verschaffen können. Die Buchungen müssen vollständig, richtig, zeitgerecht und geordnet sein (§ 239 HGB). Es gilt: keine Buchung ohne Beleg. Das Grundbuch (Journal) erfasst alle Buchungen zeitlich geordnet, das Hauptbuch sachlich nach Konten. Nebenbücher erläutern einzelne Konten, bei Banken vor allem die Kundenkonten (Kontokorrent). Am Jahresende werden durch Inventur alle Vermögensteile und Schulden gezählt und bewertet. Das Ergebnis ist das Inventar, daraus entsteht die Bilanz.",
+    "beispiel": "Die Sparkasse stellt den Jahresabschluss 2026 im März 2027 auf. Die 10-Jahres-Frist beginnt mit Ablauf des Jahres 2027 und endet am 31.12.2037. Einen Geschäftsbrief vom März 2026 bewahrt sie 6 Jahre auf, bis 31.12.2032.",
+    "tabelle": {
+     "kopf": [
+      "Unterlage",
+      "Aufbewahrung",
+      "Fundstelle"
+     ],
+     "zeilen": [
+      [
+       "Bücher, Inventare, Jahresabschlüsse, Lageberichte, Eröffnungsbilanz",
+       "10 Jahre",
+       "§ 257 HGB, § 147 AO"
+      ],
+      [
+       "Buchungsbelege (Rechnungen, Kontoauszüge, Quittungen)",
+       "8 Jahre (seit 2025; für Kreditinstitute erst ab 2026)",
+       "§ 257 HGB, § 147 AO"
+      ],
+      [
+       "empfangene und abgesandte Handels- und Geschäftsbriefe",
+       "6 Jahre",
+       "§ 257 HGB, § 147 AO"
+      ],
+      [
+       "Beginn der Frist",
+       "Ende des Kalenderjahres, in dem die Unterlage entstanden ist",
+       "§ 257 Abs. 5 HGB"
+      ],
+      [
+       "Grundbuch (Journal)",
+       "zeitliche Ordnung aller Buchungen",
+       "GoB"
+      ],
+      [
+       "Hauptbuch",
+       "sachliche Ordnung nach Konten",
+       "GoB"
+      ],
+      [
+       "Inventur → Inventar → Bilanz",
+       "zählen, auflisten, kurz gegenüberstellen",
+       "§§ 240, 242 HGB"
+      ]
+     ]
+    },
+    "merksatz": "**Keine Buchung ohne Beleg**, und Belege 8, Bücher 10, Briefe 6 Jahre.",
+    "tipp": "Operator „Nennen“ zu den GoB: vollständig, richtig, zeitgerecht, geordnet, nachprüfbar, Belegprinzip. Vier davon reichen meist für die volle Punktzahl.",
+    "achtung": "Die Belegfrist wurde durch das Bürokratieentlastungsgesetz IV von 10 auf 8 Jahre verkürzt, für Banken mit einem Jahr Verzögerung. In älteren Büchern stehen noch 10 Jahre. Gleiche den Stand mit deinem Unterricht ab, Quelle: § 147 AO.",
+    "ergaenzt": true
+   },
+   {
+    "id": "lf07-k6",
+    "titel": "Anlagenabgang, GWG, Sammelposten und Umsatzsteuer",
+    "erklaert": "Verkauft die Bank ein Anlagegut, wird zuerst die Abschreibung bis zum Verkaufsmonat gebucht. Dann wird der Restbuchwert ausgebucht. Liegt der Erlös über dem Buchwert, entsteht ein Ertrag aus Anlagenabgang, liegt er darunter, ein Aufwand. Kleine Anschaffungen bis 250 € netto dürfen sofort als Aufwand gebucht werden. Geringwertige Wirtschaftsgüter von 250,01 bis 800 € netto dürfen sofort abgeschrieben werden (§ 6 Abs. 2 EStG). Alternativ kommen alle Güter von 250,01 bis 1.000 € netto eines Jahres in einen Sammelposten, der 5 Jahre lang mit je 20 % aufgelöst wird (§ 6 Abs. 2a EStG). Umsatzsteuer: Die meisten Bankumsätze (Kredite, Einlagen, Zahlungsverkehr, Wertpapierhandel) sind steuerfrei (§ 4 Nr. 8 UStG). Deshalb darf die Bank meist keine Vorsteuer abziehen, die Umsatzsteuer gehört dann zu den Anschaffungskosten. Steuerpflichtig sind z. B. Depotverwahrung, Vermögensverwaltung und Schließfachmiete.",
+    "beispiel": "Dienstwagen, gekauft am 01.07.2023 für 36.000 € (ohne Vorsteuerabzug), Nutzungsdauer 6 Jahre, also 6.000 € Abschreibung im Jahr. Buchwert 31.12.2025: 36.000 − 3.000 − 6.000 − 6.000 = 21.000 €. Verkauf am 31.03.2026 für 21.000 €. Abschreibung Januar bis März: 1.500 €, Restbuchwert 19.500 €. Buchungen: Abschreibungen 1.500 € an Geschäftsausstattung 1.500 €; KKK 21.000 € an Geschäftsausstattung 19.500 € und Erträge aus Anlagenabgang 1.500 €.",
+    "tabelle": {
+     "kopf": [
+      "Fall",
+      "Behandlung",
+      "Fundstelle"
+     ],
+     "zeilen": [
+      [
+       "Anschaffung bis 250 € netto",
+       "sofort Aufwand",
+       "§ 6 Abs. 2a EStG"
+      ],
+      [
+       "250,01 bis 800 € netto",
+       "GWG: Sofortabschreibung (Wahlrecht)",
+       "§ 6 Abs. 2 EStG"
+      ],
+      [
+       "250,01 bis 1.000 € netto",
+       "oder Sammelposten, 5 Jahre je 20 %, für alle Güter des Jahres einheitlich",
+       "§ 6 Abs. 2a EStG"
+      ],
+      [
+       "Grenzwerte",
+       "immer netto prüfen, auch wenn die Bank keine Vorsteuer abzieht",
+       "R 9b EStR"
+      ],
+      [
+       "Verkauf über Buchwert",
+       "Ertrag aus Anlagenabgang",
+       "HGB"
+      ],
+      [
+       "Verkauf unter Buchwert",
+       "Aufwand aus Anlagenabgang",
+       "HGB"
+      ],
+      [
+       "Bankumsätze (Kredit, Einlagen, Zahlungsverkehr)",
+       "umsatzsteuerfrei, kein Vorsteuerabzug",
+       "§ 4 Nr. 8, § 15 Abs. 2 UStG"
+      ],
+      [
+       "Depotverwahrung, Vermögensverwaltung, Schließfach",
+       "umsatzsteuerpflichtig, 19 %",
+       "§ 4 Nr. 8e UStG (Ausnahme)"
+      ]
+     ]
+    },
+    "merksatz": "Erst **abschreiben bis zum Abgang**, dann Buchwert gegen Erlös stellen.",
+    "tipp": "Operator „Ermitteln“ beim Anlagenabgang: Abschreibung bis Verkaufsmonat, Restbuchwert, Differenz zum Erlös, Ertrag oder Aufwand benennen.",
+    "achtung": "Bei der GWG-Grenze zählt immer der Nettobetrag. Ein Stuhl für 940 € brutto (790 € netto) ist ein GWG, auch wenn die Bank 940 € als Anschaffungskosten bucht.",
+    "ergaenzt": true
    }
   ],
   "uebung": {
@@ -2930,6 +3497,36 @@ window.LERNFELDER = [
      "thema": "lf07-k4",
      "vorne": "Bank erhält im Januar Zinsen für Dezember. Welcher Posten am 31.12.?",
      "hinten": "Sonstige Forderung."
+    },
+    {
+     "thema": "lf07-k5",
+     "vorne": "Aufbewahrungsfrist für Jahresabschlüsse?",
+     "hinten": "10 Jahre ab Ende des Kalenderjahres (§ 257 HGB, § 147 AO)."
+    },
+    {
+     "thema": "lf07-k5",
+     "vorne": "Unterschied Grundbuch und Hauptbuch?",
+     "hinten": "Grundbuch: zeitliche Ordnung aller Buchungen. Hauptbuch: sachliche Ordnung nach Konten."
+    },
+    {
+     "thema": "lf07-k5",
+     "vorne": "Inventur, Inventar, Bilanz?",
+     "hinten": "Inventur = Bestandsaufnahme, Inventar = ausführliches Verzeichnis, Bilanz = kurze Gegenüberstellung von Vermögen und Kapital."
+    },
+    {
+     "thema": "lf07-k6",
+     "vorne": "GWG-Grenze?",
+     "hinten": "250,01 bis 800 € netto, Sofortabschreibung möglich (§ 6 Abs. 2 EStG)."
+    },
+    {
+     "thema": "lf07-k6",
+     "vorne": "Sammelposten?",
+     "hinten": "Güter 250,01 bis 1.000 € netto, 5 Jahre je 20 % (§ 6 Abs. 2a EStG)."
+    },
+    {
+     "thema": "lf07-k6",
+     "vorne": "Warum kann eine Bank meist keine Vorsteuer abziehen?",
+     "hinten": "Ihre Umsätze sind überwiegend umsatzsteuerfrei (§ 4 Nr. 8 UStG), Vorsteuer ist dann ausgeschlossen (§ 15 Abs. 2 UStG)."
     }
    ],
    "mc": [
@@ -2971,6 +3568,32 @@ window.LERNFELDER = [
      ],
      "richtig": 1,
      "erklaerung": "Geld im alten Jahr, Ertrag im neuen Jahr: passive Rechnungsabgrenzung."
+    },
+    {
+     "thema": "lf07-k6",
+     "operator": "Beurteilen",
+     "frage": "Die Sparkasse verkauft einen Drucker mit Restbuchwert 400 € für 250 €. Was ist zu buchen?",
+     "optionen": [
+      "Ertrag aus Anlagenabgang 150 €",
+      "Aufwand aus Anlagenabgang 150 €",
+      "Abschreibung 250 €",
+      "Kein Erfolg, nur Bestandsbuchung"
+     ],
+     "richtig": 1,
+     "erklaerung": "Erlös unter Buchwert: Die Differenz von 150 € ist Aufwand aus Anlagenabgang."
+    },
+    {
+     "thema": "lf07-k5",
+     "operator": "Nennen",
+     "frage": "Was gehört nicht zu den Grundsätzen ordnungsmäßiger Buchführung?",
+     "optionen": [
+      "keine Buchung ohne Beleg",
+      "zeitgerechte Erfassung",
+      "Buchung nur am Jahresende",
+      "Nachprüfbarkeit durch Dritte"
+     ],
+     "richtig": 2,
+     "erklaerung": "Geschäftsvorfälle müssen zeitgerecht erfasst werden (§ 239 HGB), nicht gesammelt am Jahresende."
     }
    ],
    "rechnen": [
@@ -3003,6 +3626,26 @@ window.LERNFELDER = [
      "toleranz": 0.01,
      "ergaenzt": true,
      "weg": "1.000 € je Monat. Januar bis April = 4 Monate im neuen Jahr: 4 · 1.000 = 4.000 €."
+    },
+    {
+     "thema": "lf07-k6",
+     "operator": "Ermitteln",
+     "frage": "Ein Geldzählautomat wurde am 01.01.2024 für 12.000 € gekauft, Nutzungsdauer 8 Jahre. Er wird am 30.09.2026 für 7.000 € verkauft. Ermitteln Sie den Aufwand aus dem Anlagenabgang.",
+     "ergebnis": 875,
+     "einheit": "€",
+     "toleranz": 0.5,
+     "ergaenzt": true,
+     "weg": "Abschreibung 12.000 : 8 = 1.500 € im Jahr. 2024 und 2025: 3.000 €. 2026 Januar bis September: 1.500 · 9 : 12 = 1.125 €. Restbuchwert 12.000 − 3.000 − 1.125 = 7.875 €. Erlös 7.000 € liegt 875 € unter dem Restbuchwert 7.875 €: Aufwand aus Anlagenabgang 875 €."
+    },
+    {
+     "thema": "lf07-k6",
+     "operator": "Ermitteln",
+     "frage": "Die Sparkasse kauft im Jahr einen Schreibtisch für 1.071 € brutto (900 € netto, kein Vorsteuerabzug) und bildet einen Sammelposten. Wie hoch ist die jährliche Auflösung?",
+     "ergebnis": 214.2,
+     "einheit": "€",
+     "toleranz": 0.01,
+     "ergaenzt": true,
+     "weg": "900 € netto liegt zwischen 250,01 und 1.000 €, also Sammelposten. Anschaffungskosten ohne Vorsteuerabzug: 1.071 €. Auflösung 20 % = 214,20 € im Jahr."
     }
    ],
    "frei": [
@@ -3011,6 +3654,12 @@ window.LERNFELDER = [
      "operator": "Begründen",
      "frage": "Begründen Sie, warum ein Kundenkredit in der Bankbilanz auf der Aktivseite steht.",
      "loesung": "Mit dem Kredit hat die Bank einen Anspruch auf Rückzahlung gegen den Kunden. Das ist eine Forderung und damit Vermögen der Bank. Vermögen steht auf der Aktivseite."
+    },
+    {
+     "thema": "lf07-k6",
+     "operator": "Erläutern",
+     "frage": "Erläutern Sie, warum bei einer Sparkasse die Umsatzsteuer meist zu den Anschaffungskosten gehört.",
+     "loesung": "Kredite, Einlagen und Zahlungsverkehr sind nach § 4 Nr. 8 UStG umsatzsteuerfrei. Wer steuerfreie Umsätze ausführt, darf die Vorsteuer aus Eingangsrechnungen dafür nicht abziehen (§ 15 Abs. 2 UStG). Die gezahlte Umsatzsteuer ist deshalb für die Sparkasse echter Aufwand und wird mit dem Anlagegut aktiviert und abgeschrieben. Nur für steuerpflichtige Umsätze wie Depotverwahrung oder Schließfachmiete ist anteilig Vorsteuerabzug möglich."
     }
    ]
   }
@@ -3019,7 +3668,7 @@ window.LERNFELDER = [
   "nr": 8,
   "titel": "Kunden über die Anlage in Finanzinstrumenten beraten",
   "std": 120,
-  "quelle": "Ergänzt aus offiziellen Quellen (Gesetze, Rahmenlehrplan AO 2020) und den Zusammenfassungen der Prüfungsbereiche. Wird durch deine Mitschrift ersetzt bzw. abgeglichen. Wechselnde Werte Stand 09.11.2026: Sparer-Pauschbetrag 1.000/2.000 € (seit 2023), Sparzulage-Grenzen 40.000/80.000 € (seit 2024), BBG RV 2026 8.450 € im Monat, Riester-Zulagen nach bisherigem Recht (Reform ab 01.01.2027 beschlossen), Basisrente-Höchstbetrag 2026 30.826 €. Basiszins Vorabpauschale 2026 3,20 % (BMF), aktueller Rentenwert ab 01.07.2026 42,52 € (DRV); nachgetragen am 11.11.2026.",
+  "quelle": "Ergänzt aus offiziellen Quellen (Gesetze, Rahmenlehrplan AO 2020) und den Zusammenfassungen der Prüfungsbereiche. Wird durch deine Mitschrift ersetzt bzw. abgeglichen. Wechselnde Werte Stand 09.11.2026: Sparer-Pauschbetrag 1.000/2.000 € (seit 2023), Sparzulage-Grenzen 40.000/80.000 € (seit 2024), BBG RV 2026 8.450 € im Monat, Riester-Zulagen nach bisherigem Recht (Reform ab 01.01.2027 beschlossen), Basisrente-Höchstbetrag 2026 30.826 €. Basiszins Vorabpauschale 2026 3,20 % (BMF), aktueller Rentenwert ab 01.07.2026 42,52 € (DRV); nachgetragen am 11.11.2026. Ergänzt am 11.11.2026 nach dem sächsischen Lehrplan Bankkaufleute (2020): Derivate, Optionsscheine und Zertifikate, Depot: Verwahrung und Verwaltung.",
   "kapitel": [
    {
     "id": "lf08-k1",
@@ -3257,6 +3906,119 @@ window.LERNFELDER = [
     "merksatz": "Kauf: Kurswert **plus** Entgelte. Verkauf: Kurswert **minus** Entgelte.",
     "tipp": "Operator „Ermitteln“: Schreib die Abrechnung als kleine Tabelle: Stückzahl, Kurs, Kurswert, Entgelte, Endbetrag.",
     "achtung": "Entgelte beim Kauf erhöhen die Anschaffungskosten und senken so später den steuerpflichtigen Gewinn. Die Abgeltungsteuer kommt erst beim Verkauf."
+   },
+   {
+    "id": "lf08-k7",
+    "titel": "Derivate, Optionsscheine und Zertifikate",
+    "erklaert": "Derivate leiten ihren Wert von einem Basiswert ab (Aktie, Index, Zins, Währung, Rohstoff). Bei Termingeschäften liegen Abschluss und Erfüllung auseinander. Unbedingt sind Futures: Beide Seiten müssen zum vereinbarten Preis kaufen bzw. verkaufen. Bedingt sind Optionen: Der Käufer hat das Recht, der Verkäufer (Stillhalter) hat die Pflicht. Ein Call ist ein Kaufrecht, ein Put ein Verkaufsrecht. Der Käufer zahlt dafür eine Prämie, sie ist sein höchster Verlust. Derivate wirken mit Hebel: kleiner Einsatz, große Wirkung in beide Richtungen. Optionsscheine sind verbriefte Optionsrechte, Zertifikate sind Schuldverschreibungen, deren Rückzahlung von einem Basiswert abhängt. Bei beiden trägt der Anleger das Emittentenrisiko, weil sie kein Sondervermögen sind.",
+    "beispiel": "Ein Kunde kauft Calls auf 100 Aktien, Basispreis 100 €, Prämie 5 € je Aktie (500 €). Am Fälligkeitstag steht die Aktie bei 112 €. Er übt aus: (112 − 100 − 5) · 100 = 700 € Gewinn. Gewinnschwelle 105 €. Steht die Aktie unter 100 €, verfällt die Option, Verlust 500 €. Discountzertifikat: Aktie 47 €, Zertifikat 42 €, Cap 50 €. Höchstertrag (50 − 42) : 42 = 19,05 %. Schließt die Aktie bei 40 €, bekommt der Kunde die Aktie (40 €), Verlust 2 € je Zertifikat.",
+    "tabelle": {
+     "kopf": [
+      "Produkt",
+      "Merkmal",
+      "größtes Risiko"
+     ],
+     "zeilen": [
+      [
+       "Long Call (Kaufoption gekauft)",
+       "Recht zu kaufen, Erwartung steigende Kurse",
+       "Prämie (Totalverlust)"
+      ],
+      [
+       "Long Put (Verkaufsoption gekauft)",
+       "Recht zu verkaufen, Absicherung gegen fallende Kurse",
+       "Prämie (Totalverlust)"
+      ],
+      [
+       "Stillhalter (Short Call, Short Put)",
+       "Pflicht zu liefern bzw. abzunehmen, erhält Prämie",
+       "beim Short Call unbegrenzt"
+      ],
+      [
+       "Future",
+       "unbedingte Pflicht beider Seiten, Sicherheitsleistung (Margin)",
+       "Nachschusspflicht"
+      ],
+      [
+       "Optionsschein",
+       "verbriefte Option, börsengehandelt",
+       "Hebel, Verfall, Emittent"
+      ],
+      [
+       "Indexzertifikat",
+       "bildet einen Index 1 : 1 ab",
+       "Index fällt, Emittent"
+      ],
+      [
+       "Discountzertifikat",
+       "Abschlag auf die Aktie, Gewinn begrenzt durch Cap",
+       "Aktie fällt deutlich, Emittent"
+      ],
+      [
+       "Bonuszertifikat",
+       "Bonus, solange die Barriere nicht berührt wird",
+       "Barriere wird gerissen, Emittent"
+      ]
+     ]
+    },
+    "merksatz": "**Call** = Kaufrecht, **Put** = Verkaufsrecht; der Käufer kann höchstens die Prämie verlieren.",
+    "tipp": "Operator „Erläutern“ zum Hebel: kleines Beispiel mit Prozenten rechnen (Aktie + 10 %, Option + 50 %) und das Risiko in beide Richtungen nennen.",
+    "achtung": "Zertifikate sind keine Fonds. Geht der Emittent insolvent, kann das Geld weg sein, auch wenn der Basiswert gut läuft. Vor dem Kauf bekommt der Kunde ein Basisinformationsblatt.",
+    "ergaenzt": true
+   },
+   {
+    "id": "lf08-k8",
+    "titel": "Depot: Verwahrung und Verwaltung",
+    "erklaert": "Wertpapiere verwahrt die Bank im Depot nach dem Depotgesetz. Regelfall ist die Girosammelverwahrung: Gleiche Wertpapiere aller Kunden liegen gemeinsam bei der Wertpapiersammelbank (Clearstream Banking AG), der Kunde ist Miteigentümer nach Bruchteilen. Selten ist die Sonderverwahrung (Streifband), bei der die Stücke getrennt liegen. Ausländische Papiere werden oft im Ausland verwahrt, der Kunde bekommt eine Gutschrift in Wertpapierrechnung. Zur Verwaltung gehören: Zinsen und Dividenden gutschreiben, fällige Anleihen einlösen, über Hauptversammlungen und Kapitalmaßnahmen (z. B. Bezugsrechte) informieren, Steuern abführen und die Steuerbescheinigung ausstellen. Wertpapiere bleiben Eigentum des Kunden. Wird die Bank insolvent, kann er sie heraus verlangen (Aussonderung).",
+    "beispiel": "Ein Kunde hat Wertpapiere im Kurswert von 40.000 € im Depot. Depotentgelt 0,15 % im Jahr = 60 €. Die Verwahrung ist umsatzsteuerpflichtig, 19 % = 11,40 €. Belastung 71,40 €. Bei einer Kapitalerhöhung seiner Aktie informiert ihn die Bank über die Bezugsrechte. Gibt er keine Weisung, verkauft die Bank die Bezugsrechte in der Regel am letzten Handelstag bestens.",
+    "tabelle": {
+     "kopf": [
+      "Begriff",
+      "Bedeutung",
+      "Grundlage"
+     ],
+     "zeilen": [
+      [
+       "Girosammelverwahrung",
+       "Regelfall, Miteigentum nach Bruchteilen am Sammelbestand",
+       "§ 5 DepotG"
+      ],
+      [
+       "Sonderverwahrung (Streifband)",
+       "getrennte Verwahrung bestimmter Stücke, teurer",
+       "§ 2 DepotG"
+      ],
+      [
+       "Wertpapierrechnung",
+       "Auslandsverwahrung, Kunde hat schuldrechtlichen Anspruch auf Lieferung",
+       "Sonderbedingungen für Wertpapiergeschäfte"
+      ],
+      [
+       "Clearstream Banking AG",
+       "deutsche Wertpapiersammelbank (Zentralverwahrer)",
+       "DepotG"
+      ],
+      [
+       "elektronische Wertpapiere",
+       "Wertpapiere ohne Urkunde, Eintrag in ein Register",
+       "eWpG"
+      ],
+      [
+       "Insolvenz der Bank",
+       "Depotwerte gehören dem Kunden, Aussonderung",
+       "§ 47 InsO"
+      ],
+      [
+       "Entgelte",
+       "Depotverwahrung und -verwaltung umsatzsteuerpflichtig",
+       "§ 4 Nr. 8e UStG"
+      ]
+     ]
+    },
+    "merksatz": "Einlagen schützt die Einlagensicherung, Wertpapiere schützt das **Eigentum**.",
+    "tipp": "Operator „Erläutern“ zur Sicherheit im Depot: Eigentum bzw. Miteigentum nennen, Aussonderung im Insolvenzfall, und den Unterschied zur Einlagensicherung.",
+    "achtung": "Das Emittentenrisiko bleibt: Das Depot schützt vor der Pleite der Depotbank, nicht vor der Pleite des Unternehmens, dessen Anleihe oder Zertifikat der Kunde hält.",
+    "ergaenzt": true
    }
   ],
   "uebung": {
@@ -3315,6 +4077,36 @@ window.LERNFELDER = [
      "thema": "lf08-k6",
      "vorne": "Was bedeutet ein Kauflimit von 40 €?",
      "hinten": "Gekauft wird höchstens zu 40 €."
+    },
+    {
+     "thema": "lf08-k7",
+     "vorne": "Was ist ein Put?",
+     "hinten": "Eine Verkaufsoption: Recht, den Basiswert zum Basispreis zu verkaufen."
+    },
+    {
+     "thema": "lf08-k7",
+     "vorne": "Höchster Verlust des Optionskäufers?",
+     "hinten": "Die gezahlte Prämie."
+    },
+    {
+     "thema": "lf08-k7",
+     "vorne": "Unterschied Option und Future?",
+     "hinten": "Option: bedingtes Termingeschäft (Recht des Käufers). Future: unbedingtes Termingeschäft (Pflicht beider Seiten)."
+    },
+    {
+     "thema": "lf08-k7",
+     "vorne": "Rechtsnatur eines Zertifikats?",
+     "hinten": "Inhaberschuldverschreibung, deshalb Emittentenrisiko."
+    },
+    {
+     "thema": "lf08-k8",
+     "vorne": "Regelfall der Verwahrung in Deutschland?",
+     "hinten": "Girosammelverwahrung bei der Clearstream Banking AG, Miteigentum nach Bruchteilen (§ 5 DepotG)."
+    },
+    {
+     "thema": "lf08-k8",
+     "vorne": "Was passiert mit dem Depot, wenn die Bank insolvent wird?",
+     "hinten": "Die Wertpapiere gehören dem Kunden, er kann sie aussondern (§ 47 InsO)."
     }
    ],
    "mc": [
@@ -3395,6 +4187,32 @@ window.LERNFELDER = [
      ],
      "richtig": 1,
      "erklaerung": "Stop-Loss verkauft automatisch, sobald der Stoppkurs erreicht ist."
+    },
+    {
+     "thema": "lf08-k7",
+     "operator": "Beurteilen",
+     "frage": "Ein Kunde besitzt Aktien und befürchtet fallende Kurse, will die Aktien aber behalten. Welches Geschäft passt?",
+     "optionen": [
+      "Kauf eines Calls",
+      "Kauf eines Puts",
+      "Verkauf eines Puts",
+      "Kauf eines Discountzertifikats"
+     ],
+     "richtig": 1,
+     "erklaerung": "Mit einem gekauften Put sichert er sich das Recht, zum Basispreis zu verkaufen. Fällt die Aktie, gleicht der Put den Verlust aus."
+    },
+    {
+     "thema": "lf08-k8",
+     "operator": "Zuordnen",
+     "frage": "Welche Leistung ist umsatzsteuerpflichtig?",
+     "optionen": [
+      "Kontoführung",
+      "Kreditvergabe",
+      "Depotverwahrung",
+      "Überweisung"
+     ],
+     "richtig": 2,
+     "erklaerung": "Verwahrung und Verwaltung von Wertpapieren sind vom Steuerbefreiungstatbestand des § 4 Nr. 8e UStG ausgenommen."
     }
    ],
    "rechnen": [
@@ -3447,6 +4265,36 @@ window.LERNFELDER = [
      "toleranz": 0.01,
      "ergaenzt": true,
      "weg": "Kurswert 250 · 45,50 = 11.375,00 €. Provision 1 % = 113,75 €. Belastung 11.488,75 €."
+    },
+    {
+     "thema": "lf08-k7",
+     "operator": "Ermitteln",
+     "frage": "Ein Kunde kauft Puts auf 200 Aktien, Basispreis 50 €, Prämie 3 € je Aktie. Am Fälligkeitstag steht die Aktie bei 44 €. Ermitteln Sie seinen Gewinn.",
+     "ergebnis": 600,
+     "einheit": "€",
+     "toleranz": 0.5,
+     "ergaenzt": true,
+     "weg": "Innerer Wert 50 − 44 = 6 € je Aktie. Minus Prämie 3 € = 3 € Gewinn je Aktie. 3 · 200 = 600 €."
+    },
+    {
+     "thema": "lf08-k7",
+     "operator": "Ermitteln",
+     "frage": "Discountzertifikat: Kaufpreis 42 €, Cap 50 €. Ermitteln Sie den Höchstertrag in Prozent (2 Nachkommastellen).",
+     "ergebnis": 19.05,
+     "einheit": "%",
+     "toleranz": 0.01,
+     "ergaenzt": true,
+     "weg": "Höchster Rückzahlungsbetrag = Cap 50 €. (50 − 42) : 42 · 100 = 19,05 %."
+    },
+    {
+     "thema": "lf08-k8",
+     "operator": "Ermitteln",
+     "frage": "Kurswert im Depot 65.000 €, Depotentgelt 0,12 % im Jahr zuzüglich 19 % Umsatzsteuer. Ermitteln Sie die Belastung.",
+     "ergebnis": 92.82,
+     "einheit": "€",
+     "toleranz": 0.01,
+     "ergaenzt": true,
+     "weg": "65.000 · 0,12 % = 78,00 €. Umsatzsteuer 19 % = 14,82 €. Belastung 92,82 €."
     }
    ],
    "frei": [
@@ -3467,6 +4315,12 @@ window.LERNFELDER = [
      "operator": "Beurteilen",
      "frage": "Herr Stein (45) hat Erfahrung mit Fonds, möchte 20.000 € für 15 Jahre anlegen und nimmt Schwankungen in Kauf. Beurteilen Sie einen weltweit streuenden Aktienfonds für ihn.",
      "loesung": "Pro: langer Anlagehorizont von 15 Jahren, Erfahrung mit Fonds vorhanden, Risikobereitschaft gegeben, breite Streuung mindert das Einzelwertrisiko, Renditechancen höher als bei Einlagen. Contra: Kursschwankungen und zwischenzeitliche Verluste möglich, Kosten (Ausgabeaufschlag, laufende Kosten). Fazit: geeignet, sofern seine Verlusttragfähigkeit ausreicht und er eine Liquiditätsreserve auf dem Konto behält."
+    },
+    {
+     "thema": "lf08-k7",
+     "operator": "Erläutern",
+     "frage": "Erläutern Sie einem Kunden die Hebelwirkung eines Optionsscheins.",
+     "loesung": "Der Optionsschein kostet nur einen Bruchteil des Aktienkurses. Steigt die Aktie, steigt der Wert des Optionsscheins prozentual deutlich stärker, zum Beispiel Aktie + 10 %, Optionsschein + 40 %. Der Hebel wirkt aber auch nach unten: Fällt die Aktie oder bewegt sie sich nicht, verliert der Schein stark an Wert und kann bei Fälligkeit wertlos verfallen. Dazu kommt das Emittentenrisiko."
     }
    ]
   }
@@ -3475,7 +4329,7 @@ window.LERNFELDER = [
   "nr": 9,
   "titel": "Baufinanzierungen abschließen",
   "std": 60,
-  "quelle": "Ergänzt aus offiziellen Quellen (Gesetze, Rahmenlehrplan AO 2020) und den Zusammenfassungen der Prüfungsbereiche. Wird durch deine Mitschrift ersetzt bzw. abgeglichen. Stand 09.11.2026: Grunderwerbsteuer Sachsen 5,5 % (seit 2023). Notar/Grundbuch 2 % und Makler 3,57 % sind Faustwerte. Beleihungsgrenze 60 % ist der übliche Wert (PfandBG), die Sparkasse kann eigene Grundsätze haben. Keine KfW- oder SAB-Beträge eingetragen, weil sie oft wechseln.",
+  "quelle": "Ergänzt aus offiziellen Quellen (Gesetze, Rahmenlehrplan AO 2020) und den Zusammenfassungen der Prüfungsbereiche. Wird durch deine Mitschrift ersetzt bzw. abgeglichen. Stand 09.11.2026: Grunderwerbsteuer Sachsen 5,5 % (seit 2023). Notar/Grundbuch 2 % und Makler 3,57 % sind Faustwerte. Beleihungsgrenze 60 % ist der übliche Wert (PfandBG), die Sparkasse kann eigene Grundsätze haben. Keine KfW- oder SAB-Beträge eingetragen, weil sie oft wechseln. Ergänzt am 11.11.2026 nach dem sächsischen Lehrplan Bankkaufleute (2020): Erbbaurecht, Wohnungseigentum und Kapitaldienstfähigkeit.",
   "kapitel": [
    {
     "id": "lf09-k1",
@@ -3700,6 +4554,60 @@ window.LERNFELDER = [
     "merksatz": "Merkblatt, Prüfung, Bedenkzeit, Widerruf.",
     "tipp": "Operator „Beurteilen“ der Tragbarkeit: freie Mittel ermitteln, mit der Rate vergleichen, Reserve für Zinsänderung und Rücklagen nennen, Fazit.",
     "achtung": "Steigende Immobilienpreise ersetzen nicht die Kreditwürdigkeit. Die Bank darf nicht allein auf die Erwartung bauen, dass das Haus mehr wert wird."
+   },
+   {
+    "id": "lf09-k7",
+    "titel": "Erbbaurecht, Wohnungseigentum und Kapitaldienstfähigkeit",
+    "erklaert": "Wer ein Haus auf fremdem Grund baut, nutzt oft ein Erbbaurecht. Das ist ein grundstücksgleiches Recht: Es bekommt ein eigenes Erbbaugrundbuch, kann verkauft, vererbt und mit einer Grundschuld belastet werden (Erbbaurechtsgesetz). Der Erbbauberechtigte zahlt dem Grundstückseigentümer einen Erbbauzins, meist über 60 bis 99 Jahre. Bei einer Eigentumswohnung erwirbt der Kunde Sondereigentum an der Wohnung und einen Miteigentumsanteil am Grundstück, eingetragen im Wohnungsgrundbuch (Wohnungseigentumsgesetz). Vor jeder Baufinanzierung prüft die Bank die Kapitaldienstfähigkeit: Reicht das Einkommen nach allen Ausgaben dauerhaft für Zins und Tilgung?",
+    "beispiel": "Familie Hoffmann: Nettoeinkommen 4.600 € im Monat. Lebenshaltung 1.850 €, Bewirtschaftungskosten des Hauses 380 €, Auto und Versicherungen 420 €. Bleiben 1.950 €. Das Haus steht auf Erbbaugrund, Erbbauzins 4 % von 80.000 € = 3.200 € im Jahr, also 266,67 € im Monat. Bleiben 1.683,33 €. Darlehen 260.000 € mit 3,6 % Zins und 2 % Tilgung: 14.560 € im Jahr = 1.213,33 € im Monat. Überschuss 470,00 €: Die Familie ist kapitaldienstfähig.",
+    "tabelle": {
+     "kopf": [
+      "Begriff",
+      "Bedeutung",
+      "Grundlage"
+     ],
+     "zeilen": [
+      [
+       "Erbbaurecht",
+       "veräußerliches, vererbliches Recht, auf fremdem Grund ein Bauwerk zu haben",
+       "§ 1 ErbbauRG"
+      ],
+      [
+       "Erbbaugrundbuch",
+       "eigenes Grundbuchblatt für das Erbbaurecht",
+       "§ 14 ErbbauRG"
+      ],
+      [
+       "Zustimmungsvorbehalt",
+       "Belastung mit Grundschuld braucht oft Zustimmung des Eigentümers",
+       "§ 5 ErbbauRG"
+      ],
+      [
+       "Heimfall",
+       "Erbbaurecht fällt bei Vertragsverstößen an den Eigentümer zurück",
+       "§ 2 ErbbauRG"
+      ],
+      [
+       "Wohnungseigentum",
+       "Sondereigentum an der Wohnung + Miteigentumsanteil am Gemeinschaftseigentum",
+       "§ 1 WEG"
+      ],
+      [
+       "Kapitaldienstfähigkeit",
+       "frei verfügbares Einkommen ≥ Zins + Tilgung",
+       "Haushaltsrechnung"
+      ],
+      [
+       "Kapitaldienst im Jahr",
+       "Darlehen · (Sollzins + anfängliche Tilgung)",
+       "Annuitätendarlehen"
+      ]
+     ]
+    },
+    "merksatz": "Einkommen − Ausgaben − Erbbauzins − Kapitaldienst muss **positiv** bleiben.",
+    "tipp": "Operator „Beurteilen“ zur Kapitaldienstfähigkeit: Rechnung zeigen, Überschuss nennen und dann bewerten (Reserve für Zinserhöhung nach Ende der Zinsbindung, Kinder, Arbeitsplatz).",
+    "achtung": "Die Restlaufzeit des Erbbaurechts muss deutlich länger sein als die Tilgungszeit des Darlehens. Und der Erbbauzins gehört in die Haushaltsrechnung, er wird gern vergessen.",
+    "ergaenzt": true
    }
   ],
   "uebung": {
@@ -3763,6 +4671,21 @@ window.LERNFELDER = [
      "thema": "lf09-k6",
      "vorne": "Wie heißt das Pflicht-Informationsblatt vor einem Immobiliar-Verbraucherdarlehen?",
      "hinten": "ESIS-Merkblatt."
+    },
+    {
+     "thema": "lf09-k7",
+     "vorne": "Was ist ein Erbbaurecht?",
+     "hinten": "Ein grundstücksgleiches, veräußerliches und vererbliches Recht, auf fremdem Grund ein Bauwerk zu haben; eigenes Erbbaugrundbuch."
+    },
+    {
+     "thema": "lf09-k7",
+     "vorne": "Woraus besteht Wohnungseigentum?",
+     "hinten": "Sondereigentum an der Wohnung und Miteigentumsanteil am Gemeinschaftseigentum (§ 1 WEG)."
+    },
+    {
+     "thema": "lf09-k7",
+     "vorne": "Wann ist ein Kunde kapitaldienstfähig?",
+     "hinten": "Wenn sein frei verfügbares Einkommen dauerhaft für Zins und Tilgung reicht."
     }
    ],
    "mc": [
@@ -3843,6 +4766,19 @@ window.LERNFELDER = [
      ],
      "richtig": 1,
      "erklaerung": "14 Tage (§§ 495, 355 BGB); die 7 Tage sind die Bindefrist des Angebots."
+    },
+    {
+     "thema": "lf09-k7",
+     "operator": "Beurteilen",
+     "frage": "Ein Kunde will ein Haus auf Erbbaugrund finanzieren. Das Erbbaurecht läuft noch 25 Jahre, die Tilgung dauert 30 Jahre. Wie beurteilen Sie das?",
+     "optionen": [
+      "Unproblematisch, das Haus bleibt Sicherheit",
+      "Problematisch, die Sicherheit endet vor der vollständigen Tilgung",
+      "Unproblematisch, wenn der Erbbauzins niedrig ist",
+      "Problematisch, weil Erbbaurechte nicht beleihbar sind"
+     ],
+     "richtig": 1,
+     "erklaerung": "Erbbaurechte sind beleihbar, aber die Restlaufzeit muss die Tilgungszeit deutlich übersteigen. Sonst endet die Sicherheit, bevor der Kredit zurückgezahlt ist."
     }
    ],
    "rechnen": [
@@ -3895,6 +4831,16 @@ window.LERNFELDER = [
      "toleranz": 0.02,
      "ergaenzt": true,
      "weg": "Frei verfügbar: 4.200 − 1.900 − 300 − 350 = 1.650 €. Reserve 1.650 − 1.400 = 250 €."
+    },
+    {
+     "thema": "lf09-k7",
+     "operator": "Ermitteln",
+     "frage": "Nettoeinkommen 3.900 € im Monat, Lebenshaltung 1.500 €, Bewirtschaftungskosten 320 €, sonstige Verpflichtungen 280 €. Darlehen 200.000 € mit 3,8 % Sollzins und 1,5 % anfänglicher Tilgung. Ermitteln Sie den monatlichen Überschuss nach Kapitaldienst.",
+     "ergebnis": 916.67,
+     "einheit": "€",
+     "toleranz": 0.02,
+     "ergaenzt": true,
+     "weg": "Frei verfügbar: 3.900 − 1.500 − 320 − 280 = 1.800 €. Kapitaldienst 200.000 · 5,3 % = 10.600 € im Jahr = 883,33 € im Monat. Überschuss 1.800 − 883,33 = 916,67 €."
     }
    ],
    "frei": [
@@ -3915,6 +4861,12 @@ window.LERNFELDER = [
      "operator": "Beurteilen",
      "frage": "Familie Weber hat nach Abzug aller Ausgaben 1.500 € frei. Die geplante Rate beträgt 1.450 €. Beurteilen Sie die Tragbarkeit.",
      "loesung": "Die Rate ist rechnerisch gedeckt, die Reserve beträgt aber nur 50 €. Es fehlen Puffer für Reparaturen, Zinsanstieg nach der Zinsbindung, Einkommensausfall oder Familienzuwachs. Fazit: so nicht tragbar. Empfehlung: mehr Eigenkapital, längere Laufzeit oder niedrigere Tilgung mit Sondertilgungsrecht, günstigeres Objekt, Förderkredit prüfen."
+    },
+    {
+     "thema": "lf09-k7",
+     "operator": "Erläutern",
+     "frage": "Erläutern Sie zwei Besonderheiten, die die Sparkasse bei der Finanzierung eines Hauses auf Erbbaugrund beachten muss.",
+     "loesung": "1. Restlaufzeit: Das Erbbaurecht muss deutlich länger laufen als das Darlehen getilgt wird, sonst fällt die Sicherheit weg. 2. Zustimmung: Für die Eintragung der Grundschuld im Erbbaugrundbuch ist oft die Zustimmung des Grundstückseigentümers nötig (§ 5 ErbbauRG). Außerdem: Der Erbbauzins belastet die Haushaltsrechnung, und beim Heimfall muss die Grundschuld bestehen bleiben bzw. abgesichert sein."
     }
    ]
   }
@@ -3923,7 +4875,7 @@ window.LERNFELDER = [
   "nr": 10,
   "titel": "Gesamtwirtschaftliche Einflüsse analysieren und beurteilen",
   "std": 80,
-  "quelle": "Ergänzt aus offiziellen Quellen (Gesetze, Rahmenlehrplan AO 2020) und den Zusammenfassungen der Prüfungsbereiche. Wird durch deine Mitschrift ersetzt bzw. abgeglichen. Wechselnde Werte Stand 09.11.2026: SV 2026, Mindestlohn 13,90 €, EZB-Sätze seit 16.09.2026 (2,65 / 2,90 / 2,50 %), Inflation Euroraum Okt. 2026 4,0 % vorläufig. EZB-Sitzung 29.10.2026: Sätze unverändert. Nächste EZB-Sitzung 17.12.2026.",
+  "quelle": "Ergänzt aus offiziellen Quellen (Gesetze, Rahmenlehrplan AO 2020) und den Zusammenfassungen der Prüfungsbereiche. Wird durch deine Mitschrift ersetzt bzw. abgeglichen. Wechselnde Werte Stand 09.11.2026: SV 2026, Mindestlohn 13,90 €, EZB-Sätze seit 16.09.2026 (2,65 / 2,90 / 2,50 %), Inflation Euroraum Okt. 2026 4,0 % vorläufig. EZB-Sitzung 29.10.2026: Sätze unverändert. Nächste EZB-Sitzung 17.12.2026. Ergänzt am 11.11.2026 nach dem sächsischen Lehrplan Bankkaufleute (2020): Geldmengen, Verkehrsgleichung und Giralgeldschöpfung.",
   "kapitel": [
    {
     "id": "lf10-k1",
@@ -4254,6 +5206,52 @@ window.LERNFELDER = [
     "merksatz": "Starker Euro, billiger Urlaub in den USA, schwerer Export.",
     "tipp": "Operator „Ermitteln“: In der Mengennotierung Fremdwährung durch Kurs teilen, um Euro zu bekommen.",
     "achtung": "Ein höherer Kurs in der Mengennotierung heißt: Der Euro ist mehr wert (Aufwertung)."
+   },
+   {
+    "id": "lf10-k9",
+    "titel": "Geldmengen, Verkehrsgleichung und Giralgeldschöpfung",
+    "erklaert": "Die EZB misst die Geldmenge in drei Stufen: M1 ist Bargeld plus täglich fällige Einlagen. M2 enthält zusätzlich Einlagen mit Laufzeit bis 2 Jahre und mit Kündigungsfrist bis 3 Monate. M3 enthält zusätzlich Repogeschäfte, Geldmarktfondsanteile und Schuldverschreibungen bis 2 Jahre. Die Verkehrsgleichung von Fisher verbindet Geld und Preise: Geldmenge · Umlaufgeschwindigkeit = Handelsvolumen · Preisniveau. Wächst die Geldmenge schneller als die Gütermenge, steigt bei gleicher Umlaufgeschwindigkeit das Preisniveau. Banken schaffen selbst Geld: Vergibt eine Bank einen Kredit, schreibt sie ihn dem Kunden als Sichteinlage gut. Diese Giralgeldschöpfung wird begrenzt durch die Mindestreserve (1 % bestimmter Einlagen), die Barabhebungen der Kunden und die Kreditnachfrage.",
+    "beispiel": "Ein Kunde zahlt 10.000 € bar bei Bank A ein. Mindestreserve 1 % = 100 €, Bank A kann 9.900 € Kredit geben. Der Kreditnehmer hebt 20 % bar ab (1.980 €), 7.920 € landen bei Bank B. Bank B hält 79,20 € Reserve und gibt 7.840,80 € Kredit, und so weiter. Insgesamt können alle Banken zusammen 9.900 : (1 − 0,8 · 0,99) = 9.900 : 0,208 = 47.596,15 € Kredit schaffen.",
+    "tabelle": {
+     "kopf": [
+      "Begriff",
+      "Inhalt"
+     ],
+     "zeilen": [
+      [
+       "M1",
+       "Bargeldumlauf + täglich fällige Einlagen (Sichteinlagen)"
+      ],
+      [
+       "M2",
+       "M1 + Einlagen mit Laufzeit bis 2 Jahre + Einlagen mit Kündigungsfrist bis 3 Monate"
+      ],
+      [
+       "M3",
+       "M2 + Repogeschäfte + Geldmarktfondsanteile + Schuldverschreibungen bis 2 Jahre"
+      ],
+      [
+       "Verkehrsgleichung",
+       "G · U = H · P (Geldmenge · Umlaufgeschwindigkeit = Handelsvolumen · Preisniveau)"
+      ],
+      [
+       "Zentralbankgeld",
+       "Bargeld + Guthaben der Banken bei der Zentralbank, schafft nur das Eurosystem"
+      ],
+      [
+       "Giralgeld (Buchgeld)",
+       "Sichtguthaben bei Banken, entsteht durch Kredit, Wertpapierankauf oder Bareinzahlung"
+      ],
+      [
+       "Grenzen der Giralgeldschöpfung",
+       "Mindestreserve, Barabzugsquote, Kreditnachfrage, Eigenkapitalvorschriften"
+      ]
+     ]
+    },
+    "merksatz": "**Kredit schafft Einlage**: Jeder neue Kredit erhöht die Geldmenge.",
+    "tipp": "Operator „Erläutern“ zur Verkehrsgleichung: Gleichung nennen, eine Größe ändern, die anderen konstant halten und die Wirkung auf das Preisniveau ableiten.",
+    "achtung": "Die Formel für den Geldschöpfungsmultiplikator ist im Unterricht oft etwas anders aufgebaut. Lerne den Rechenweg Schritt für Schritt, dann passt es zu jeder Form. Die Mindestreserve wird seit 2023 nicht mehr verzinst.",
+    "ergaenzt": true
    }
   ],
   "uebung": {
@@ -4307,6 +5305,21 @@ window.LERNFELDER = [
      "thema": "lf10-k8",
      "vorne": "Was bewirkt eine Aufwertung des Euro?",
      "hinten": "Importe werden billiger, Exporte teurer; die Inflation wird gedämpft, die Exportwirtschaft belastet."
+    },
+    {
+     "thema": "lf10-k9",
+     "vorne": "Verkehrsgleichung nach Fisher?",
+     "hinten": "G · U = H · P: Geldmenge · Umlaufgeschwindigkeit = Handelsvolumen · Preisniveau."
+    },
+    {
+     "thema": "lf10-k9",
+     "vorne": "Was gehört zu M1?",
+     "hinten": "Bargeldumlauf und täglich fällige Einlagen."
+    },
+    {
+     "thema": "lf10-k9",
+     "vorne": "Was begrenzt die Giralgeldschöpfung?",
+     "hinten": "Mindestreserve, Barabhebungen der Kunden, Kreditnachfrage und Eigenkapitalvorschriften."
     }
    ],
    "mc": [
@@ -4387,6 +5400,32 @@ window.LERNFELDER = [
      ],
      "richtig": 1,
      "erklaerung": "Der Euro wertet ab. US-Kunden brauchen weniger Dollar für dieselbe Euro-Rechnung, der Export wird gestützt."
+    },
+    {
+     "thema": "lf10-k9",
+     "operator": "Beurteilen",
+     "frage": "Die Geldmenge steigt um 8 %, Umlaufgeschwindigkeit und Handelsvolumen bleiben gleich. Was folgt nach der Verkehrsgleichung?",
+     "optionen": [
+      "Das Preisniveau sinkt um 8 %",
+      "Das Preisniveau steigt um 8 %",
+      "Das Handelsvolumen steigt um 8 %",
+      "Keine Wirkung"
+     ],
+     "richtig": 1,
+     "erklaerung": "G · U = H · P. Steigt G bei konstantem U und H, muss P im gleichen Verhältnis steigen."
+    },
+    {
+     "thema": "lf10-k9",
+     "operator": "Zuordnen",
+     "frage": "Zu welcher Geldmenge gehört ein Festgeld mit 1 Jahr Laufzeit erstmals?",
+     "optionen": [
+      "M1",
+      "M2",
+      "M3",
+      "zu keiner"
+     ],
+     "richtig": 1,
+     "erklaerung": "Einlagen mit vereinbarter Laufzeit bis 2 Jahre gehören zu M2 (und damit auch zu M3), nicht zu M1."
     }
    ],
    "rechnen": [
@@ -4449,6 +5488,26 @@ window.LERNFELDER = [
      "toleranz": 0.01,
      "ergaenzt": true,
      "weg": "Mengennotierung: 24.000 : 1,0850 = 22.119,82 €."
+    },
+    {
+     "thema": "lf10-k9",
+     "operator": "Ermitteln",
+     "frage": "Geldmenge 800 Mrd. €, Umlaufgeschwindigkeit 3, Handelsvolumen 2.000 Mrd. Einheiten. Die Geldmenge steigt um 10 %, alles andere bleibt gleich. Ermitteln Sie das neue Preisniveau.",
+     "ergebnis": 1.32,
+     "einheit": "",
+     "toleranz": 0.005,
+     "ergaenzt": true,
+     "weg": "Vorher P = 800 · 3 : 2.000 = 1,20. Neue Geldmenge 880 Mrd. €: P = 880 · 3 : 2.000 = 1,32."
+    },
+    {
+     "thema": "lf10-k9",
+     "operator": "Ermitteln",
+     "frage": "Bareinzahlung 50.000 € bei Bank A. Mindestreserve 1 %, die Kunden heben von jedem Kredit 10 % bar ab. Ermitteln Sie die maximale Kreditschöpfung aller Banken zusammen.",
+     "ergebnis": 454128.44,
+     "einheit": "€",
+     "toleranz": 1,
+     "ergaenzt": true,
+     "weg": "Bank A darf 50.000 − 1 % = 49.500 € ausleihen. Von jedem Kredit kommen 90 % als Einlage zurück, davon sind 99 % ausleihbar: Faktor 0,9 · 0,99 = 0,891. Summe: 49.500 : (1 − 0,891) = 49.500 : 0,109 = 454.128,44 €."
     }
    ],
    "frei": [
@@ -4469,6 +5528,12 @@ window.LERNFELDER = [
      "operator": "Beurteilen",
      "frage": "Beurteilen Sie antizyklische Fiskalpolitik.",
      "loesung": "Vorteil: Sie kann Konjunkturschwankungen glätten, im Abschwung Nachfrage und Beschäftigung stützen. Nachteile: Entscheidungen und Wirkung kommen oft zu spät (Zeitverzögerung), die Maßnahmen wirken dann prozyklisch; im Boom werden Schulden selten abgebaut, die Staatsverschuldung steigt; die Schuldenbremse begrenzt den Spielraum. Fazit: sinnvoll, wenn rechtzeitig und zeitlich begrenzt eingesetzt."
+    },
+    {
+     "thema": "lf10-k9",
+     "operator": "Erläutern",
+     "frage": "Erläutern Sie, wie eine Sparkasse durch Kreditvergabe Giralgeld schafft und was diesen Vorgang begrenzt.",
+     "loesung": "Bewilligt die Sparkasse einen Kredit, schreibt sie den Betrag dem Girokonto des Kunden gut. Damit entsteht neues Sichtguthaben (Giralgeld), ohne dass jemand anderem Geld fehlt. Überweist der Kunde weiter, entsteht bei der Empfängerbank eine Einlage, die wieder als Kredit ausgeliehen werden kann. Grenzen: Die Bank muss 1 % Mindestreserve in Zentralbankgeld halten, Kunden heben einen Teil bar ab (Abfluss von Zentralbankgeld), die Kreditnachfrage und die Eigenkapitalvorschriften begrenzen das Volumen."
     }
    ]
   }
@@ -4477,7 +5542,7 @@ window.LERNFELDER = [
   "nr": 11,
   "titel": "Wertschöpfungsprozesse erfolgsorientiert steuern",
   "std": 80,
-  "quelle": "Ergänzt aus offiziellen Quellen (Gesetze, Rahmenlehrplan AO 2020) und den Zusammenfassungen der Prüfungsbereiche. Wird durch deine Mitschrift ersetzt bzw. abgeglichen. Stand 09.11.2026: GWG-Grenze 800 €, CRR-Mindestquoten. Antizyklischer Puffer und Systemrisikopuffer nicht eingetragen.",
+  "quelle": "Ergänzt aus offiziellen Quellen (Gesetze, Rahmenlehrplan AO 2020) und den Zusammenfassungen der Prüfungsbereiche. Wird durch deine Mitschrift ersetzt bzw. abgeglichen. Stand 09.11.2026: GWG-Grenze 800 €, CRR-Mindestquoten. Antizyklischer Puffer und Systemrisikopuffer nicht eingetragen. Ergänzt am 11.11.2026 nach dem sächsischen Lehrplan Bankkaufleute (2020): Kosten- und Erlösrechnung: Abgrenzung und kalkulatorische Kosten, Kostenarten und Deckungsbeitragsrechnung, Gesamtbetriebskalkulation, Investitionsentscheidungen.",
   "kapitel": [
    {
     "id": "lf11-k1",
@@ -4634,6 +5699,213 @@ window.LERNFELDER = [
     "merksatz": "**EL = EAD · PD · LGD**",
     "tipp": "Operator „Erläutern“: Sag, warum bessere Sicherheiten den Zins senken: Sie senken die LGD und damit die Risikokosten.",
     "achtung": "Standardrisikokosten decken nur den erwarteten Verlust. Für unerwartete Verluste braucht die Bank Eigenkapital."
+   },
+   {
+    "id": "lf11-k5",
+    "titel": "Kosten- und Erlösrechnung: Abgrenzung und kalkulatorische Kosten",
+    "erklaert": "Die Finanzbuchhaltung (Rechnungskreis I) zeigt Aufwand und Ertrag für die GuV, nach HGB und Steuerrecht. Die Kosten- und Erlösrechnung (Rechnungskreis II) zeigt nur, was der Betrieb für seine eigentliche Leistung verbraucht und verdient. Deshalb wird abgegrenzt: Neutraler Aufwand ist betriebsfremd (Spende), periodenfremd (Nachzahlung für das Vorjahr) oder außerordentlich (Brandschaden) und zählt nicht als Kosten. Aufwand, der gleichzeitig Kosten ist, heißt Grundkosten. Kalkulatorische Kosten setzt die Bank selbst an: Anderskosten ersetzen einen Aufwand durch einen anderen Wert (kalkulatorische Abschreibung vom Wiederbeschaffungswert, kalkulatorische Risikokosten statt tatsächlicher Ausfälle). Zusatzkosten haben gar keinen Aufwand dahinter (kalkulatorische Miete für eigene Räume, kalkulatorische Eigenkapitalzinsen). Bei Erträgen gilt dasselbe: Zweckertrag ist Erlös, neutraler Ertrag (z. B. Gewinn aus Grundstücksverkauf) nicht. Bankbetriebe trennen außerdem den Wertbereich (Zinsen, Risiko, Liquidität) vom Betriebsbereich (Personal, Sachkosten, Provisionen).",
+    "beispiel": "Aus der GuV einer Sparkasse: Personalaufwand 2.400.000 €, Sachaufwand 900.000 €, bilanzielle Abschreibung 180.000 €, Spende an den Sportverein 10.000 €, Mietnachzahlung für das Vorjahr 6.000 €. Kalkulatorisch setzt sie 210.000 € Abschreibung vom Wiederbeschaffungswert und 120.000 € Miete für das eigene Hauptgebäude an. Kosten: 2.400.000 + 900.000 (Grundkosten) + 210.000 (Anderskosten) + 120.000 (Zusatzkosten) = 3.630.000 €. Neutral bleiben 16.000 €.",
+    "tabelle": {
+     "kopf": [
+      "Begriff",
+      "Bedeutung",
+      "Beispiel"
+     ],
+     "zeilen": [
+      [
+       "Grundkosten (Zweckaufwand)",
+       "Aufwand = Kosten, gleicher Betrag",
+       "Gehälter, Sachkosten der Filialen"
+      ],
+      [
+       "neutraler Aufwand",
+       "Aufwand, aber keine Kosten",
+       "Spende, Nachzahlung Vorjahr, Brandschaden"
+      ],
+      [
+       "Anderskosten",
+       "Kosten mit anderem Wert als der Aufwand",
+       "kalkulatorische Abschreibung, kalkulatorische Risikokosten"
+      ],
+      [
+       "Zusatzkosten",
+       "Kosten ohne Aufwand",
+       "kalkulatorische Miete eigener Räume, kalkulatorische Eigenkapitalzinsen"
+      ],
+      [
+       "Zweckertrag = Erlös",
+       "Ertrag aus der Banktätigkeit",
+       "Zinserträge, Provisionen"
+      ],
+      [
+       "neutraler Ertrag",
+       "Ertrag, aber kein Erlös",
+       "Gewinn aus Verkauf eines Grundstücks"
+      ],
+      [
+       "Wertbereich",
+       "liquiditätsmäßig-finanzieller Bereich",
+       "Zinsergebnis, Risikokosten"
+      ],
+      [
+       "Betriebsbereich",
+       "technisch-organisatorischer Bereich",
+       "Personal- und Sachkosten, Provisionserlöse"
+      ]
+     ]
+    },
+    "merksatz": "**Anders**kosten haben einen anderen Betrag, **Zusatz**kosten gar keinen Aufwand.",
+    "tipp": "Operator „Zuordnen“: Frage dich bei jedem Posten zuerst, ob er betriebsbedingt und periodengerecht ist. Nur dann ist er Kosten.",
+    "achtung": "Die bilanzielle Abschreibung wird in der Kostenrechnung durch die kalkulatorische ersetzt, nicht zusätzlich gerechnet. Sonst zählst du doppelt.",
+    "ergaenzt": true
+   },
+   {
+    "id": "lf11-k6",
+    "titel": "Kostenarten und Deckungsbeitragsrechnung",
+    "erklaert": "Fixe Kosten bleiben gleich, egal wie viele Leistungen die Bank erbringt (Miete, Gehälter, Abschreibung eines Geldautomaten). Variable Kosten steigen mit jeder Leistung (Porto je Kontoauszug, Bargeldtransport je Befüllung). Sprungfixe Kosten springen ab einer bestimmten Menge (zweiter Berater nötig). Je mehr Leistungen, desto weniger Fixkosten entfallen auf eine Leistung (Fixkostendegression). Einzelkosten lassen sich einem Produkt direkt zurechnen (Schufa-Entgelt für einen Kredit), Gemeinkosten nicht (Vorstand, Gebäude). Die Deckungsbeitragsrechnung zieht vom Erlös zuerst nur die zurechenbaren Kosten ab. Der Rest (Deckungsbeitrag) deckt die Fixkosten und bildet den Gewinn. In der Kundenkalkulation stuft die Bank: Konditionsbeiträge + Provisionen = DB I; minus Standardbetriebskosten = DB II; minus Standardrisikokosten = DB III.",
+    "beispiel": "Geldautomat: Fixkosten 36.000 € im Jahr, variable Kosten 0,15 € je Abhebung. Bei 120.000 Abhebungen: 36.000 + 18.000 = 54.000 €, also 0,45 € je Abhebung. Bei 180.000 Abhebungen: 63.000 €, nur noch 0,35 € je Abhebung. Fremdkunden zahlen 4,00 € je Abhebung, Deckungsbeitrag 3,85 €. Gewinnschwelle: 36.000 : 3,85 = 9.350,6, also ab 9.351 Fremdabhebungen sind die Fixkosten gedeckt (wenn nur Fremdkunden zahlen).",
+    "tabelle": {
+     "kopf": [
+      "Stufe der Kundenkalkulation",
+      "Familie Hoffmann"
+     ],
+     "zeilen": [
+      [
+       "Konditionsbeitrag Kredit",
+       "1.800 €"
+      ],
+      [
+       "+ Konditionsbeitrag Einlagen",
+       "600 €"
+      ],
+      [
+       "+ Provisionserlöse",
+       "400 €"
+      ],
+      [
+       "= Deckungsbeitrag I",
+       "2.800 €"
+      ],
+      [
+       "− Standardbetriebskosten",
+       "900 €"
+      ],
+      [
+       "= Deckungsbeitrag II",
+       "1.900 €"
+      ],
+      [
+       "− Standardrisikokosten",
+       "400 €"
+      ],
+      [
+       "= Deckungsbeitrag III",
+       "1.500 €"
+      ]
+     ]
+    },
+    "merksatz": "Deckungsbeitrag = Erlös − variable Kosten; Gewinnschwelle = Fixkosten : Deckungsbeitrag je Stück.",
+    "tipp": "Operator „Ermitteln“ bei der Gewinnschwelle: Deckungsbeitrag je Stück bilden, Fixkosten teilen, auf die nächste ganze Leistung aufrunden.",
+    "achtung": "Die Reihenfolge der DB-Stufen (erst Betriebs- oder erst Risikokosten) ist nicht in jedem Lehrbuch gleich. Nimm die Reihenfolge aus deinem Unterricht, das Ergebnis am Ende ist dasselbe.",
+    "ergaenzt": true
+   },
+   {
+    "id": "lf11-k7",
+    "titel": "Gesamtbetriebskalkulation",
+    "erklaert": "Die Gesamtbetriebskalkulation betrachtet die ganze Bank auf einmal. Alle Ergebnisse werden in Prozent des durchschnittlichen Geschäftsvolumens ausgedrückt (Spannen), damit man Jahre und Institute vergleichen kann. Die Zinsspanne ist der Zinsüberschuss im Verhältnis zum Geschäftsvolumen. Die Provisionsspanne gilt entsprechend für den Provisionsüberschuss. Die Bruttobedarfsspanne zeigt die Verwaltungskosten (Personal und Sachkosten). Zieht man davon die Provisionsspanne ab, bleibt die Nettobedarfsspanne: der Teil der Kosten, den das Zinsgeschäft tragen muss. Zinsspanne minus Nettobedarfsspanne ergibt die Bruttogewinnspanne (Betriebsergebnis vor Bewertung). Nach Abzug der Risikospanne bleibt die Nettogewinnspanne.",
+    "beispiel": "Durchschnittliches Geschäftsvolumen 2.000 Mio. €. Zinsüberschuss 46 Mio. € = Zinsspanne 2,30 %. Provisionsüberschuss 16 Mio. € = 0,80 %. Personal- und Sachaufwand 40 Mio. € = Bruttobedarfsspanne 2,00 %. Nettobedarfsspanne 2,00 − 0,80 = 1,20 %. Bruttogewinnspanne 2,30 − 1,20 = 1,10 % (22 Mio. €). Bewertungsergebnis 5 Mio. € = 0,25 %. Nettogewinnspanne 0,85 % (17 Mio. €).",
+    "tabelle": {
+     "kopf": [
+      "Spanne",
+      "Formel",
+      "Beispiel"
+     ],
+     "zeilen": [
+      [
+       "Zinsspanne",
+       "Zinsüberschuss : Geschäftsvolumen · 100",
+       "2,30 %"
+      ],
+      [
+       "Provisionsspanne",
+       "Provisionsüberschuss : Geschäftsvolumen · 100",
+       "0,80 %"
+      ],
+      [
+       "Bruttobedarfsspanne",
+       "Verwaltungsaufwand : Geschäftsvolumen · 100",
+       "2,00 %"
+      ],
+      [
+       "Nettobedarfsspanne",
+       "Bruttobedarfsspanne − Provisionsspanne",
+       "1,20 %"
+      ],
+      [
+       "Bruttogewinnspanne",
+       "Zinsspanne − Nettobedarfsspanne",
+       "1,10 %"
+      ],
+      [
+       "Risikospanne",
+       "Bewertungsergebnis : Geschäftsvolumen · 100",
+       "0,25 %"
+      ],
+      [
+       "Nettogewinnspanne",
+       "Bruttogewinnspanne − Risikospanne",
+       "0,85 %"
+      ]
+     ]
+    },
+    "merksatz": "Zinsspanne − (Bedarfsspanne − Provisionsspanne) = Bruttogewinnspanne.",
+    "tipp": "Operator „Beurteilen“: Vergleiche die Spannen mit dem Vorjahr oder dem Durchschnitt der Sparkassen und nenne die Ursache (z. B. sinkende Zinsspanne bei hohem Wettbewerb).",
+    "achtung": "Spannen beziehen sich auf das durchschnittliche Geschäftsvolumen, nicht auf die Bilanzsumme am Stichtag. Lies in der Aufgabe genau, welche Bezugsgröße gegeben ist.",
+    "ergaenzt": true
+   },
+   {
+    "id": "lf11-k8",
+    "titel": "Investitionsentscheidungen",
+    "erklaert": "Vor einer Investition (neuer Geldautomat, Software, Filialumbau) vergleicht die Bank die Alternativen mit statischen Verfahren. Die Kostenvergleichsrechnung stellt die Gesamtkosten gegenüber. Liegen die Fixkosten der einen und die variablen Kosten der anderen höher, gibt es eine kritische Menge, ab der sich die Alternative mit den höheren Fixkosten lohnt. Die Gewinnvergleichsrechnung bezieht zusätzlich die Erlöse ein. Die Rentabilitätsrechnung setzt den Gewinn ins Verhältnis zum durchschnittlich gebundenen Kapital (halbe Anschaffungskosten). Die Amortisationsrechnung zeigt, nach wie vielen Jahren das eingesetzte Geld über die Rückflüsse (Gewinn + Abschreibung) zurück ist.",
+    "beispiel": "SB-Terminal A: Fixkosten 18.000 € im Jahr, 0,12 € je Transaktion. Terminal B: 12.000 €, 0,27 €. Kritische Menge: 18.000 + 0,12 x = 12.000 + 0,27 x, also x = 6.000 : 0,15 = 40.000 Transaktionen. Erwartet die Filiale 50.000 Transaktionen, kostet A 24.000 €, B 25.500 €: A ist günstiger. A kostet 60.000 € (5 Jahre Nutzung, Abschreibung 12.000 € im Jahr) und bringt 9.000 € Gewinn im Jahr. Amortisation: 60.000 : (9.000 + 12.000) = 2,86 Jahre. Rentabilität: 9.000 : 30.000 · 100 = 30 %.",
+    "tabelle": {
+     "kopf": [
+      "Verfahren",
+      "Formel",
+      "Entscheidung"
+     ],
+     "zeilen": [
+      [
+       "Kostenvergleich",
+       "Fixkosten + variable Kosten · Menge",
+       "niedrigere Gesamtkosten"
+      ],
+      [
+       "kritische Menge",
+       "Differenz Fixkosten : Differenz variable Stückkosten",
+       "darüber lohnt die Alternative mit höheren Fixkosten"
+      ],
+      [
+       "Gewinnvergleich",
+       "Erlöse − Kosten",
+       "höherer Gewinn"
+      ],
+      [
+       "Rentabilität",
+       "Gewinn : (Anschaffungskosten : 2) · 100",
+       "höhere Rendite, über Mindestverzinsung"
+      ],
+      [
+       "Amortisationszeit",
+       "Anschaffungskosten : (Gewinn + Abschreibung)",
+       "kürzere Zeit, unter der Nutzungsdauer"
+      ]
+     ]
+    },
+    "merksatz": "Rückfluss = Gewinn + Abschreibung, weil die Abschreibung kein Geld kostet.",
+    "tipp": "Operator „Beurteilen“: Neben dem Rechenergebnis immer qualitative Gründe nennen, z. B. Kundenzufriedenheit, Ausfallsicherheit, Wartungsvertrag.",
+    "achtung": "Statische Verfahren rechnen mit Durchschnittswerten und ohne Zinseszins. Das ist eine Vereinfachung, im Unterricht reichen sie aber für die Prüfung.",
+    "ergaenzt": true
    }
   ],
   "uebung": {
@@ -4677,6 +5949,51 @@ window.LERNFELDER = [
      "thema": "lf11-k4",
      "vorne": "Wodurch sinkt die LGD?",
      "hinten": "Durch werthaltige Sicherheiten."
+    },
+    {
+     "thema": "lf11-k5",
+     "vorne": "Was sind Zusatzkosten? Beispiel?",
+     "hinten": "Kosten ohne Aufwand in der GuV, z. B. kalkulatorische Miete für eigene Räume, kalkulatorische Eigenkapitalzinsen."
+    },
+    {
+     "thema": "lf11-k5",
+     "vorne": "Was sind Anderskosten? Beispiel?",
+     "hinten": "Kosten in anderer Höhe als der Aufwand, z. B. kalkulatorische Abschreibung vom Wiederbeschaffungswert."
+    },
+    {
+     "thema": "lf11-k5",
+     "vorne": "Drei Arten neutralen Aufwands?",
+     "hinten": "betriebsfremd (Spende), periodenfremd (Nachzahlung Vorjahr), außerordentlich (Brandschaden)."
+    },
+    {
+     "thema": "lf11-k6",
+     "vorne": "Formel Gewinnschwelle (Break-even)?",
+     "hinten": "Fixkosten : Deckungsbeitrag je Stück (Erlös − variable Stückkosten)."
+    },
+    {
+     "thema": "lf11-k6",
+     "vorne": "Was ist Fixkostendegression?",
+     "hinten": "Mit steigender Menge sinken die fixen Kosten je Leistung."
+    },
+    {
+     "thema": "lf11-k7",
+     "vorne": "Formel Nettobedarfsspanne?",
+     "hinten": "Bruttobedarfsspanne − Provisionsspanne."
+    },
+    {
+     "thema": "lf11-k7",
+     "vorne": "Formel Bruttogewinnspanne?",
+     "hinten": "Zinsspanne − Nettobedarfsspanne (= Betriebsergebnis vor Bewertung in % des Geschäftsvolumens)."
+    },
+    {
+     "thema": "lf11-k8",
+     "vorne": "Formel Amortisationszeit?",
+     "hinten": "Anschaffungskosten : (Gewinn + Abschreibung) im Jahr."
+    },
+    {
+     "thema": "lf11-k8",
+     "vorne": "Formel kritische Menge?",
+     "hinten": "Differenz der Fixkosten : Differenz der variablen Stückkosten."
     }
    ],
    "mc": [
@@ -4705,6 +6022,45 @@ window.LERNFELDER = [
      ],
      "richtig": 1,
      "erklaerung": "Niedrigere CIR = weniger Aufwand je Euro Ertrag."
+    },
+    {
+     "thema": "lf11-k5",
+     "operator": "Zuordnen",
+     "frage": "Die Sparkasse spendet 5.000 € an einen Kindergarten. Wie ist das in der Kostenrechnung zu behandeln?",
+     "optionen": [
+      "Grundkosten",
+      "Anderskosten",
+      "neutraler Aufwand",
+      "Zusatzkosten"
+     ],
+     "richtig": 2,
+     "erklaerung": "Die Spende ist Aufwand in der GuV, hat aber nichts mit der Bankleistung zu tun (betriebsfremd), also neutraler Aufwand."
+    },
+    {
+     "thema": "lf11-k6",
+     "operator": "Zuordnen",
+     "frage": "Welche Kosten sind beim Geldautomaten variabel?",
+     "optionen": [
+      "Miete für den Standort",
+      "Abschreibung des Automaten",
+      "Kosten je Bargeldbefüllung und Transaktion",
+      "Wartungspauschale im Jahr"
+     ],
+     "richtig": 2,
+     "erklaerung": "Variabel sind Kosten, die mit der Menge steigen. Miete, Abschreibung und Wartungspauschale bleiben gleich."
+    },
+    {
+     "thema": "lf11-k7",
+     "operator": "Ermitteln",
+     "frage": "Zinsspanne 2,1 %, Bruttobedarfsspanne 1,9 %, Provisionsspanne 0,7 %. Wie hoch ist die Bruttogewinnspanne?",
+     "optionen": [
+      "0,2 %",
+      "0,9 %",
+      "1,2 %",
+      "2,8 %"
+     ],
+     "richtig": 1,
+     "erklaerung": "Nettobedarfsspanne 1,9 − 0,7 = 1,2 %. Bruttogewinnspanne 2,1 − 1,2 = 0,9 %."
     }
    ],
    "rechnen": [
@@ -4767,6 +6123,56 @@ window.LERNFELDER = [
      "toleranz": 0.01,
      "ergaenzt": true,
      "weg": "EL = 100.000 · 0,012 · 0,40 = 480 €"
+    },
+    {
+     "thema": "lf11-k5",
+     "operator": "Ermitteln",
+     "frage": "GuV: Personalaufwand 1.800.000 €, Sachaufwand 700.000 €, bilanzielle Abschreibung 150.000 €, Spende 4.000 €. Kalkulatorisch: Abschreibung 175.000 €, Miete eigenes Gebäude 90.000 €. Ermitteln Sie die Kosten.",
+     "ergebnis": 2765000,
+     "einheit": "€",
+     "toleranz": 1,
+     "ergaenzt": true,
+     "weg": "Grundkosten 1.800.000 + 700.000 = 2.500.000 €. Anderskosten statt bilanzieller Abschreibung: 175.000 €. Zusatzkosten Miete 90.000 €. Spende ist neutral. Kosten: 2.500.000 + 175.000 + 90.000 = 2.765.000 €."
+    },
+    {
+     "thema": "lf11-k6",
+     "operator": "Ermitteln",
+     "frage": "Ein Kontoauszugsdrucker hat 9.000 € Fixkosten im Jahr, variable Kosten 0,05 € je Auszug. Die Sparkasse berechnet Firmenkunden 0,50 € je Auszug. Ab wie vielen Auszügen sind die Fixkosten gedeckt?",
+     "ergebnis": 20000,
+     "einheit": "Auszüge",
+     "toleranz": 0,
+     "ergaenzt": true,
+     "weg": "Deckungsbeitrag je Auszug 0,50 − 0,05 = 0,45 €. Gewinnschwelle 9.000 : 0,45 = 20.000 Auszüge."
+    },
+    {
+     "thema": "lf11-k7",
+     "operator": "Ermitteln",
+     "frage": "Durchschnittliches Geschäftsvolumen 1.500 Mio. €, Zinsüberschuss 33 Mio. €, Provisionsüberschuss 12 Mio. €, Verwaltungsaufwand 30 Mio. €. Ermitteln Sie die Bruttogewinnspanne in Prozent.",
+     "ergebnis": 1,
+     "einheit": "%",
+     "toleranz": 0.005,
+     "ergaenzt": true,
+     "weg": "Zinsspanne 33 : 1.500 = 2,20 %. Provisionsspanne 0,80 %. Bruttobedarfsspanne 2,00 %. Nettobedarfsspanne 2,00 − 0,80 = 1,20 %. Bruttogewinnspanne 2,20 − 1,20 = 1,00 % (Probe: 33 + 12 − 30 = 15 Mio. € = 1,00 %)."
+    },
+    {
+     "thema": "lf11-k8",
+     "operator": "Ermitteln",
+     "frage": "Geldautomat X: Fixkosten 25.000 € im Jahr, 0,10 € je Abhebung. Geldautomat Y: Fixkosten 19.000 €, 0,25 € je Abhebung. Ermitteln Sie die kritische Menge.",
+     "ergebnis": 40000,
+     "einheit": "Abhebungen",
+     "toleranz": 0,
+     "ergaenzt": true,
+     "weg": "25.000 + 0,10 x = 19.000 + 0,25 x. 6.000 = 0,15 x. x = 40.000 Abhebungen. Darüber ist X günstiger."
+    },
+    {
+     "thema": "lf11-k8",
+     "operator": "Ermitteln",
+     "frage": "Eine Software kostet 48.000 €, Nutzungsdauer 4 Jahre (lineare Abschreibung), jährlicher Gewinn durch Einsparungen 6.000 €. Ermitteln Sie die Amortisationszeit in Jahren (2 Nachkommastellen).",
+     "ergebnis": 2.67,
+     "einheit": "Jahre",
+     "toleranz": 0.01,
+     "ergaenzt": true,
+     "weg": "Abschreibung 48.000 : 4 = 12.000 €. Rückfluss 6.000 + 12.000 = 18.000 € im Jahr. Amortisation 48.000 : 18.000 = 2,67 Jahre."
     }
    ],
    "frei": [
@@ -4781,6 +6187,18 @@ window.LERNFELDER = [
      "operator": "Erläutern",
      "frage": "Erläutern Sie zwei Maßnahmen, mit denen eine Sparkasse ihre Cost-Income-Ratio senken kann.",
      "loesung": "Kosten senken, zum Beispiel durch Digitalisierung von Prozessen oder Zusammenlegen von Filialen, sodass der Verwaltungsaufwand sinkt. Erträge steigern, zum Beispiel durch mehr Provisionsgeschäft (Wertpapiere, Versicherungsvermittlung) oder bessere Konditionen, sodass der Nenner wächst. Beides senkt den Aufwand je Euro Ertrag."
+    },
+    {
+     "thema": "lf11-k5",
+     "operator": "Erläutern",
+     "frage": "Erläutern Sie, warum die Sparkasse in der Kostenrechnung kalkulatorische Abschreibungen statt der bilanziellen ansetzt.",
+     "loesung": "Die bilanzielle Abschreibung folgt HGB und Steuerrecht und rechnet von den historischen Anschaffungskosten. Die Kostenrechnung soll den tatsächlichen Werteverzehr zeigen und die Wiederbeschaffung sichern. Deshalb wird vom (höheren) Wiederbeschaffungswert und über die betriebliche Nutzungsdauer abgeschrieben. So werden die Preise der Leistungen richtig kalkuliert und die Substanz erhalten."
+    },
+    {
+     "thema": "lf11-k8",
+     "operator": "Beurteilen",
+     "frage": "Beurteilen Sie, ob sich die Sparkasse nur nach der Kostenvergleichsrechnung für einen Geldautomaten entscheiden sollte.",
+     "loesung": "Die Kostenvergleichsrechnung zeigt nur die günstigere Alternative bei einer angenommenen Menge. Sie berücksichtigt keine Erlöse, keine Zinseffekte und keine qualitativen Punkte. Zusätzlich sollte die Sparkasse Erlöse (Fremdkundenentgelte), Amortisationszeit, Ausfallsicherheit, Service, Sicherheit gegen Sprengung und Kundenzufriedenheit einbeziehen. Fazit: Sie ist eine gute erste Entscheidungshilfe, reicht allein aber nicht."
     }
    ]
   }

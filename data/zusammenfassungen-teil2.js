@@ -14,7 +14,7 @@ window.ZUSAMMENFASSUNGEN.push(
   12
  ],
  "titel": "Vermögen aufbauen und Risiken absichern, LF04, LF08 und LF12 in einem",
- "quelle": "Alles Ergänzt (Gesetze und offizielle Werte), bis die Mitschriften abgeglichen sind. Wechselnde Werte Stand 09.11.2026: Sparer-Pauschbetrag 1.000/2.000 € (seit 2023), Sparzulage-Grenzen 40.000/80.000 € (seit 2024), BBG RV 2026 8.450 € im Monat, Riester-Zulagen nach bisherigem Recht (Reform ab 01.01.2027 beschlossen), Basisrente-Höchstbetrag 2026 30.826 €. Basiszins Vorabpauschale 2026 3,20 % (BMF), aktueller Rentenwert ab 01.07.2026 42,52 € (DRV); nachgetragen am 11.11.2026.",
+ "quelle": "Alles Ergänzt (Gesetze und offizielle Werte), bis die Mitschriften abgeglichen sind. Wechselnde Werte Stand 09.11.2026: Sparer-Pauschbetrag 1.000/2.000 € (seit 2023), Sparzulage-Grenzen 40.000/80.000 € (seit 2024), BBG RV 2026 8.450 € im Monat, Riester-Zulagen nach bisherigem Recht (Reform ab 01.01.2027 beschlossen), Basisrente-Höchstbetrag 2026 30.826 €. Basiszins Vorabpauschale 2026 3,20 % (BMF), aktueller Rentenwert ab 01.07.2026 42,52 € (DRV); nachgetragen am 11.11.2026. Ergänzt am 11.11.2026 nach dem sächsischen Lehrplan Bankkaufleute (2020): LF08 · Derivate, Optionsscheine und Zertifikate, LF08 · Depot: Verwahrung und Verwaltung.",
  "kapitel": [
   {
    "id": "vr-k0",
@@ -409,6 +409,119 @@ window.ZUSAMMENFASSUNGEN.push(
    "achtung": "Rentabilität, Sicherheit und Liquidität stehen im Zielkonflikt (magisches Dreieck): Eine Anlage kann nicht alle drei gleichzeitig maximal erfüllen."
   },
   {
+   "id": "vr-k14",
+   "titel": "LF08 · Derivate, Optionsscheine und Zertifikate",
+   "erklaert": "Derivate leiten ihren Wert von einem Basiswert ab (Aktie, Index, Zins, Währung, Rohstoff). Bei Termingeschäften liegen Abschluss und Erfüllung auseinander. Unbedingt sind Futures: Beide Seiten müssen zum vereinbarten Preis kaufen bzw. verkaufen. Bedingt sind Optionen: Der Käufer hat das Recht, der Verkäufer (Stillhalter) hat die Pflicht. Ein Call ist ein Kaufrecht, ein Put ein Verkaufsrecht. Der Käufer zahlt dafür eine Prämie, sie ist sein höchster Verlust. Derivate wirken mit Hebel: kleiner Einsatz, große Wirkung in beide Richtungen. Optionsscheine sind verbriefte Optionsrechte, Zertifikate sind Schuldverschreibungen, deren Rückzahlung von einem Basiswert abhängt. Bei beiden trägt der Anleger das Emittentenrisiko, weil sie kein Sondervermögen sind.",
+   "beispiel": "Ein Kunde kauft Calls auf 100 Aktien, Basispreis 100 €, Prämie 5 € je Aktie (500 €). Am Fälligkeitstag steht die Aktie bei 112 €. Er übt aus: (112 − 100 − 5) · 100 = 700 € Gewinn. Gewinnschwelle 105 €. Steht die Aktie unter 100 €, verfällt die Option, Verlust 500 €. Discountzertifikat: Aktie 47 €, Zertifikat 42 €, Cap 50 €. Höchstertrag (50 − 42) : 42 = 19,05 %. Schließt die Aktie bei 40 €, bekommt der Kunde die Aktie (40 €), Verlust 2 € je Zertifikat.",
+   "tabelle": {
+    "kopf": [
+     "Produkt",
+     "Merkmal",
+     "größtes Risiko"
+    ],
+    "zeilen": [
+     [
+      "Long Call (Kaufoption gekauft)",
+      "Recht zu kaufen, Erwartung steigende Kurse",
+      "Prämie (Totalverlust)"
+     ],
+     [
+      "Long Put (Verkaufsoption gekauft)",
+      "Recht zu verkaufen, Absicherung gegen fallende Kurse",
+      "Prämie (Totalverlust)"
+     ],
+     [
+      "Stillhalter (Short Call, Short Put)",
+      "Pflicht zu liefern bzw. abzunehmen, erhält Prämie",
+      "beim Short Call unbegrenzt"
+     ],
+     [
+      "Future",
+      "unbedingte Pflicht beider Seiten, Sicherheitsleistung (Margin)",
+      "Nachschusspflicht"
+     ],
+     [
+      "Optionsschein",
+      "verbriefte Option, börsengehandelt",
+      "Hebel, Verfall, Emittent"
+     ],
+     [
+      "Indexzertifikat",
+      "bildet einen Index 1 : 1 ab",
+      "Index fällt, Emittent"
+     ],
+     [
+      "Discountzertifikat",
+      "Abschlag auf die Aktie, Gewinn begrenzt durch Cap",
+      "Aktie fällt deutlich, Emittent"
+     ],
+     [
+      "Bonuszertifikat",
+      "Bonus, solange die Barriere nicht berührt wird",
+      "Barriere wird gerissen, Emittent"
+     ]
+    ]
+   },
+   "merksatz": "**Call** = Kaufrecht, **Put** = Verkaufsrecht; der Käufer kann höchstens die Prämie verlieren.",
+   "tipp": "Operator „Erläutern“ zum Hebel: kleines Beispiel mit Prozenten rechnen (Aktie + 10 %, Option + 50 %) und das Risiko in beide Richtungen nennen.",
+   "achtung": "Zertifikate sind keine Fonds. Geht der Emittent insolvent, kann das Geld weg sein, auch wenn der Basiswert gut läuft. Vor dem Kauf bekommt der Kunde ein Basisinformationsblatt.",
+   "ergaenzt": true
+  },
+  {
+   "id": "vr-k15",
+   "titel": "LF08 · Depot: Verwahrung und Verwaltung",
+   "erklaert": "Wertpapiere verwahrt die Bank im Depot nach dem Depotgesetz. Regelfall ist die Girosammelverwahrung: Gleiche Wertpapiere aller Kunden liegen gemeinsam bei der Wertpapiersammelbank (Clearstream Banking AG), der Kunde ist Miteigentümer nach Bruchteilen. Selten ist die Sonderverwahrung (Streifband), bei der die Stücke getrennt liegen. Ausländische Papiere werden oft im Ausland verwahrt, der Kunde bekommt eine Gutschrift in Wertpapierrechnung. Zur Verwaltung gehören: Zinsen und Dividenden gutschreiben, fällige Anleihen einlösen, über Hauptversammlungen und Kapitalmaßnahmen (z. B. Bezugsrechte) informieren, Steuern abführen und die Steuerbescheinigung ausstellen. Wertpapiere bleiben Eigentum des Kunden. Wird die Bank insolvent, kann er sie heraus verlangen (Aussonderung).",
+   "beispiel": "Ein Kunde hat Wertpapiere im Kurswert von 40.000 € im Depot. Depotentgelt 0,15 % im Jahr = 60 €. Die Verwahrung ist umsatzsteuerpflichtig, 19 % = 11,40 €. Belastung 71,40 €. Bei einer Kapitalerhöhung seiner Aktie informiert ihn die Bank über die Bezugsrechte. Gibt er keine Weisung, verkauft die Bank die Bezugsrechte in der Regel am letzten Handelstag bestens.",
+   "tabelle": {
+    "kopf": [
+     "Begriff",
+     "Bedeutung",
+     "Grundlage"
+    ],
+    "zeilen": [
+     [
+      "Girosammelverwahrung",
+      "Regelfall, Miteigentum nach Bruchteilen am Sammelbestand",
+      "§ 5 DepotG"
+     ],
+     [
+      "Sonderverwahrung (Streifband)",
+      "getrennte Verwahrung bestimmter Stücke, teurer",
+      "§ 2 DepotG"
+     ],
+     [
+      "Wertpapierrechnung",
+      "Auslandsverwahrung, Kunde hat schuldrechtlichen Anspruch auf Lieferung",
+      "Sonderbedingungen für Wertpapiergeschäfte"
+     ],
+     [
+      "Clearstream Banking AG",
+      "deutsche Wertpapiersammelbank (Zentralverwahrer)",
+      "DepotG"
+     ],
+     [
+      "elektronische Wertpapiere",
+      "Wertpapiere ohne Urkunde, Eintrag in ein Register",
+      "eWpG"
+     ],
+     [
+      "Insolvenz der Bank",
+      "Depotwerte gehören dem Kunden, Aussonderung",
+      "§ 47 InsO"
+     ],
+     [
+      "Entgelte",
+      "Depotverwahrung und -verwaltung umsatzsteuerpflichtig",
+      "§ 4 Nr. 8e UStG"
+     ]
+    ]
+   },
+   "merksatz": "Einlagen schützt die Einlagensicherung, Wertpapiere schützt das **Eigentum**.",
+   "tipp": "Operator „Erläutern“ zur Sicherheit im Depot: Eigentum bzw. Miteigentum nennen, Aussonderung im Insolvenzfall, und den Unterschied zur Einlagensicherung.",
+   "achtung": "Das Emittentenrisiko bleibt: Das Depot schützt vor der Pleite der Depotbank, nicht vor der Pleite des Unternehmens, dessen Anleihe oder Zertifikat der Kunde hält.",
+   "ergaenzt": true
+  },
+  {
    "id": "vr-k10",
    "titel": "LF12 · Altersvorsorge im Drei-Schichten-Modell",
    "ergaenzt": true,
@@ -713,6 +826,36 @@ window.ZUSAMMENFASSUNGEN.push(
     "thema": "vr-k13",
     "vorne": "Formel Unterversicherung?",
     "hinten": "Entschädigung = Schaden · Versicherungssumme : Versicherungswert."
+   },
+   {
+    "thema": "vr-k14",
+    "vorne": "Was ist ein Put?",
+    "hinten": "Eine Verkaufsoption: Recht, den Basiswert zum Basispreis zu verkaufen."
+   },
+   {
+    "thema": "vr-k14",
+    "vorne": "Höchster Verlust des Optionskäufers?",
+    "hinten": "Die gezahlte Prämie."
+   },
+   {
+    "thema": "vr-k14",
+    "vorne": "Unterschied Option und Future?",
+    "hinten": "Option: bedingtes Termingeschäft (Recht des Käufers). Future: unbedingtes Termingeschäft (Pflicht beider Seiten)."
+   },
+   {
+    "thema": "vr-k14",
+    "vorne": "Rechtsnatur eines Zertifikats?",
+    "hinten": "Inhaberschuldverschreibung, deshalb Emittentenrisiko."
+   },
+   {
+    "thema": "vr-k15",
+    "vorne": "Regelfall der Verwahrung in Deutschland?",
+    "hinten": "Girosammelverwahrung bei der Clearstream Banking AG, Miteigentum nach Bruchteilen (§ 5 DepotG)."
+   },
+   {
+    "thema": "vr-k15",
+    "vorne": "Was passiert mit dem Depot, wenn die Bank insolvent wird?",
+    "hinten": "Die Wertpapiere gehören dem Kunden, er kann sie aussondern (§ 47 InsO)."
    }
   ],
   "mc": [
@@ -871,6 +1014,32 @@ window.ZUSAMMENFASSUNGEN.push(
     ],
     "richtig": 1,
     "erklaerung": "Haftpflichtschäden können existenzbedrohend sein, die Haftung ist unbegrenzt."
+   },
+   {
+    "thema": "vr-k14",
+    "operator": "Beurteilen",
+    "frage": "Ein Kunde besitzt Aktien und befürchtet fallende Kurse, will die Aktien aber behalten. Welches Geschäft passt?",
+    "optionen": [
+     "Kauf eines Calls",
+     "Kauf eines Puts",
+     "Verkauf eines Puts",
+     "Kauf eines Discountzertifikats"
+    ],
+    "richtig": 1,
+    "erklaerung": "Mit einem gekauften Put sichert er sich das Recht, zum Basispreis zu verkaufen. Fällt die Aktie, gleicht der Put den Verlust aus."
+   },
+   {
+    "thema": "vr-k15",
+    "operator": "Zuordnen",
+    "frage": "Welche Leistung ist umsatzsteuerpflichtig?",
+    "optionen": [
+     "Kontoführung",
+     "Kreditvergabe",
+     "Depotverwahrung",
+     "Überweisung"
+    ],
+    "richtig": 2,
+    "erklaerung": "Verwahrung und Verwaltung von Wertpapieren sind vom Steuerbefreiungstatbestand des § 4 Nr. 8e UStG ausgenommen."
    }
   ],
   "rechnen": [
@@ -878,7 +1047,7 @@ window.ZUSAMMENFASSUNGEN.push(
     "thema": "vr-k1",
     "operator": "Ermitteln",
     "frage": "Festgeld 18.000 € für 120 Tage zu 2,4 % p. a., act/360. Ermitteln Sie die Zinsen.",
-    "ergebnis": 144.0,
+    "ergebnis": 144,
     "einheit": "€",
     "toleranz": 0.02,
     "ergaenzt": true,
@@ -908,7 +1077,7 @@ window.ZUSAMMENFASSUNGEN.push(
     "thema": "vr-k5",
     "operator": "Ermitteln",
     "frage": "Kauf von 20.000 € Nennwert einer 2,5 %-Anleihe zu 101,20 %. 73 Zinstage, Zinsjahr 365 Tage. Ermitteln Sie Kurswert plus Stückzinsen (ohne Spesen).",
-    "ergebnis": 20340.0,
+    "ergebnis": 20340,
     "einheit": "€",
     "toleranz": 0.02,
     "ergaenzt": true,
@@ -948,7 +1117,7 @@ window.ZUSAMMENFASSUNGEN.push(
     "thema": "vr-k11",
     "operator": "Ermitteln",
     "frage": "Vorjahresbrutto 62.000 €, zwei Kinder (geboren 2012 und 2016). Ermitteln Sie den Riester-Mindesteigenbeitrag im Jahr.",
-    "ergebnis": 1325.0,
+    "ergebnis": 1325,
     "einheit": "€",
     "toleranz": 0.02,
     "ergaenzt": true,
@@ -968,11 +1137,41 @@ window.ZUSAMMENFASSUNGEN.push(
     "thema": "vr-k13",
     "operator": "Ermitteln",
     "frage": "Hausrat: Versicherungssumme 52.000 €, Versicherungswert 65.000 €, Schaden 7.500 €, kein Unterversicherungsverzicht. Ermitteln Sie die Entschädigung.",
-    "ergebnis": 6000.0,
+    "ergebnis": 6000,
     "einheit": "€",
     "toleranz": 0.02,
     "ergaenzt": true,
     "weg": "7.500 · 52.000 : 65.000 = 6.000,00 €."
+   },
+   {
+    "thema": "vr-k14",
+    "operator": "Ermitteln",
+    "frage": "Ein Kunde kauft Puts auf 200 Aktien, Basispreis 50 €, Prämie 3 € je Aktie. Am Fälligkeitstag steht die Aktie bei 44 €. Ermitteln Sie seinen Gewinn.",
+    "ergebnis": 600,
+    "einheit": "€",
+    "toleranz": 0.5,
+    "ergaenzt": true,
+    "weg": "Innerer Wert 50 − 44 = 6 € je Aktie. Minus Prämie 3 € = 3 € Gewinn je Aktie. 3 · 200 = 600 €."
+   },
+   {
+    "thema": "vr-k14",
+    "operator": "Ermitteln",
+    "frage": "Discountzertifikat: Kaufpreis 42 €, Cap 50 €. Ermitteln Sie den Höchstertrag in Prozent (2 Nachkommastellen).",
+    "ergebnis": 19.05,
+    "einheit": "%",
+    "toleranz": 0.01,
+    "ergaenzt": true,
+    "weg": "Höchster Rückzahlungsbetrag = Cap 50 €. (50 − 42) : 42 · 100 = 19,05 %."
+   },
+   {
+    "thema": "vr-k15",
+    "operator": "Ermitteln",
+    "frage": "Kurswert im Depot 65.000 €, Depotentgelt 0,12 % im Jahr zuzüglich 19 % Umsatzsteuer. Ermitteln Sie die Belastung.",
+    "ergebnis": 92.82,
+    "einheit": "€",
+    "toleranz": 0.01,
+    "ergaenzt": true,
+    "weg": "65.000 · 0,12 % = 78,00 €. Umsatzsteuer 19 % = 14,82 €. Belastung 92,82 €."
    }
   ],
   "frei": [
@@ -1017,6 +1216,12 @@ window.ZUSAMMENFASSUNGEN.push(
     "operator": "Begründen",
     "frage": "Begründen Sie, warum eine Familie mit Baufinanzierung eine Risikolebensversicherung abschließen sollte.",
     "loesung": "Stirbt ein Hauptverdiener, fehlt sein Einkommen für die Kreditraten. Die Risikolebensversicherung zahlt dann die vereinbarte Summe aus, mit der der Kredit getilgt oder deutlich reduziert werden kann. So können die Hinterbliebenen das Haus behalten. Weil es keinen Sparanteil gibt, ist der Beitrag niedrig."
+   },
+   {
+    "thema": "vr-k14",
+    "operator": "Erläutern",
+    "frage": "Erläutern Sie einem Kunden die Hebelwirkung eines Optionsscheins.",
+    "loesung": "Der Optionsschein kostet nur einen Bruchteil des Aktienkurses. Steigt die Aktie, steigt der Wert des Optionsscheins prozentual deutlich stärker, zum Beispiel Aktie + 10 %, Optionsschein + 40 %. Der Hebel wirkt aber auch nach unten: Fällt die Aktie oder bewegt sie sich nicht, verliert der Schein stark an Wert und kann bei Fälligkeit wertlos verfallen. Dazu kommt das Emittentenrisiko."
    }
   ]
  }
@@ -1031,7 +1236,7 @@ window.ZUSAMMENFASSUNGEN.push(
   13
  ],
  "titel": "Finanzierungsvorhaben begleiten, LF09 und LF13 in einem",
- "quelle": "Alles Ergänzt (Gesetze und Lehrbuchwissen), bis die Mitschriften abgeglichen sind. Stand 09.11.2026: Grunderwerbsteuer Sachsen 5,5 % (seit 2023). Notar/Grundbuch 2 % und Makler 3,57 % sind Faustwerte. Beleihungsgrenze 60 % ist der übliche Wert (PfandBG), die Sparkasse kann eigene Grundsätze haben. Keine KfW- oder SAB-Beträge eingetragen, weil sie oft wechseln.",
+ "quelle": "Alles Ergänzt (Gesetze und Lehrbuchwissen), bis die Mitschriften abgeglichen sind. Stand 09.11.2026: Grunderwerbsteuer Sachsen 5,5 % (seit 2023). Notar/Grundbuch 2 % und Makler 3,57 % sind Faustwerte. Beleihungsgrenze 60 % ist der übliche Wert (PfandBG), die Sparkasse kann eigene Grundsätze haben. Keine KfW- oder SAB-Beträge eingetragen, weil sie oft wechseln. Ergänzt am 11.11.2026 nach dem sächsischen Lehrplan Bankkaufleute (2020): LF09 · Erbbaurecht, Wohnungseigentum und Kapitaldienstfähigkeit.",
  "kapitel": [
   {
    "id": "fv-k0",
@@ -1285,6 +1490,60 @@ window.ZUSAMMENFASSUNGEN.push(
    "merksatz": "Merkblatt, Prüfung, Bedenkzeit, Widerruf.",
    "tipp": "Operator „Beurteilen“ der Tragbarkeit: freie Mittel ermitteln, mit der Rate vergleichen, Reserve für Zinsänderung und Rücklagen nennen, Fazit.",
    "achtung": "Steigende Immobilienpreise ersetzen nicht die Kreditwürdigkeit. Die Bank darf nicht allein auf die Erwartung bauen, dass das Haus mehr wert wird."
+  },
+  {
+   "id": "fv-k11",
+   "titel": "LF09 · Erbbaurecht, Wohnungseigentum und Kapitaldienstfähigkeit",
+   "erklaert": "Wer ein Haus auf fremdem Grund baut, nutzt oft ein Erbbaurecht. Das ist ein grundstücksgleiches Recht: Es bekommt ein eigenes Erbbaugrundbuch, kann verkauft, vererbt und mit einer Grundschuld belastet werden (Erbbaurechtsgesetz). Der Erbbauberechtigte zahlt dem Grundstückseigentümer einen Erbbauzins, meist über 60 bis 99 Jahre. Bei einer Eigentumswohnung erwirbt der Kunde Sondereigentum an der Wohnung und einen Miteigentumsanteil am Grundstück, eingetragen im Wohnungsgrundbuch (Wohnungseigentumsgesetz). Vor jeder Baufinanzierung prüft die Bank die Kapitaldienstfähigkeit: Reicht das Einkommen nach allen Ausgaben dauerhaft für Zins und Tilgung?",
+   "beispiel": "Familie Hoffmann: Nettoeinkommen 4.600 € im Monat. Lebenshaltung 1.850 €, Bewirtschaftungskosten des Hauses 380 €, Auto und Versicherungen 420 €. Bleiben 1.950 €. Das Haus steht auf Erbbaugrund, Erbbauzins 4 % von 80.000 € = 3.200 € im Jahr, also 266,67 € im Monat. Bleiben 1.683,33 €. Darlehen 260.000 € mit 3,6 % Zins und 2 % Tilgung: 14.560 € im Jahr = 1.213,33 € im Monat. Überschuss 470,00 €: Die Familie ist kapitaldienstfähig.",
+   "tabelle": {
+    "kopf": [
+     "Begriff",
+     "Bedeutung",
+     "Grundlage"
+    ],
+    "zeilen": [
+     [
+      "Erbbaurecht",
+      "veräußerliches, vererbliches Recht, auf fremdem Grund ein Bauwerk zu haben",
+      "§ 1 ErbbauRG"
+     ],
+     [
+      "Erbbaugrundbuch",
+      "eigenes Grundbuchblatt für das Erbbaurecht",
+      "§ 14 ErbbauRG"
+     ],
+     [
+      "Zustimmungsvorbehalt",
+      "Belastung mit Grundschuld braucht oft Zustimmung des Eigentümers",
+      "§ 5 ErbbauRG"
+     ],
+     [
+      "Heimfall",
+      "Erbbaurecht fällt bei Vertragsverstößen an den Eigentümer zurück",
+      "§ 2 ErbbauRG"
+     ],
+     [
+      "Wohnungseigentum",
+      "Sondereigentum an der Wohnung + Miteigentumsanteil am Gemeinschaftseigentum",
+      "§ 1 WEG"
+     ],
+     [
+      "Kapitaldienstfähigkeit",
+      "frei verfügbares Einkommen ≥ Zins + Tilgung",
+      "Haushaltsrechnung"
+     ],
+     [
+      "Kapitaldienst im Jahr",
+      "Darlehen · (Sollzins + anfängliche Tilgung)",
+      "Annuitätendarlehen"
+     ]
+    ]
+   },
+   "merksatz": "Einkommen − Ausgaben − Erbbauzins − Kapitaldienst muss **positiv** bleiben.",
+   "tipp": "Operator „Beurteilen“ zur Kapitaldienstfähigkeit: Rechnung zeigen, Überschuss nennen und dann bewerten (Reserve für Zinserhöhung nach Ende der Zinsbindung, Kinder, Arbeitsplatz).",
+   "achtung": "Die Restlaufzeit des Erbbaurechts muss deutlich länger sein als die Tilgungszeit des Darlehens. Und der Erbbauzins gehört in die Haushaltsrechnung, er wird gern vergessen.",
+   "ergaenzt": true
   },
   {
    "id": "fv-k7",
@@ -1579,6 +1838,21 @@ window.ZUSAMMENFASSUNGEN.push(
     "thema": "fv-k10",
     "vorne": "Welches Recht gibt Sicherungseigentum in der Insolvenz?",
     "hinten": "Absonderung."
+   },
+   {
+    "thema": "fv-k11",
+    "vorne": "Was ist ein Erbbaurecht?",
+    "hinten": "Ein grundstücksgleiches, veräußerliches und vererbliches Recht, auf fremdem Grund ein Bauwerk zu haben; eigenes Erbbaugrundbuch."
+   },
+   {
+    "thema": "fv-k11",
+    "vorne": "Woraus besteht Wohnungseigentum?",
+    "hinten": "Sondereigentum an der Wohnung und Miteigentumsanteil am Gemeinschaftseigentum (§ 1 WEG)."
+   },
+   {
+    "thema": "fv-k11",
+    "vorne": "Wann ist ein Kunde kapitaldienstfähig?",
+    "hinten": "Wenn sein frei verfügbares Einkommen dauerhaft für Zins und Tilgung reicht."
    }
   ],
   "mc": [
@@ -1711,6 +1985,19 @@ window.ZUSAMMENFASSUNGEN.push(
     ],
     "richtig": 1,
     "erklaerung": "Die Ware gehört ihm, sie fällt nicht in die Masse: Aussonderung."
+   },
+   {
+    "thema": "fv-k11",
+    "operator": "Beurteilen",
+    "frage": "Ein Kunde will ein Haus auf Erbbaugrund finanzieren. Das Erbbaurecht läuft noch 25 Jahre, die Tilgung dauert 30 Jahre. Wie beurteilen Sie das?",
+    "optionen": [
+     "Unproblematisch, das Haus bleibt Sicherheit",
+     "Problematisch, die Sicherheit endet vor der vollständigen Tilgung",
+     "Unproblematisch, wenn der Erbbauzins niedrig ist",
+     "Problematisch, weil Erbbaurechte nicht beleihbar sind"
+    ],
+    "richtig": 1,
+    "erklaerung": "Erbbaurechte sind beleihbar, aber die Restlaufzeit muss die Tilgungszeit deutlich übersteigen. Sonst endet die Sicherheit, bevor der Kredit zurückgezahlt ist."
    }
   ],
   "rechnen": [
@@ -1718,7 +2005,7 @@ window.ZUSAMMENFASSUNGEN.push(
     "thema": "fv-k1",
     "operator": "Ermitteln",
     "frage": "Kaufpreis 280.000 €, Grunderwerbsteuer 5,5 %, Notar und Grundbuch 2 %, Makler 3,57 %, Eigenkapital 60.000 €. Ermitteln Sie den Darlehensbedarf.",
-    "ergebnis": 250996.0,
+    "ergebnis": 250996,
     "einheit": "€",
     "toleranz": 0.02,
     "ergaenzt": true,
@@ -1728,7 +2015,7 @@ window.ZUSAMMENFASSUNGEN.push(
     "thema": "fv-k2",
     "operator": "Ermitteln",
     "frage": "Beleihungswert 290.000 €, Beleihungsgrenze 60 %, Darlehen 230.000 €. Ermitteln Sie den nachrangigen Teil.",
-    "ergebnis": 56000.0,
+    "ergebnis": 56000,
     "einheit": "€",
     "toleranz": 0.02,
     "ergaenzt": true,
@@ -1738,7 +2025,7 @@ window.ZUSAMMENFASSUNGEN.push(
     "thema": "fv-k4",
     "operator": "Ermitteln",
     "frage": "Darlehen 200.000 €, Sollzins 3,5 %, anfängliche Tilgung 2,5 %, jährliche Zahlung. Ermitteln Sie die Restschuld nach dem 2. Jahr.",
-    "ergebnis": 189825.0,
+    "ergebnis": 189825,
     "einheit": "€",
     "toleranz": 0.02,
     "ergaenzt": true,
@@ -1758,7 +2045,7 @@ window.ZUSAMMENFASSUNGEN.push(
     "thema": "fv-k6",
     "operator": "Ermitteln",
     "frage": "Nettoeinkommen 4.200 €, Lebenshaltung 1.900 €, Bewirtschaftung 300 €, Sonstiges 350 €. Rate 1.400 €. Ermitteln Sie die monatliche Reserve.",
-    "ergebnis": 250.0,
+    "ergebnis": 250,
     "einheit": "€",
     "toleranz": 0.02,
     "ergaenzt": true,
@@ -1768,7 +2055,7 @@ window.ZUSAMMENFASSUNGEN.push(
     "thema": "fv-k7",
     "operator": "Ermitteln",
     "frage": "Anlagevermögen 500.000 €, Eigenkapital 180.000 €, langfristiges Fremdkapital 270.000 €. Ermitteln Sie die Anlagendeckung II.",
-    "ergebnis": 90.0,
+    "ergebnis": 90,
     "einheit": "%",
     "toleranz": 0.02,
     "ergaenzt": true,
@@ -1778,7 +2065,7 @@ window.ZUSAMMENFASSUNGEN.push(
     "thema": "fv-k7",
     "operator": "Ermitteln",
     "frage": "Flüssige Mittel 30.000 €, Forderungen 90.000 €, Vorräte 80.000 €, kurzfristiges Fremdkapital 150.000 €. Ermitteln Sie die Liquidität 2. Grades.",
-    "ergebnis": 80.0,
+    "ergebnis": 80,
     "einheit": "%",
     "toleranz": 0.02,
     "ergaenzt": true,
@@ -1788,7 +2075,7 @@ window.ZUSAMMENFASSUNGEN.push(
     "thema": "fv-k8",
     "operator": "Ermitteln",
     "frage": "Abzahlungsdarlehen 120.000 €, Laufzeit 5 Jahre, Sollzins 4,5 %, jährliche Zahlung. Ermitteln Sie die Rate im 2. Jahr.",
-    "ergebnis": 28320.0,
+    "ergebnis": 28320,
     "einheit": "€",
     "toleranz": 0.02,
     "ergaenzt": true,
@@ -1798,11 +2085,21 @@ window.ZUSAMMENFASSUNGEN.push(
     "thema": "fv-k8",
     "operator": "Ermitteln",
     "frage": "2 % Skonto innerhalb 14 Tagen, Zahlungsziel 30 Tage. Ermitteln Sie den Jahreszins nach der Faustformel.",
-    "ergebnis": 45.0,
+    "ergebnis": 45,
     "einheit": "%",
     "toleranz": 0.02,
     "ergaenzt": true,
     "weg": "2 · 360 : (30 − 14) = 720 : 16 = 45 %."
+   },
+   {
+    "thema": "fv-k11",
+    "operator": "Ermitteln",
+    "frage": "Nettoeinkommen 3.900 € im Monat, Lebenshaltung 1.500 €, Bewirtschaftungskosten 320 €, sonstige Verpflichtungen 280 €. Darlehen 200.000 € mit 3,8 % Sollzins und 1,5 % anfänglicher Tilgung. Ermitteln Sie den monatlichen Überschuss nach Kapitaldienst.",
+    "ergebnis": 916.67,
+    "einheit": "€",
+    "toleranz": 0.02,
+    "ergaenzt": true,
+    "weg": "Frei verfügbar: 3.900 − 1.500 − 320 − 280 = 1.800 €. Kapitaldienst 200.000 · 5,3 % = 10.600 € im Jahr = 883,33 € im Monat. Überschuss 1.800 − 883,33 = 916,67 €."
    }
   ],
   "frei": [
@@ -1841,6 +2138,12 @@ window.ZUSAMMENFASSUNGEN.push(
     "operator": "Nennen",
     "frage": "Nennen Sie vier Frühwarnzeichen für einen Problemkredit.",
     "loesung": "Dauerhafte Überziehung der Kreditlinie, Lastschrift- und Scheckrückgaben, verspätete oder ausbleibende Jahresabschlüsse, Umsatzrückgang auf dem Konto, Pfändungen, häufiger Wechsel von Steuerberater oder Hausbank, Zahlungsverzug bei Lieferanten (vier davon)."
+   },
+   {
+    "thema": "fv-k11",
+    "operator": "Erläutern",
+    "frage": "Erläutern Sie zwei Besonderheiten, die die Sparkasse bei der Finanzierung eines Hauses auf Erbbaugrund beachten muss.",
+    "loesung": "1. Restlaufzeit: Das Erbbaurecht muss deutlich länger laufen als das Darlehen getilgt wird, sonst fällt die Sicherheit weg. 2. Zustimmung: Für die Eintragung der Grundschuld im Erbbaugrundbuch ist oft die Zustimmung des Grundstückseigentümers nötig (§ 5 ErbbauRG). Außerdem: Der Erbbauzins belastet die Haushaltsrechnung, und beim Heimfall muss die Grundschuld bestehen bleiben bzw. abgesichert sein."
    }
   ]
  }
@@ -1855,7 +2158,7 @@ window.ZUSAMMENFASSUNGEN.push(
   11
  ],
  "titel": "Rechnungswesen und Steuerung, LF07 und LF11 in einem",
- "quelle": "Alles Ergänzt (HGB, EStG, CRR und Lehrbuchwissen), bis die Mitschriften abgeglichen sind. Kontenbezeichnungen (KKK usw.) wie in vielen Schulbüchern; die Namen aus deiner Mitschrift werden übernommen, sobald sie vorliegt. Stand 09.11.2026: GWG-Grenze 800 €, CRR-Mindestquoten. Antizyklischer Puffer und Systemrisikopuffer nicht eingetragen.",
+ "quelle": "Alles Ergänzt (HGB, EStG, CRR und Lehrbuchwissen), bis die Mitschriften abgeglichen sind. Kontenbezeichnungen (KKK usw.) wie in vielen Schulbüchern; die Namen aus deiner Mitschrift werden übernommen, sobald sie vorliegt. Stand 09.11.2026: GWG-Grenze 800 €, CRR-Mindestquoten. Antizyklischer Puffer und Systemrisikopuffer nicht eingetragen. Ergänzt am 11.11.2026 nach dem sächsischen Lehrplan Bankkaufleute (2020): LF07 · Grundsätze ordnungsmäßiger Buchführung und Aufbewahrung, LF07 · Anlagenabgang, GWG, Sammelposten und Umsatzsteuer. LF11 · Kosten- und Erlösrechnung: Abgrenzung und kalkulatorische Kosten, LF11 · Kostenarten und Deckungsbeitragsrechnung, LF11 · Gesamtbetriebskalkulation, LF11 · Investitionsentscheidungen.",
  "kapitel": [
   {
    "id": "ueb-k1",
@@ -1987,6 +2290,119 @@ window.ZUSAMMENFASSUNGEN.push(
    "achtung": "Einlagenzinsen sind für die Bank Aufwand, Kreditzinsen Ertrag. Wer das verwechselt, dreht die ganze Rechnung um."
   },
   {
+   "id": "ueb-k7",
+   "titel": "LF07 · Grundsätze ordnungsmäßiger Buchführung und Aufbewahrung",
+   "erklaert": "Jeder Kaufmann muss Bücher führen und darin seine Geschäfte nach den Grundsätzen ordnungsmäßiger Buchführung (GoB) sichtbar machen (§ 238 HGB). Ein sachverständiger Dritter muss sich in angemessener Zeit einen Überblick verschaffen können. Die Buchungen müssen vollständig, richtig, zeitgerecht und geordnet sein (§ 239 HGB). Es gilt: keine Buchung ohne Beleg. Das Grundbuch (Journal) erfasst alle Buchungen zeitlich geordnet, das Hauptbuch sachlich nach Konten. Nebenbücher erläutern einzelne Konten, bei Banken vor allem die Kundenkonten (Kontokorrent). Am Jahresende werden durch Inventur alle Vermögensteile und Schulden gezählt und bewertet. Das Ergebnis ist das Inventar, daraus entsteht die Bilanz.",
+   "beispiel": "Die Sparkasse stellt den Jahresabschluss 2026 im März 2027 auf. Die 10-Jahres-Frist beginnt mit Ablauf des Jahres 2027 und endet am 31.12.2037. Einen Geschäftsbrief vom März 2026 bewahrt sie 6 Jahre auf, bis 31.12.2032.",
+   "tabelle": {
+    "kopf": [
+     "Unterlage",
+     "Aufbewahrung",
+     "Fundstelle"
+    ],
+    "zeilen": [
+     [
+      "Bücher, Inventare, Jahresabschlüsse, Lageberichte, Eröffnungsbilanz",
+      "10 Jahre",
+      "§ 257 HGB, § 147 AO"
+     ],
+     [
+      "Buchungsbelege (Rechnungen, Kontoauszüge, Quittungen)",
+      "8 Jahre (seit 2025; für Kreditinstitute erst ab 2026)",
+      "§ 257 HGB, § 147 AO"
+     ],
+     [
+      "empfangene und abgesandte Handels- und Geschäftsbriefe",
+      "6 Jahre",
+      "§ 257 HGB, § 147 AO"
+     ],
+     [
+      "Beginn der Frist",
+      "Ende des Kalenderjahres, in dem die Unterlage entstanden ist",
+      "§ 257 Abs. 5 HGB"
+     ],
+     [
+      "Grundbuch (Journal)",
+      "zeitliche Ordnung aller Buchungen",
+      "GoB"
+     ],
+     [
+      "Hauptbuch",
+      "sachliche Ordnung nach Konten",
+      "GoB"
+     ],
+     [
+      "Inventur → Inventar → Bilanz",
+      "zählen, auflisten, kurz gegenüberstellen",
+      "§§ 240, 242 HGB"
+     ]
+    ]
+   },
+   "merksatz": "**Keine Buchung ohne Beleg**, und Belege 8, Bücher 10, Briefe 6 Jahre.",
+   "tipp": "Operator „Nennen“ zu den GoB: vollständig, richtig, zeitgerecht, geordnet, nachprüfbar, Belegprinzip. Vier davon reichen meist für die volle Punktzahl.",
+   "achtung": "Die Belegfrist wurde durch das Bürokratieentlastungsgesetz IV von 10 auf 8 Jahre verkürzt, für Banken mit einem Jahr Verzögerung. In älteren Büchern stehen noch 10 Jahre. Gleiche den Stand mit deinem Unterricht ab, Quelle: § 147 AO.",
+   "ergaenzt": true
+  },
+  {
+   "id": "ueb-k8",
+   "titel": "LF07 · Anlagenabgang, GWG, Sammelposten und Umsatzsteuer",
+   "erklaert": "Verkauft die Bank ein Anlagegut, wird zuerst die Abschreibung bis zum Verkaufsmonat gebucht. Dann wird der Restbuchwert ausgebucht. Liegt der Erlös über dem Buchwert, entsteht ein Ertrag aus Anlagenabgang, liegt er darunter, ein Aufwand. Kleine Anschaffungen bis 250 € netto dürfen sofort als Aufwand gebucht werden. Geringwertige Wirtschaftsgüter von 250,01 bis 800 € netto dürfen sofort abgeschrieben werden (§ 6 Abs. 2 EStG). Alternativ kommen alle Güter von 250,01 bis 1.000 € netto eines Jahres in einen Sammelposten, der 5 Jahre lang mit je 20 % aufgelöst wird (§ 6 Abs. 2a EStG). Umsatzsteuer: Die meisten Bankumsätze (Kredite, Einlagen, Zahlungsverkehr, Wertpapierhandel) sind steuerfrei (§ 4 Nr. 8 UStG). Deshalb darf die Bank meist keine Vorsteuer abziehen, die Umsatzsteuer gehört dann zu den Anschaffungskosten. Steuerpflichtig sind z. B. Depotverwahrung, Vermögensverwaltung und Schließfachmiete.",
+   "beispiel": "Dienstwagen, gekauft am 01.07.2023 für 36.000 € (ohne Vorsteuerabzug), Nutzungsdauer 6 Jahre, also 6.000 € Abschreibung im Jahr. Buchwert 31.12.2025: 36.000 − 3.000 − 6.000 − 6.000 = 21.000 €. Verkauf am 31.03.2026 für 21.000 €. Abschreibung Januar bis März: 1.500 €, Restbuchwert 19.500 €. Buchungen: Abschreibungen 1.500 € an Geschäftsausstattung 1.500 €; KKK 21.000 € an Geschäftsausstattung 19.500 € und Erträge aus Anlagenabgang 1.500 €.",
+   "tabelle": {
+    "kopf": [
+     "Fall",
+     "Behandlung",
+     "Fundstelle"
+    ],
+    "zeilen": [
+     [
+      "Anschaffung bis 250 € netto",
+      "sofort Aufwand",
+      "§ 6 Abs. 2a EStG"
+     ],
+     [
+      "250,01 bis 800 € netto",
+      "GWG: Sofortabschreibung (Wahlrecht)",
+      "§ 6 Abs. 2 EStG"
+     ],
+     [
+      "250,01 bis 1.000 € netto",
+      "oder Sammelposten, 5 Jahre je 20 %, für alle Güter des Jahres einheitlich",
+      "§ 6 Abs. 2a EStG"
+     ],
+     [
+      "Grenzwerte",
+      "immer netto prüfen, auch wenn die Bank keine Vorsteuer abzieht",
+      "R 9b EStR"
+     ],
+     [
+      "Verkauf über Buchwert",
+      "Ertrag aus Anlagenabgang",
+      "HGB"
+     ],
+     [
+      "Verkauf unter Buchwert",
+      "Aufwand aus Anlagenabgang",
+      "HGB"
+     ],
+     [
+      "Bankumsätze (Kredit, Einlagen, Zahlungsverkehr)",
+      "umsatzsteuerfrei, kein Vorsteuerabzug",
+      "§ 4 Nr. 8, § 15 Abs. 2 UStG"
+     ],
+     [
+      "Depotverwahrung, Vermögensverwaltung, Schließfach",
+      "umsatzsteuerpflichtig, 19 %",
+      "§ 4 Nr. 8e UStG (Ausnahme)"
+     ]
+    ]
+   },
+   "merksatz": "Erst **abschreiben bis zum Abgang**, dann Buchwert gegen Erlös stellen.",
+   "tipp": "Operator „Ermitteln“ beim Anlagenabgang: Abschreibung bis Verkaufsmonat, Restbuchwert, Differenz zum Erlös, Ertrag oder Aufwand benennen.",
+   "achtung": "Bei der GWG-Grenze zählt immer der Nettobetrag. Ein Stuhl für 940 € brutto (790 € netto) ist ein GWG, auch wenn die Bank 940 € als Anschaffungskosten bucht.",
+   "ergaenzt": true
+  },
+  {
    "id": "ueb-k4",
    "titel": "LF11 · Marktzinsmethode",
    "ergaenzt": true,
@@ -2102,6 +2518,213 @@ window.ZUSAMMENFASSUNGEN.push(
    "merksatz": "4,5 hart, 6 Kern, 8 gesamt, plus 2,5 Puffer.",
    "tipp": "Operator „Erläutern“ zur CIR: Formel, Bedeutung (Kosten je Euro Ertrag) und eine Maßnahme zur Verbesserung (Kosten senken oder Erträge steigern).",
    "achtung": "Weitere Puffer (antizyklischer Puffer, Systemrisikopuffer) setzt die Aufsicht fest. Ihre Höhe wechselt; im Unterricht nachfragen, welche Werte geprüft werden."
+  },
+  {
+   "id": "ueb-k9",
+   "titel": "LF11 · Kosten- und Erlösrechnung: Abgrenzung und kalkulatorische Kosten",
+   "erklaert": "Die Finanzbuchhaltung (Rechnungskreis I) zeigt Aufwand und Ertrag für die GuV, nach HGB und Steuerrecht. Die Kosten- und Erlösrechnung (Rechnungskreis II) zeigt nur, was der Betrieb für seine eigentliche Leistung verbraucht und verdient. Deshalb wird abgegrenzt: Neutraler Aufwand ist betriebsfremd (Spende), periodenfremd (Nachzahlung für das Vorjahr) oder außerordentlich (Brandschaden) und zählt nicht als Kosten. Aufwand, der gleichzeitig Kosten ist, heißt Grundkosten. Kalkulatorische Kosten setzt die Bank selbst an: Anderskosten ersetzen einen Aufwand durch einen anderen Wert (kalkulatorische Abschreibung vom Wiederbeschaffungswert, kalkulatorische Risikokosten statt tatsächlicher Ausfälle). Zusatzkosten haben gar keinen Aufwand dahinter (kalkulatorische Miete für eigene Räume, kalkulatorische Eigenkapitalzinsen). Bei Erträgen gilt dasselbe: Zweckertrag ist Erlös, neutraler Ertrag (z. B. Gewinn aus Grundstücksverkauf) nicht. Bankbetriebe trennen außerdem den Wertbereich (Zinsen, Risiko, Liquidität) vom Betriebsbereich (Personal, Sachkosten, Provisionen).",
+   "beispiel": "Aus der GuV einer Sparkasse: Personalaufwand 2.400.000 €, Sachaufwand 900.000 €, bilanzielle Abschreibung 180.000 €, Spende an den Sportverein 10.000 €, Mietnachzahlung für das Vorjahr 6.000 €. Kalkulatorisch setzt sie 210.000 € Abschreibung vom Wiederbeschaffungswert und 120.000 € Miete für das eigene Hauptgebäude an. Kosten: 2.400.000 + 900.000 (Grundkosten) + 210.000 (Anderskosten) + 120.000 (Zusatzkosten) = 3.630.000 €. Neutral bleiben 16.000 €.",
+   "tabelle": {
+    "kopf": [
+     "Begriff",
+     "Bedeutung",
+     "Beispiel"
+    ],
+    "zeilen": [
+     [
+      "Grundkosten (Zweckaufwand)",
+      "Aufwand = Kosten, gleicher Betrag",
+      "Gehälter, Sachkosten der Filialen"
+     ],
+     [
+      "neutraler Aufwand",
+      "Aufwand, aber keine Kosten",
+      "Spende, Nachzahlung Vorjahr, Brandschaden"
+     ],
+     [
+      "Anderskosten",
+      "Kosten mit anderem Wert als der Aufwand",
+      "kalkulatorische Abschreibung, kalkulatorische Risikokosten"
+     ],
+     [
+      "Zusatzkosten",
+      "Kosten ohne Aufwand",
+      "kalkulatorische Miete eigener Räume, kalkulatorische Eigenkapitalzinsen"
+     ],
+     [
+      "Zweckertrag = Erlös",
+      "Ertrag aus der Banktätigkeit",
+      "Zinserträge, Provisionen"
+     ],
+     [
+      "neutraler Ertrag",
+      "Ertrag, aber kein Erlös",
+      "Gewinn aus Verkauf eines Grundstücks"
+     ],
+     [
+      "Wertbereich",
+      "liquiditätsmäßig-finanzieller Bereich",
+      "Zinsergebnis, Risikokosten"
+     ],
+     [
+      "Betriebsbereich",
+      "technisch-organisatorischer Bereich",
+      "Personal- und Sachkosten, Provisionserlöse"
+     ]
+    ]
+   },
+   "merksatz": "**Anders**kosten haben einen anderen Betrag, **Zusatz**kosten gar keinen Aufwand.",
+   "tipp": "Operator „Zuordnen“: Frage dich bei jedem Posten zuerst, ob er betriebsbedingt und periodengerecht ist. Nur dann ist er Kosten.",
+   "achtung": "Die bilanzielle Abschreibung wird in der Kostenrechnung durch die kalkulatorische ersetzt, nicht zusätzlich gerechnet. Sonst zählst du doppelt.",
+   "ergaenzt": true
+  },
+  {
+   "id": "ueb-k10",
+   "titel": "LF11 · Kostenarten und Deckungsbeitragsrechnung",
+   "erklaert": "Fixe Kosten bleiben gleich, egal wie viele Leistungen die Bank erbringt (Miete, Gehälter, Abschreibung eines Geldautomaten). Variable Kosten steigen mit jeder Leistung (Porto je Kontoauszug, Bargeldtransport je Befüllung). Sprungfixe Kosten springen ab einer bestimmten Menge (zweiter Berater nötig). Je mehr Leistungen, desto weniger Fixkosten entfallen auf eine Leistung (Fixkostendegression). Einzelkosten lassen sich einem Produkt direkt zurechnen (Schufa-Entgelt für einen Kredit), Gemeinkosten nicht (Vorstand, Gebäude). Die Deckungsbeitragsrechnung zieht vom Erlös zuerst nur die zurechenbaren Kosten ab. Der Rest (Deckungsbeitrag) deckt die Fixkosten und bildet den Gewinn. In der Kundenkalkulation stuft die Bank: Konditionsbeiträge + Provisionen = DB I; minus Standardbetriebskosten = DB II; minus Standardrisikokosten = DB III.",
+   "beispiel": "Geldautomat: Fixkosten 36.000 € im Jahr, variable Kosten 0,15 € je Abhebung. Bei 120.000 Abhebungen: 36.000 + 18.000 = 54.000 €, also 0,45 € je Abhebung. Bei 180.000 Abhebungen: 63.000 €, nur noch 0,35 € je Abhebung. Fremdkunden zahlen 4,00 € je Abhebung, Deckungsbeitrag 3,85 €. Gewinnschwelle: 36.000 : 3,85 = 9.350,6, also ab 9.351 Fremdabhebungen sind die Fixkosten gedeckt (wenn nur Fremdkunden zahlen).",
+   "tabelle": {
+    "kopf": [
+     "Stufe der Kundenkalkulation",
+     "Familie Hoffmann"
+    ],
+    "zeilen": [
+     [
+      "Konditionsbeitrag Kredit",
+      "1.800 €"
+     ],
+     [
+      "+ Konditionsbeitrag Einlagen",
+      "600 €"
+     ],
+     [
+      "+ Provisionserlöse",
+      "400 €"
+     ],
+     [
+      "= Deckungsbeitrag I",
+      "2.800 €"
+     ],
+     [
+      "− Standardbetriebskosten",
+      "900 €"
+     ],
+     [
+      "= Deckungsbeitrag II",
+      "1.900 €"
+     ],
+     [
+      "− Standardrisikokosten",
+      "400 €"
+     ],
+     [
+      "= Deckungsbeitrag III",
+      "1.500 €"
+     ]
+    ]
+   },
+   "merksatz": "Deckungsbeitrag = Erlös − variable Kosten; Gewinnschwelle = Fixkosten : Deckungsbeitrag je Stück.",
+   "tipp": "Operator „Ermitteln“ bei der Gewinnschwelle: Deckungsbeitrag je Stück bilden, Fixkosten teilen, auf die nächste ganze Leistung aufrunden.",
+   "achtung": "Die Reihenfolge der DB-Stufen (erst Betriebs- oder erst Risikokosten) ist nicht in jedem Lehrbuch gleich. Nimm die Reihenfolge aus deinem Unterricht, das Ergebnis am Ende ist dasselbe.",
+   "ergaenzt": true
+  },
+  {
+   "id": "ueb-k11",
+   "titel": "LF11 · Gesamtbetriebskalkulation",
+   "erklaert": "Die Gesamtbetriebskalkulation betrachtet die ganze Bank auf einmal. Alle Ergebnisse werden in Prozent des durchschnittlichen Geschäftsvolumens ausgedrückt (Spannen), damit man Jahre und Institute vergleichen kann. Die Zinsspanne ist der Zinsüberschuss im Verhältnis zum Geschäftsvolumen. Die Provisionsspanne gilt entsprechend für den Provisionsüberschuss. Die Bruttobedarfsspanne zeigt die Verwaltungskosten (Personal und Sachkosten). Zieht man davon die Provisionsspanne ab, bleibt die Nettobedarfsspanne: der Teil der Kosten, den das Zinsgeschäft tragen muss. Zinsspanne minus Nettobedarfsspanne ergibt die Bruttogewinnspanne (Betriebsergebnis vor Bewertung). Nach Abzug der Risikospanne bleibt die Nettogewinnspanne.",
+   "beispiel": "Durchschnittliches Geschäftsvolumen 2.000 Mio. €. Zinsüberschuss 46 Mio. € = Zinsspanne 2,30 %. Provisionsüberschuss 16 Mio. € = 0,80 %. Personal- und Sachaufwand 40 Mio. € = Bruttobedarfsspanne 2,00 %. Nettobedarfsspanne 2,00 − 0,80 = 1,20 %. Bruttogewinnspanne 2,30 − 1,20 = 1,10 % (22 Mio. €). Bewertungsergebnis 5 Mio. € = 0,25 %. Nettogewinnspanne 0,85 % (17 Mio. €).",
+   "tabelle": {
+    "kopf": [
+     "Spanne",
+     "Formel",
+     "Beispiel"
+    ],
+    "zeilen": [
+     [
+      "Zinsspanne",
+      "Zinsüberschuss : Geschäftsvolumen · 100",
+      "2,30 %"
+     ],
+     [
+      "Provisionsspanne",
+      "Provisionsüberschuss : Geschäftsvolumen · 100",
+      "0,80 %"
+     ],
+     [
+      "Bruttobedarfsspanne",
+      "Verwaltungsaufwand : Geschäftsvolumen · 100",
+      "2,00 %"
+     ],
+     [
+      "Nettobedarfsspanne",
+      "Bruttobedarfsspanne − Provisionsspanne",
+      "1,20 %"
+     ],
+     [
+      "Bruttogewinnspanne",
+      "Zinsspanne − Nettobedarfsspanne",
+      "1,10 %"
+     ],
+     [
+      "Risikospanne",
+      "Bewertungsergebnis : Geschäftsvolumen · 100",
+      "0,25 %"
+     ],
+     [
+      "Nettogewinnspanne",
+      "Bruttogewinnspanne − Risikospanne",
+      "0,85 %"
+     ]
+    ]
+   },
+   "merksatz": "Zinsspanne − (Bedarfsspanne − Provisionsspanne) = Bruttogewinnspanne.",
+   "tipp": "Operator „Beurteilen“: Vergleiche die Spannen mit dem Vorjahr oder dem Durchschnitt der Sparkassen und nenne die Ursache (z. B. sinkende Zinsspanne bei hohem Wettbewerb).",
+   "achtung": "Spannen beziehen sich auf das durchschnittliche Geschäftsvolumen, nicht auf die Bilanzsumme am Stichtag. Lies in der Aufgabe genau, welche Bezugsgröße gegeben ist.",
+   "ergaenzt": true
+  },
+  {
+   "id": "ueb-k12",
+   "titel": "LF11 · Investitionsentscheidungen",
+   "erklaert": "Vor einer Investition (neuer Geldautomat, Software, Filialumbau) vergleicht die Bank die Alternativen mit statischen Verfahren. Die Kostenvergleichsrechnung stellt die Gesamtkosten gegenüber. Liegen die Fixkosten der einen und die variablen Kosten der anderen höher, gibt es eine kritische Menge, ab der sich die Alternative mit den höheren Fixkosten lohnt. Die Gewinnvergleichsrechnung bezieht zusätzlich die Erlöse ein. Die Rentabilitätsrechnung setzt den Gewinn ins Verhältnis zum durchschnittlich gebundenen Kapital (halbe Anschaffungskosten). Die Amortisationsrechnung zeigt, nach wie vielen Jahren das eingesetzte Geld über die Rückflüsse (Gewinn + Abschreibung) zurück ist.",
+   "beispiel": "SB-Terminal A: Fixkosten 18.000 € im Jahr, 0,12 € je Transaktion. Terminal B: 12.000 €, 0,27 €. Kritische Menge: 18.000 + 0,12 x = 12.000 + 0,27 x, also x = 6.000 : 0,15 = 40.000 Transaktionen. Erwartet die Filiale 50.000 Transaktionen, kostet A 24.000 €, B 25.500 €: A ist günstiger. A kostet 60.000 € (5 Jahre Nutzung, Abschreibung 12.000 € im Jahr) und bringt 9.000 € Gewinn im Jahr. Amortisation: 60.000 : (9.000 + 12.000) = 2,86 Jahre. Rentabilität: 9.000 : 30.000 · 100 = 30 %.",
+   "tabelle": {
+    "kopf": [
+     "Verfahren",
+     "Formel",
+     "Entscheidung"
+    ],
+    "zeilen": [
+     [
+      "Kostenvergleich",
+      "Fixkosten + variable Kosten · Menge",
+      "niedrigere Gesamtkosten"
+     ],
+     [
+      "kritische Menge",
+      "Differenz Fixkosten : Differenz variable Stückkosten",
+      "darüber lohnt die Alternative mit höheren Fixkosten"
+     ],
+     [
+      "Gewinnvergleich",
+      "Erlöse − Kosten",
+      "höherer Gewinn"
+     ],
+     [
+      "Rentabilität",
+      "Gewinn : (Anschaffungskosten : 2) · 100",
+      "höhere Rendite, über Mindestverzinsung"
+     ],
+     [
+      "Amortisationszeit",
+      "Anschaffungskosten : (Gewinn + Abschreibung)",
+      "kürzere Zeit, unter der Nutzungsdauer"
+     ]
+    ]
+   },
+   "merksatz": "Rückfluss = Gewinn + Abschreibung, weil die Abschreibung kein Geld kostet.",
+   "tipp": "Operator „Beurteilen“: Neben dem Rechenergebnis immer qualitative Gründe nennen, z. B. Kundenzufriedenheit, Ausfallsicherheit, Wartungsvertrag.",
+   "achtung": "Statische Verfahren rechnen mit Durchschnittswerten und ohne Zinseszins. Das ist eine Vereinfachung, im Unterricht reichen sie aber für die Prüfung.",
+   "ergaenzt": true
   }
  ],
  "uebung": {
@@ -2170,6 +2793,81 @@ window.ZUSAMMENFASSUNGEN.push(
     "thema": "ueb-k6",
     "vorne": "Mindest-Gesamtkapitalquote nach CRR?",
     "hinten": "8 % der risikogewichteten Aktiva."
+   },
+   {
+    "thema": "ueb-k7",
+    "vorne": "Aufbewahrungsfrist für Jahresabschlüsse?",
+    "hinten": "10 Jahre ab Ende des Kalenderjahres (§ 257 HGB, § 147 AO)."
+   },
+   {
+    "thema": "ueb-k7",
+    "vorne": "Unterschied Grundbuch und Hauptbuch?",
+    "hinten": "Grundbuch: zeitliche Ordnung aller Buchungen. Hauptbuch: sachliche Ordnung nach Konten."
+   },
+   {
+    "thema": "ueb-k7",
+    "vorne": "Inventur, Inventar, Bilanz?",
+    "hinten": "Inventur = Bestandsaufnahme, Inventar = ausführliches Verzeichnis, Bilanz = kurze Gegenüberstellung von Vermögen und Kapital."
+   },
+   {
+    "thema": "ueb-k8",
+    "vorne": "GWG-Grenze?",
+    "hinten": "250,01 bis 800 € netto, Sofortabschreibung möglich (§ 6 Abs. 2 EStG)."
+   },
+   {
+    "thema": "ueb-k8",
+    "vorne": "Sammelposten?",
+    "hinten": "Güter 250,01 bis 1.000 € netto, 5 Jahre je 20 % (§ 6 Abs. 2a EStG)."
+   },
+   {
+    "thema": "ueb-k8",
+    "vorne": "Warum kann eine Bank meist keine Vorsteuer abziehen?",
+    "hinten": "Ihre Umsätze sind überwiegend umsatzsteuerfrei (§ 4 Nr. 8 UStG), Vorsteuer ist dann ausgeschlossen (§ 15 Abs. 2 UStG)."
+   },
+   {
+    "thema": "ueb-k9",
+    "vorne": "Was sind Zusatzkosten? Beispiel?",
+    "hinten": "Kosten ohne Aufwand in der GuV, z. B. kalkulatorische Miete für eigene Räume, kalkulatorische Eigenkapitalzinsen."
+   },
+   {
+    "thema": "ueb-k9",
+    "vorne": "Was sind Anderskosten? Beispiel?",
+    "hinten": "Kosten in anderer Höhe als der Aufwand, z. B. kalkulatorische Abschreibung vom Wiederbeschaffungswert."
+   },
+   {
+    "thema": "ueb-k9",
+    "vorne": "Drei Arten neutralen Aufwands?",
+    "hinten": "betriebsfremd (Spende), periodenfremd (Nachzahlung Vorjahr), außerordentlich (Brandschaden)."
+   },
+   {
+    "thema": "ueb-k10",
+    "vorne": "Formel Gewinnschwelle (Break-even)?",
+    "hinten": "Fixkosten : Deckungsbeitrag je Stück (Erlös − variable Stückkosten)."
+   },
+   {
+    "thema": "ueb-k10",
+    "vorne": "Was ist Fixkostendegression?",
+    "hinten": "Mit steigender Menge sinken die fixen Kosten je Leistung."
+   },
+   {
+    "thema": "ueb-k11",
+    "vorne": "Formel Nettobedarfsspanne?",
+    "hinten": "Bruttobedarfsspanne − Provisionsspanne."
+   },
+   {
+    "thema": "ueb-k11",
+    "vorne": "Formel Bruttogewinnspanne?",
+    "hinten": "Zinsspanne − Nettobedarfsspanne (= Betriebsergebnis vor Bewertung in % des Geschäftsvolumens)."
+   },
+   {
+    "thema": "ueb-k12",
+    "vorne": "Formel Amortisationszeit?",
+    "hinten": "Anschaffungskosten : (Gewinn + Abschreibung) im Jahr."
+   },
+   {
+    "thema": "ueb-k12",
+    "vorne": "Formel kritische Menge?",
+    "hinten": "Differenz der Fixkosten : Differenz der variablen Stückkosten."
    }
   ],
   "mc": [
@@ -2224,6 +2922,71 @@ window.ZUSAMMENFASSUNGEN.push(
     ],
     "richtig": 1,
     "erklaerung": "Niedrigere CIR = weniger Aufwand je Euro Ertrag."
+   },
+   {
+    "thema": "ueb-k8",
+    "operator": "Beurteilen",
+    "frage": "Die Sparkasse verkauft einen Drucker mit Restbuchwert 400 € für 250 €. Was ist zu buchen?",
+    "optionen": [
+     "Ertrag aus Anlagenabgang 150 €",
+     "Aufwand aus Anlagenabgang 150 €",
+     "Abschreibung 250 €",
+     "Kein Erfolg, nur Bestandsbuchung"
+    ],
+    "richtig": 1,
+    "erklaerung": "Erlös unter Buchwert: Die Differenz von 150 € ist Aufwand aus Anlagenabgang."
+   },
+   {
+    "thema": "ueb-k7",
+    "operator": "Nennen",
+    "frage": "Was gehört nicht zu den Grundsätzen ordnungsmäßiger Buchführung?",
+    "optionen": [
+     "keine Buchung ohne Beleg",
+     "zeitgerechte Erfassung",
+     "Buchung nur am Jahresende",
+     "Nachprüfbarkeit durch Dritte"
+    ],
+    "richtig": 2,
+    "erklaerung": "Geschäftsvorfälle müssen zeitgerecht erfasst werden (§ 239 HGB), nicht gesammelt am Jahresende."
+   },
+   {
+    "thema": "ueb-k9",
+    "operator": "Zuordnen",
+    "frage": "Die Sparkasse spendet 5.000 € an einen Kindergarten. Wie ist das in der Kostenrechnung zu behandeln?",
+    "optionen": [
+     "Grundkosten",
+     "Anderskosten",
+     "neutraler Aufwand",
+     "Zusatzkosten"
+    ],
+    "richtig": 2,
+    "erklaerung": "Die Spende ist Aufwand in der GuV, hat aber nichts mit der Bankleistung zu tun (betriebsfremd), also neutraler Aufwand."
+   },
+   {
+    "thema": "ueb-k10",
+    "operator": "Zuordnen",
+    "frage": "Welche Kosten sind beim Geldautomaten variabel?",
+    "optionen": [
+     "Miete für den Standort",
+     "Abschreibung des Automaten",
+     "Kosten je Bargeldbefüllung und Transaktion",
+     "Wartungspauschale im Jahr"
+    ],
+    "richtig": 2,
+    "erklaerung": "Variabel sind Kosten, die mit der Menge steigen. Miete, Abschreibung und Wartungspauschale bleiben gleich."
+   },
+   {
+    "thema": "ueb-k11",
+    "operator": "Ermitteln",
+    "frage": "Zinsspanne 2,1 %, Bruttobedarfsspanne 1,9 %, Provisionsspanne 0,7 %. Wie hoch ist die Bruttogewinnspanne?",
+    "optionen": [
+     "0,2 %",
+     "0,9 %",
+     "1,2 %",
+     "2,8 %"
+    ],
+    "richtig": 1,
+    "erklaerung": "Nettobedarfsspanne 1,9 − 0,7 = 1,2 %. Bruttogewinnspanne 2,1 − 1,2 = 0,9 %."
    }
   ],
   "rechnen": [
@@ -2231,7 +2994,7 @@ window.ZUSAMMENFASSUNGEN.push(
     "thema": "ueb-k2",
     "operator": "Ermitteln",
     "frage": "Kauf eines Servers am 01.10. für 12.000 €, Nutzungsdauer 4 Jahre. Ermitteln Sie den Buchwert am 31.12. des ersten Jahres.",
-    "ergebnis": 11250.0,
+    "ergebnis": 11250,
     "einheit": "€",
     "toleranz": 0.02,
     "ergaenzt": true,
@@ -2241,7 +3004,7 @@ window.ZUSAMMENFASSUNGEN.push(
     "thema": "ueb-k2",
     "operator": "Ermitteln",
     "frage": "Forderung an einen Kunden 45.000 €, die Bank erwartet einen Ausfall von 40 %. Ermitteln Sie die Einzelwertberichtigung.",
-    "ergebnis": 18000.0,
+    "ergebnis": 18000,
     "einheit": "€",
     "toleranz": 0.02,
     "ergaenzt": true,
@@ -2251,7 +3014,7 @@ window.ZUSAMMENFASSUNGEN.push(
     "thema": "ueb-k4",
     "operator": "Ermitteln",
     "frage": "Kredit 80.000 € zu 6,1 %, GKM-Zins gleicher Laufzeit 3,6 %. Ermitteln Sie den Konditionsbeitrag.",
-    "ergebnis": 2000.0,
+    "ergebnis": 2000,
     "einheit": "€",
     "toleranz": 0.02,
     "ergaenzt": true,
@@ -2261,7 +3024,7 @@ window.ZUSAMMENFASSUNGEN.push(
     "thema": "ueb-k4",
     "operator": "Ermitteln",
     "frage": "Festgeld 60.000 € zu 2,1 %, GKM-Zins gleicher Laufzeit 2,7 %. Ermitteln Sie den Konditionsbeitrag Passiv.",
-    "ergebnis": 360.0,
+    "ergebnis": 360,
     "einheit": "€",
     "toleranz": 0.02,
     "ergaenzt": true,
@@ -2271,7 +3034,7 @@ window.ZUSAMMENFASSUNGEN.push(
     "thema": "ueb-k5",
     "operator": "Ermitteln",
     "frage": "Konditionsbeitrag 2.000 €, Standardrisikokosten 0,5 % von 80.000 €, Standardbetriebskosten 420 €. Ermitteln Sie die Nettomarge.",
-    "ergebnis": 1180.0,
+    "ergebnis": 1180,
     "einheit": "€",
     "toleranz": 0.02,
     "ergaenzt": true,
@@ -2281,7 +3044,7 @@ window.ZUSAMMENFASSUNGEN.push(
     "thema": "ueb-k6",
     "operator": "Ermitteln",
     "frage": "Verwaltungsaufwand 48 Mio. €, Zinsüberschuss 55 Mio. €, Provisionsüberschuss 25 Mio. €. Ermitteln Sie die CIR.",
-    "ergebnis": 60.0,
+    "ergebnis": 60,
     "einheit": "%",
     "toleranz": 0.02,
     "ergaenzt": true,
@@ -2291,11 +3054,81 @@ window.ZUSAMMENFASSUNGEN.push(
     "thema": "ueb-k6",
     "operator": "Ermitteln",
     "frage": "Risikogewichtete Aktiva 800 Mio. €. Wie viel Eigenmittel braucht die Bank mindestens inklusive Kapitalerhaltungspuffer (8 % + 2,5 %)?",
-    "ergebnis": 84.0,
+    "ergebnis": 84,
     "einheit": "Mio. €",
     "toleranz": 0.02,
     "ergaenzt": true,
     "weg": "800 · 10,5 % = 84 Mio. €."
+   },
+   {
+    "thema": "ueb-k8",
+    "operator": "Ermitteln",
+    "frage": "Ein Geldzählautomat wurde am 01.01.2024 für 12.000 € gekauft, Nutzungsdauer 8 Jahre. Er wird am 30.09.2026 für 7.000 € verkauft. Ermitteln Sie den Aufwand aus dem Anlagenabgang.",
+    "ergebnis": 875,
+    "einheit": "€",
+    "toleranz": 0.5,
+    "ergaenzt": true,
+    "weg": "Abschreibung 12.000 : 8 = 1.500 € im Jahr. 2024 und 2025: 3.000 €. 2026 Januar bis September: 1.500 · 9 : 12 = 1.125 €. Restbuchwert 12.000 − 3.000 − 1.125 = 7.875 €. Erlös 7.000 € liegt 875 € unter dem Restbuchwert 7.875 €: Aufwand aus Anlagenabgang 875 €."
+   },
+   {
+    "thema": "ueb-k8",
+    "operator": "Ermitteln",
+    "frage": "Die Sparkasse kauft im Jahr einen Schreibtisch für 1.071 € brutto (900 € netto, kein Vorsteuerabzug) und bildet einen Sammelposten. Wie hoch ist die jährliche Auflösung?",
+    "ergebnis": 214.2,
+    "einheit": "€",
+    "toleranz": 0.01,
+    "ergaenzt": true,
+    "weg": "900 € netto liegt zwischen 250,01 und 1.000 €, also Sammelposten. Anschaffungskosten ohne Vorsteuerabzug: 1.071 €. Auflösung 20 % = 214,20 € im Jahr."
+   },
+   {
+    "thema": "ueb-k9",
+    "operator": "Ermitteln",
+    "frage": "GuV: Personalaufwand 1.800.000 €, Sachaufwand 700.000 €, bilanzielle Abschreibung 150.000 €, Spende 4.000 €. Kalkulatorisch: Abschreibung 175.000 €, Miete eigenes Gebäude 90.000 €. Ermitteln Sie die Kosten.",
+    "ergebnis": 2765000,
+    "einheit": "€",
+    "toleranz": 1,
+    "ergaenzt": true,
+    "weg": "Grundkosten 1.800.000 + 700.000 = 2.500.000 €. Anderskosten statt bilanzieller Abschreibung: 175.000 €. Zusatzkosten Miete 90.000 €. Spende ist neutral. Kosten: 2.500.000 + 175.000 + 90.000 = 2.765.000 €."
+   },
+   {
+    "thema": "ueb-k10",
+    "operator": "Ermitteln",
+    "frage": "Ein Kontoauszugsdrucker hat 9.000 € Fixkosten im Jahr, variable Kosten 0,05 € je Auszug. Die Sparkasse berechnet Firmenkunden 0,50 € je Auszug. Ab wie vielen Auszügen sind die Fixkosten gedeckt?",
+    "ergebnis": 20000,
+    "einheit": "Auszüge",
+    "toleranz": 0,
+    "ergaenzt": true,
+    "weg": "Deckungsbeitrag je Auszug 0,50 − 0,05 = 0,45 €. Gewinnschwelle 9.000 : 0,45 = 20.000 Auszüge."
+   },
+   {
+    "thema": "ueb-k11",
+    "operator": "Ermitteln",
+    "frage": "Durchschnittliches Geschäftsvolumen 1.500 Mio. €, Zinsüberschuss 33 Mio. €, Provisionsüberschuss 12 Mio. €, Verwaltungsaufwand 30 Mio. €. Ermitteln Sie die Bruttogewinnspanne in Prozent.",
+    "ergebnis": 1,
+    "einheit": "%",
+    "toleranz": 0.005,
+    "ergaenzt": true,
+    "weg": "Zinsspanne 33 : 1.500 = 2,20 %. Provisionsspanne 0,80 %. Bruttobedarfsspanne 2,00 %. Nettobedarfsspanne 2,00 − 0,80 = 1,20 %. Bruttogewinnspanne 2,20 − 1,20 = 1,00 % (Probe: 33 + 12 − 30 = 15 Mio. € = 1,00 %)."
+   },
+   {
+    "thema": "ueb-k12",
+    "operator": "Ermitteln",
+    "frage": "Geldautomat X: Fixkosten 25.000 € im Jahr, 0,10 € je Abhebung. Geldautomat Y: Fixkosten 19.000 €, 0,25 € je Abhebung. Ermitteln Sie die kritische Menge.",
+    "ergebnis": 40000,
+    "einheit": "Abhebungen",
+    "toleranz": 0,
+    "ergaenzt": true,
+    "weg": "25.000 + 0,10 x = 19.000 + 0,25 x. 6.000 = 0,15 x. x = 40.000 Abhebungen. Darüber ist X günstiger."
+   },
+   {
+    "thema": "ueb-k12",
+    "operator": "Ermitteln",
+    "frage": "Eine Software kostet 48.000 €, Nutzungsdauer 4 Jahre (lineare Abschreibung), jährlicher Gewinn durch Einsparungen 6.000 €. Ermitteln Sie die Amortisationszeit in Jahren (2 Nachkommastellen).",
+    "ergebnis": 2.67,
+    "einheit": "Jahre",
+    "toleranz": 0.01,
+    "ergaenzt": true,
+    "weg": "Abschreibung 48.000 : 4 = 12.000 €. Rückfluss 6.000 + 12.000 = 18.000 € im Jahr. Amortisation 48.000 : 18.000 = 2,67 Jahre."
    }
   ],
   "frei": [
@@ -2316,6 +3149,24 @@ window.ZUSAMMENFASSUNGEN.push(
     "operator": "Erläutern",
     "frage": "Erläutern Sie zwei Maßnahmen, mit denen eine Sparkasse ihre Cost-Income-Ratio senken kann.",
     "loesung": "Kosten senken, zum Beispiel durch Digitalisierung von Prozessen oder Zusammenlegen von Filialen, sodass der Verwaltungsaufwand sinkt. Erträge steigern, zum Beispiel durch mehr Provisionsgeschäft (Wertpapiere, Versicherungsvermittlung) oder bessere Konditionen, sodass der Nenner wächst. Beides senkt den Aufwand je Euro Ertrag."
+   },
+   {
+    "thema": "ueb-k8",
+    "operator": "Erläutern",
+    "frage": "Erläutern Sie, warum bei einer Sparkasse die Umsatzsteuer meist zu den Anschaffungskosten gehört.",
+    "loesung": "Kredite, Einlagen und Zahlungsverkehr sind nach § 4 Nr. 8 UStG umsatzsteuerfrei. Wer steuerfreie Umsätze ausführt, darf die Vorsteuer aus Eingangsrechnungen dafür nicht abziehen (§ 15 Abs. 2 UStG). Die gezahlte Umsatzsteuer ist deshalb für die Sparkasse echter Aufwand und wird mit dem Anlagegut aktiviert und abgeschrieben. Nur für steuerpflichtige Umsätze wie Depotverwahrung oder Schließfachmiete ist anteilig Vorsteuerabzug möglich."
+   },
+   {
+    "thema": "ueb-k9",
+    "operator": "Erläutern",
+    "frage": "Erläutern Sie, warum die Sparkasse in der Kostenrechnung kalkulatorische Abschreibungen statt der bilanziellen ansetzt.",
+    "loesung": "Die bilanzielle Abschreibung folgt HGB und Steuerrecht und rechnet von den historischen Anschaffungskosten. Die Kostenrechnung soll den tatsächlichen Werteverzehr zeigen und die Wiederbeschaffung sichern. Deshalb wird vom (höheren) Wiederbeschaffungswert und über die betriebliche Nutzungsdauer abgeschrieben. So werden die Preise der Leistungen richtig kalkuliert und die Substanz erhalten."
+   },
+   {
+    "thema": "ueb-k12",
+    "operator": "Beurteilen",
+    "frage": "Beurteilen Sie, ob sich die Sparkasse nur nach der Kostenvergleichsrechnung für einen Geldautomaten entscheiden sollte.",
+    "loesung": "Die Kostenvergleichsrechnung zeigt nur die günstigere Alternative bei einer angenommenen Menge. Sie berücksichtigt keine Erlöse, keine Zinseffekte und keine qualitativen Punkte. Zusätzlich sollte die Sparkasse Erlöse (Fremdkundenentgelte), Amortisationszeit, Ausfallsicherheit, Service, Sicherheit gegen Sprengung und Kundenzufriedenheit einbeziehen. Fazit: Sie ist eine gute erste Entscheidungshilfe, reicht allein aber nicht."
    }
   ]
  }

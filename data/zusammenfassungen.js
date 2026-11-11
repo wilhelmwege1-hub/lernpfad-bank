@@ -13,7 +13,7 @@ window.ZUSAMMENFASSUNGEN = [
    10
   ],
   "titel": "Wirtschafts- und Sozialkunde, alle drei Lernfelder in einem",
-  "quelle": "Zusammenfassung aus dem Doc „WiSo-Zusammenfassung: LF01, LF06, LF10“. Alles Ergänzt (Gesetze, offizielle Werte), bis die Mitschriften abgeglichen sind. Wechselnde Werte Stand 09.11.2026: SV 2026, Mindestlohn 13,90 €, EZB-Sätze seit 16.09.2026 (2,65 / 2,90 / 2,50 %), Inflation Euroraum Okt. 2026 4,0 % vorläufig. EZB-Sitzung 29.10.2026: Sätze unverändert. Nächste EZB-Sitzung 17.12.2026.",
+  "quelle": "Zusammenfassung aus dem Doc „WiSo-Zusammenfassung: LF01, LF06, LF10“. Alles Ergänzt (Gesetze, offizielle Werte), bis die Mitschriften abgeglichen sind. Wechselnde Werte Stand 09.11.2026: SV 2026, Mindestlohn 13,90 €, EZB-Sätze seit 16.09.2026 (2,65 / 2,90 / 2,50 %), Inflation Euroraum Okt. 2026 4,0 % vorläufig. EZB-Sitzung 29.10.2026: Sätze unverändert. Nächste EZB-Sitzung 17.12.2026. Ergänzt am 11.11.2026 nach dem sächsischen Lehrplan Bankkaufleute (2020): LF01 · Rechtsgeschäfte: Willenserklärung, Form, Nichtigkeit, Anfechtung, LF01 · Kaufvertrag und Störungen beim Kaufvertrag, LF01 · Verjährung und gerichtliches Mahnverfahren, LF01 · Arbeitszeugnis und besondere Schutzgesetze. LF06 · Unlauterer Wettbewerb (UWG). LF10 · Geldmengen, Verkehrsgleichung und Giralgeldschöpfung.",
   "kapitel": [
    {
     "id": "wiso-lf01-k1",
@@ -421,6 +421,227 @@ window.ZUSAMMENFASSUNGEN = [
     "achtung": "Beschränkungen der Prokura im Innenverhältnis gelten gegenüber Dritten nicht (§ 50 HGB)."
    },
    {
+    "id": "wiso-lf01-k9",
+    "titel": "LF01 · Rechtsgeschäfte: Willenserklärung, Form, Nichtigkeit, Anfechtung",
+    "erklaert": "Ein Rechtsgeschäft entsteht durch Willenserklärungen. Einseitig reicht eine Erklärung (Kündigung, Testament), zweiseitig braucht es zwei übereinstimmende: Antrag und Annahme ergeben einen Vertrag (§§ 145 ff. BGB). Werbung, Schaufenster und Online-Shop-Seiten sind noch kein Antrag, sondern nur eine Aufforderung, selbst ein Angebot zu machen. Meist ist die Form frei. Manche Geschäfte brauchen aber Schriftform, notarielle Beurkundung oder öffentliche Beglaubigung. Nichtig ist ein Geschäft von Anfang an, wenn es gegen Gesetz oder gute Sitten verstößt, die Form fehlt oder ein Geschäftsunfähiger handelt. Anfechtbar ist es bei Irrtum, arglistiger Täuschung oder Drohung. Wird wirksam angefochten, gilt das Geschäft als von Anfang an nichtig (§ 142 BGB).",
+    "beispiel": "Ein Kunde unterschreibt eine Bürgschaft für den Kredit seines Bruders nur per E-Mail. Er ist kein Kaufmann, deshalb braucht die Bürgschaftserklärung Schriftform (§ 766 BGB). Ohne eigenhändige Unterschrift ist sie nichtig (§ 125 BGB). Anderes Beispiel: Ein Händler tippt im Angebot 150 € statt 510 €. Das ist ein Erklärungsirrtum, er muss unverzüglich anfechten (§§ 119, 121 BGB).",
+    "tabelle": {
+     "kopf": [
+      "Fall",
+      "Folge",
+      "Fundstelle"
+     ],
+     "zeilen": [
+      [
+       "Geschäftsunfähiger (unter 7 Jahren) handelt",
+       "nichtig",
+       "§§ 104, 105 BGB"
+      ],
+      [
+       "vorgeschriebene Form fehlt",
+       "nichtig",
+       "§ 125 BGB"
+      ],
+      [
+       "Verstoß gegen gesetzliches Verbot",
+       "nichtig",
+       "§ 134 BGB"
+      ],
+      [
+       "sittenwidrig, Wucher",
+       "nichtig",
+       "§ 138 BGB"
+      ],
+      [
+       "Scheingeschäft, Scherzgeschäft",
+       "nichtig",
+       "§§ 117, 118 BGB"
+      ],
+      [
+       "Inhalts- oder Erklärungsirrtum, Irrtum über wesentliche Eigenschaft",
+       "anfechtbar, unverzüglich",
+       "§§ 119, 121 BGB"
+      ],
+      [
+       "arglistige Täuschung, widerrechtliche Drohung",
+       "anfechtbar, binnen 1 Jahr ab Entdeckung bzw. Ende der Zwangslage",
+       "§§ 123, 124 BGB"
+      ],
+      [
+       "Schriftform: Bürgschaft (Nichtkaufmann), Kündigung Arbeitsvertrag, Verbraucherdarlehen",
+       "eigenhändige Unterschrift",
+       "§§ 766, 623, 492 BGB"
+      ],
+      [
+       "notarielle Beurkundung: Grundstückskauf",
+       "Notar beurkundet den ganzen Vertrag",
+       "§ 311b BGB"
+      ],
+      [
+       "öffentliche Beglaubigung: Anmeldung zum Handelsregister",
+       "Notar bestätigt nur die Unterschrift",
+       "§ 12 HGB"
+      ]
+     ]
+    },
+    "merksatz": "**Nichtig** ist von Anfang an ungültig, **anfechtbar** gilt, bis jemand anficht.",
+    "tipp": "Operator „Beurteilen“: Prüfe der Reihe nach Geschäftsfähigkeit, Form, Inhalt (Gesetz, Sitte) und erst dann Anfechtungsgründe. Nenne immer die Folge (nichtig oder anfechtbar).",
+    "achtung": "Ein Irrtum im Motiv (Kunde kauft Aktien, weil er auf steigende Kurse hofft) berechtigt nicht zur Anfechtung. Und: Beglaubigung ist nicht Beurkundung.",
+    "ergaenzt": true
+   },
+   {
+    "id": "wiso-lf01-k10",
+    "titel": "LF01 · Kaufvertrag und Störungen beim Kaufvertrag",
+    "erklaert": "Mit dem Kaufvertrag (§ 433 BGB) verpflichtet sich der Verkäufer, die Sache mangelfrei zu übergeben und das Eigentum zu verschaffen, der Käufer, zu zahlen und die Sache abzunehmen. Das ist das Verpflichtungsgeschäft. Erst das Erfüllungsgeschäft überträgt das Eigentum: Einigung und Übergabe (§ 929 BGB). Beide sind rechtlich getrennt (Abstraktionsprinzip). Störungen: Mangelhafte Lieferung, Lieferungsverzug, Zahlungsverzug und Annahmeverzug. Bei einem Mangel hat der Käufer zuerst Anspruch auf Nacherfüllung, er wählt Nachbesserung oder Neulieferung (§ 439 BGB). Erst wenn diese scheitert, kann er zurücktreten, mindern oder Schadensersatz verlangen (§ 437 BGB). Die Mängelrechte verjähren bei beweglichen Sachen in 2 Jahren ab Ablieferung (§ 438 BGB). Verzug setzt Fälligkeit, in der Regel eine Mahnung und Verschulden voraus (§ 286 BGB).",
+    "beispiel": "Die Sparkasse bestellt am 02.03. bei einem Händler 20 Bürostühle, Liefertermin „bis 31.03.“. Der Termin ist kalendermäßig bestimmt, also kommt der Händler ab 01.04. auch ohne Mahnung in Verzug. Die Sparkasse kann weiter Lieferung und Ersatz des Verzugsschadens verlangen. Nach einer angemessenen Nachfrist kann sie zurücktreten und Schadensersatz statt der Leistung fordern. Bei einem Kaufmann als Käufer gilt außerdem: Mängel unverzüglich rügen (§ 377 HGB), sonst gilt die Ware als genehmigt.",
+    "tabelle": {
+     "kopf": [
+      "Störung",
+      "Voraussetzungen",
+      "Rechte des Vertragspartners"
+     ],
+     "zeilen": [
+      [
+       "mangelhafte Lieferung (§§ 434, 437 BGB)",
+       "Sachmangel bei Gefahrübergang",
+       "1. Nacherfüllung; danach Rücktritt oder Minderung, zusätzlich Schadensersatz"
+      ],
+      [
+       "Lieferungsverzug (§ 286 BGB)",
+       "fällig, Mahnung (entfällt bei Kalendertermin), Verschulden",
+       "Lieferung + Verzugsschaden; nach Nachfrist Rücktritt, Schadensersatz statt der Leistung"
+      ],
+      [
+       "Zahlungsverzug (§§ 286, 288 BGB)",
+       "fällig, Mahnung oder 30 Tage nach Rechnung (bei Verbrauchern nur mit Hinweis auf der Rechnung)",
+       "Zahlung + Verzugszinsen: 5 Prozentpunkte über Basiszins mit Verbraucher, 9 Prozentpunkte + 40 € Pauschale zwischen Unternehmen"
+      ],
+      [
+       "Annahmeverzug (§§ 293 ff. BGB, § 373 HGB)",
+       "Käufer nimmt ordnungsgemäß angebotene Ware nicht an",
+       "Ware einlagern, Klage auf Abnahme, nach Androhung Selbsthilfeverkauf; Verkäufer haftet nur noch für Vorsatz und grobe Fahrlässigkeit"
+      ]
+     ]
+    },
+    "merksatz": "Erst **Nacherfüllung**, dann Rücktritt, Minderung oder Schadensersatz.",
+    "tipp": "Operator „Erläutern“: Nenne die Störung, prüfe ihre Voraussetzungen am Fall und leite daraus die Rechte ab. Beim Verzug immer die Mahnung prüfen.",
+    "achtung": "Beim Verbrauchsgüterkauf wird 1 Jahr lang vermutet, dass der Mangel schon bei Übergabe da war (§ 477 BGB). Das ist die Beweislastumkehr, nicht die Gewährleistungsfrist, die beträgt 2 Jahre.",
+    "ergaenzt": true
+   },
+   {
+    "id": "wiso-lf01-k11",
+    "titel": "LF01 · Verjährung und gerichtliches Mahnverfahren",
+    "erklaert": "Nach Ablauf der Verjährung darf der Schuldner die Leistung verweigern (Einrede, § 214 BGB). Die Forderung erlischt aber nicht. Wer trotzdem zahlt, kann das Geld nicht zurückverlangen. Die regelmäßige Frist beträgt 3 Jahre und beginnt am Ende des Jahres, in dem der Anspruch entstanden ist und der Gläubiger davon weiß (§§ 195, 199 BGB). Hemmung hält die Uhr an, zum Beispiel durch Klage, Mahnbescheid oder Verhandlungen (§§ 203, 204 BGB). Neubeginn setzt die Uhr auf null, zum Beispiel durch ein Anerkenntnis des Schuldners wie eine Abschlagszahlung (§ 212 BGB). Das gerichtliche Mahnverfahren ist der schnelle Weg zu einem Vollstreckungstitel: Antrag auf Mahnbescheid, dann Vollstreckungsbescheid, dann Zwangsvollstreckung.",
+    "beispiel": "Ein Handwerker stellt am 10.05.2023 eine Rechnung über 1.200 €, fällig sofort. Die Verjährung beginnt am 31.12.2023 um 24 Uhr und endet am 31.12.2026. Zahlt der Kunde am 15.03.2025 eine Rate von 200 €, beginnt die Verjährung neu: Ende jetzt am 15.03.2028. Ein Mahnbescheid hemmt dagegen nur, solange das Verfahren läuft (plus 6 Monate).",
+    "tabelle": {
+     "kopf": [
+      "Anspruch",
+      "Frist",
+      "Fundstelle"
+     ],
+     "zeilen": [
+      [
+       "regelmäßige Verjährung (z. B. Kaufpreis, Darlehensrückzahlung)",
+       "3 Jahre ab Jahresende",
+       "§§ 195, 199 BGB"
+      ],
+      [
+       "Mängelansprüche bei beweglichen Sachen",
+       "2 Jahre ab Ablieferung",
+       "§ 438 BGB"
+      ],
+      [
+       "Mängelansprüche bei Bauwerken",
+       "5 Jahre",
+       "§ 438 BGB"
+      ],
+      [
+       "Rechte an Grundstücken",
+       "10 Jahre",
+       "§ 196 BGB"
+      ],
+      [
+       "rechtskräftig festgestellte Ansprüche, Vollstreckungsbescheid",
+       "30 Jahre",
+       "§ 197 BGB"
+      ],
+      [
+       "Mahnverfahren: Widerspruch gegen Mahnbescheid",
+       "2 Wochen, dann streitiges Verfahren",
+       "§ 692 ZPO"
+      ],
+      [
+       "Mahnverfahren: Einspruch gegen Vollstreckungsbescheid",
+       "2 Wochen, sonst vollstreckbarer Titel",
+       "§§ 700, 339 ZPO"
+      ]
+     ]
+    },
+    "merksatz": "**Hemmung** hält die Uhr an, **Neubeginn** stellt sie auf null.",
+    "tipp": "Operator „Ermitteln“ beim Verjährungsende: Entstehung, Jahresende, plus Frist, dann Hemmung oder Neubeginn prüfen. Datum am Ende ausschreiben (31.12., 24 Uhr).",
+    "achtung": "Die regelmäßige Verjährung beginnt nicht am Tag der Rechnung, sondern erst am Jahresende. Die 2-Jahres-Frist für Mängel beginnt dagegen taggenau mit der Ablieferung.",
+    "ergaenzt": true
+   },
+   {
+    "id": "wiso-lf01-k12",
+    "titel": "LF01 · Arbeitszeugnis und besondere Schutzgesetze",
+    "erklaert": "Jeder Arbeitnehmer hat beim Ausscheiden Anspruch auf ein schriftliches Zeugnis (§ 109 GewO), Auszubildende nach § 16 BBiG. Das einfache Zeugnis nennt Art und Dauer der Tätigkeit. Das qualifizierte Zeugnis bewertet zusätzlich Leistung und Verhalten, aber nur auf Wunsch. Es muss wahr und wohlwollend sein, deshalb hat sich eine Zeugnissprache entwickelt. Besondere Gruppen schützt das Gesetz extra: Schwangere und Mütter (Mutterschutzgesetz), Eltern in Elternzeit (BEEG), schwerbehinderte Menschen (SGB IX) und Jugendliche (JArbSchG). Gemeinsam ist ihnen ein besonderer Kündigungsschutz.",
+    "beispiel": "Eine Kollegin ist schwanger, Geburtstermin 20.06. Die Schutzfrist beginnt 6 Wochen vorher am 09.05. und endet 8 Wochen nach der Geburt. Vom Beginn der Schwangerschaft bis 4 Monate nach der Entbindung darf ihr nicht gekündigt werden. Will sie danach Elternzeit bis zum 2. Geburtstag des Kindes nehmen, muss sie das spätestens 7 Wochen vor Beginn schriftlich verlangen.",
+    "tabelle": {
+     "kopf": [
+      "Regel",
+      "Inhalt",
+      "Fundstelle"
+     ],
+     "zeilen": [
+      [
+       "„stets zu unserer vollsten Zufriedenheit“",
+       "sehr gut",
+       "Zeugnissprache"
+      ],
+      [
+       "„stets zu unserer vollen Zufriedenheit“",
+       "gut",
+       "Zeugnissprache"
+      ],
+      [
+       "„zu unserer vollen Zufriedenheit“",
+       "befriedigend",
+       "Zeugnissprache"
+      ],
+      [
+       "„zu unserer Zufriedenheit“",
+       "ausreichend",
+       "Zeugnissprache"
+      ],
+      [
+       "Mutterschutzfristen",
+       "6 Wochen vor, 8 Wochen nach der Geburt (12 bei Früh- und Mehrlingsgeburt)",
+       "§ 3 MuSchG"
+      ],
+      [
+       "Kündigungsverbot Mutterschutz",
+       "Schwangerschaft bis 4 Monate nach Entbindung",
+       "§ 17 MuSchG"
+      ],
+      [
+       "Elternzeit",
+       "bis 3 Jahre je Kind; Anmeldung 7 Wochen vorher (bis 3. Geburtstag); Kündigungsschutz ab Verlangen, frühestens 8 Wochen vor Beginn",
+       "§§ 15, 16, 18 BEEG"
+      ],
+      [
+       "Schwerbehinderte (Grad der Behinderung ab 50)",
+       "5 Arbeitstage Zusatzurlaub; Kündigung nur mit Zustimmung des Integrationsamts",
+       "§§ 208, 168 SGB IX"
+      ]
+     ]
+    },
+    "merksatz": "Zeugnis: **wahr und wohlwollend**, qualifiziert nur auf Wunsch.",
+    "tipp": "Operator „Unterscheiden“ beim Zeugnis: Merkmal Inhalt nennen, dann einfach (Art, Dauer) und qualifiziert (zusätzlich Leistung, Verhalten) gegenüberstellen.",
+    "achtung": "Der besondere Kündigungsschutz verbietet die Kündigung durch den Arbeitgeber. Die Arbeitnehmerin selbst darf weiter kündigen.",
+    "ergaenzt": true
+   },
+   {
     "id": "wiso-lf06-k1",
     "titel": "LF06 · Bedürfnisse, Bedarf, Güter und ökonomisches Prinzip",
     "ergaenzt": true,
@@ -794,6 +1015,55 @@ window.ZUSAMMENFASSUNGEN = [
     "achtung": "Das Grundgesetz schreibt keine bestimmte Wirtschaftsordnung vor, es setzt nur den Rahmen."
    },
    {
+    "id": "wiso-lf06-k9",
+    "titel": "LF06 · Unlauterer Wettbewerb (UWG)",
+    "erklaert": "Das Kartellrecht (GWB) schützt, dass es Wettbewerb überhaupt gibt. Das Gesetz gegen den unlauteren Wettbewerb (UWG) schützt, dass fair gekämpft wird. Es schützt Mitbewerber, Verbraucher und die Allgemeinheit. Verboten sind unter anderem irreführende Werbung, aggressive Verkaufsmethoden und unzumutbare Belästigung. Vergleichende Werbung ist erlaubt, wenn sie sachlich und nachprüfbar ist. Wer gegen das UWG verstößt, kann von Mitbewerbern, Verbänden und Kammern abgemahnt werden und muss Beseitigung und Unterlassung, bei Verschulden auch Schadensersatz leisten.",
+    "beispiel": "Ein Kundenberater ruft Privatkunden aus dem Telefonbuch an, um Bausparverträge zu verkaufen. Die Angerufenen haben nie eingewilligt. Das ist eine unzumutbare Belästigung (§ 7 UWG). Mit Werbung für ein „Tagesgeld mit 5 % Zinsen“, obwohl der Zins nur 1 Monat gilt und das klein gedruckt ist, liegt außerdem irreführende Werbung vor (§ 5 UWG).",
+    "tabelle": {
+     "kopf": [
+      "Verbot",
+      "Beispiel",
+      "Fundstelle"
+     ],
+     "zeilen": [
+      [
+       "aggressive geschäftliche Handlung",
+       "Kunde wird unter Druck gesetzt, sofort zu unterschreiben",
+       "§ 4a UWG"
+      ],
+      [
+       "irreführende Werbung",
+       "falsche oder verschleierte Angaben zu Preis, Zins, Eigenschaften",
+       "§ 5 UWG"
+      ],
+      [
+       "Irreführung durch Unterlassen",
+       "wichtige Kosten werden verschwiegen",
+       "§ 5a UWG"
+      ],
+      [
+       "vergleichende Werbung",
+       "erlaubt, wenn sachlich, nachprüfbar, nicht herabsetzend",
+       "§ 6 UWG"
+      ],
+      [
+       "unzumutbare Belästigung",
+       "Werbeanruf bei Verbrauchern ohne vorherige ausdrückliche Einwilligung, Werbe-E-Mail ohne Einwilligung",
+       "§ 7 UWG"
+      ],
+      [
+       "Rechtsfolgen",
+       "Beseitigung, Unterlassung, Schadensersatz, Gewinnabschöpfung",
+       "§§ 8 bis 10 UWG"
+      ]
+     ]
+    },
+    "merksatz": "**GWB** schützt, dass Wettbewerb da ist, **UWG**, dass er fair ist.",
+    "tipp": "Operator „Unterscheiden“ GWB und UWG: Merkmal Schutzziel nennen, dann je ein Beispiel (Kartell, irreführende Werbung).",
+    "achtung": "Telefonwerbung bei Verbrauchern braucht eine vorherige ausdrückliche Einwilligung. Eine bestehende Kundenbeziehung allein reicht nicht.",
+    "ergaenzt": true
+   },
+   {
     "id": "wiso-lf10-k1",
     "titel": "LF10 · Wirtschaftspolitische Ziele",
     "ergaenzt": true,
@@ -1122,6 +1392,52 @@ window.ZUSAMMENFASSUNGEN = [
     "merksatz": "Starker Euro, billiger Urlaub in den USA, schwerer Export.",
     "tipp": "Operator „Ermitteln“: In der Mengennotierung Fremdwährung durch Kurs teilen, um Euro zu bekommen.",
     "achtung": "Ein höherer Kurs in der Mengennotierung heißt: Der Euro ist mehr wert (Aufwertung)."
+   },
+   {
+    "id": "wiso-lf10-k9",
+    "titel": "LF10 · Geldmengen, Verkehrsgleichung und Giralgeldschöpfung",
+    "erklaert": "Die EZB misst die Geldmenge in drei Stufen: M1 ist Bargeld plus täglich fällige Einlagen. M2 enthält zusätzlich Einlagen mit Laufzeit bis 2 Jahre und mit Kündigungsfrist bis 3 Monate. M3 enthält zusätzlich Repogeschäfte, Geldmarktfondsanteile und Schuldverschreibungen bis 2 Jahre. Die Verkehrsgleichung von Fisher verbindet Geld und Preise: Geldmenge · Umlaufgeschwindigkeit = Handelsvolumen · Preisniveau. Wächst die Geldmenge schneller als die Gütermenge, steigt bei gleicher Umlaufgeschwindigkeit das Preisniveau. Banken schaffen selbst Geld: Vergibt eine Bank einen Kredit, schreibt sie ihn dem Kunden als Sichteinlage gut. Diese Giralgeldschöpfung wird begrenzt durch die Mindestreserve (1 % bestimmter Einlagen), die Barabhebungen der Kunden und die Kreditnachfrage.",
+    "beispiel": "Ein Kunde zahlt 10.000 € bar bei Bank A ein. Mindestreserve 1 % = 100 €, Bank A kann 9.900 € Kredit geben. Der Kreditnehmer hebt 20 % bar ab (1.980 €), 7.920 € landen bei Bank B. Bank B hält 79,20 € Reserve und gibt 7.840,80 € Kredit, und so weiter. Insgesamt können alle Banken zusammen 9.900 : (1 − 0,8 · 0,99) = 9.900 : 0,208 = 47.596,15 € Kredit schaffen.",
+    "tabelle": {
+     "kopf": [
+      "Begriff",
+      "Inhalt"
+     ],
+     "zeilen": [
+      [
+       "M1",
+       "Bargeldumlauf + täglich fällige Einlagen (Sichteinlagen)"
+      ],
+      [
+       "M2",
+       "M1 + Einlagen mit Laufzeit bis 2 Jahre + Einlagen mit Kündigungsfrist bis 3 Monate"
+      ],
+      [
+       "M3",
+       "M2 + Repogeschäfte + Geldmarktfondsanteile + Schuldverschreibungen bis 2 Jahre"
+      ],
+      [
+       "Verkehrsgleichung",
+       "G · U = H · P (Geldmenge · Umlaufgeschwindigkeit = Handelsvolumen · Preisniveau)"
+      ],
+      [
+       "Zentralbankgeld",
+       "Bargeld + Guthaben der Banken bei der Zentralbank, schafft nur das Eurosystem"
+      ],
+      [
+       "Giralgeld (Buchgeld)",
+       "Sichtguthaben bei Banken, entsteht durch Kredit, Wertpapierankauf oder Bareinzahlung"
+      ],
+      [
+       "Grenzen der Giralgeldschöpfung",
+       "Mindestreserve, Barabzugsquote, Kreditnachfrage, Eigenkapitalvorschriften"
+      ]
+     ]
+    },
+    "merksatz": "**Kredit schafft Einlage**: Jeder neue Kredit erhöht die Geldmenge.",
+    "tipp": "Operator „Erläutern“ zur Verkehrsgleichung: Gleichung nennen, eine Größe ändern, die anderen konstant halten und die Wirkung auf das Preisniveau ableiten.",
+    "achtung": "Die Formel für den Geldschöpfungsmultiplikator ist im Unterricht oft etwas anders aufgebaut. Lerne den Rechenweg Schritt für Schritt, dann passt es zu jeder Form. Die Mindestreserve wird seit 2023 nicht mehr verzinst.",
+    "ergaenzt": true
    }
   ],
   "uebung": {
@@ -1275,6 +1591,86 @@ window.ZUSAMMENFASSUNGEN = [
      "thema": "wiso-lf10-k8",
      "vorne": "Was bewirkt eine Aufwertung des Euro?",
      "hinten": "Importe werden billiger, Exporte teurer; die Inflation wird gedämpft, die Exportwirtschaft belastet."
+    },
+    {
+     "thema": "wiso-lf01-k9",
+     "vorne": "Nichtig oder anfechtbar: Kaufvertrag eines 6-Jährigen?",
+     "hinten": "Nichtig, ein Kind unter 7 ist geschäftsunfähig (§§ 104, 105 BGB)."
+    },
+    {
+     "thema": "wiso-lf01-k9",
+     "vorne": "Anfechtungsfrist bei arglistiger Täuschung?",
+     "hinten": "1 Jahr ab Entdeckung der Täuschung (§ 124 BGB)."
+    },
+    {
+     "thema": "wiso-lf01-k9",
+     "vorne": "Welche Form braucht ein Grundstückskaufvertrag?",
+     "hinten": "Notarielle Beurkundung (§ 311b BGB)."
+    },
+    {
+     "thema": "wiso-lf01-k10",
+     "vorne": "Erstes Recht des Käufers bei einem Sachmangel?",
+     "hinten": "Nacherfüllung: Nachbesserung oder Neulieferung nach Wahl des Käufers (§ 439 BGB)."
+    },
+    {
+     "thema": "wiso-lf01-k10",
+     "vorne": "Wann kommt ein Schuldner ohne Mahnung in Verzug?",
+     "hinten": "Bei kalendermäßig bestimmtem Termin, bei ernsthafter Verweigerung, bei Geldschulden 30 Tage nach Fälligkeit und Rechnung (§ 286 BGB)."
+    },
+    {
+     "thema": "wiso-lf01-k10",
+     "vorne": "Verzugszinssatz zwischen Unternehmen?",
+     "hinten": "9 Prozentpunkte über dem Basiszinssatz plus 40 € Pauschale (§ 288 BGB)."
+    },
+    {
+     "thema": "wiso-lf01-k11",
+     "vorne": "Regelmäßige Verjährungsfrist und Beginn?",
+     "hinten": "3 Jahre, Beginn am Ende des Jahres der Entstehung und Kenntnis (§§ 195, 199 BGB)."
+    },
+    {
+     "thema": "wiso-lf01-k11",
+     "vorne": "Unterschied Hemmung und Neubeginn?",
+     "hinten": "Hemmung: Zeit läuft nicht weiter. Neubeginn: Frist startet von vorn, z. B. nach Abschlagszahlung."
+    },
+    {
+     "thema": "wiso-lf01-k12",
+     "vorne": "Was enthält ein qualifiziertes Arbeitszeugnis?",
+     "hinten": "Art und Dauer der Tätigkeit sowie Leistung und Verhalten."
+    },
+    {
+     "thema": "wiso-lf01-k12",
+     "vorne": "Mutterschutzfristen?",
+     "hinten": "6 Wochen vor und 8 Wochen nach der Geburt (§ 3 MuSchG)."
+    },
+    {
+     "thema": "wiso-lf06-k9",
+     "vorne": "Was schützt das UWG?",
+     "hinten": "Mitbewerber, Verbraucher und Allgemeinheit vor unlauteren geschäftlichen Handlungen (faire Mittel im Wettbewerb)."
+    },
+    {
+     "thema": "wiso-lf06-k9",
+     "vorne": "Ist vergleichende Werbung erlaubt?",
+     "hinten": "Ja, wenn sie sachlich, nachprüfbar und nicht herabsetzend ist (§ 6 UWG)."
+    },
+    {
+     "thema": "wiso-lf06-k9",
+     "vorne": "Wann ist Telefonwerbung bei Verbrauchern erlaubt?",
+     "hinten": "Nur mit vorheriger ausdrücklicher Einwilligung (§ 7 UWG)."
+    },
+    {
+     "thema": "wiso-lf10-k9",
+     "vorne": "Verkehrsgleichung nach Fisher?",
+     "hinten": "G · U = H · P: Geldmenge · Umlaufgeschwindigkeit = Handelsvolumen · Preisniveau."
+    },
+    {
+     "thema": "wiso-lf10-k9",
+     "vorne": "Was gehört zu M1?",
+     "hinten": "Bargeldumlauf und täglich fällige Einlagen."
+    },
+    {
+     "thema": "wiso-lf10-k9",
+     "vorne": "Was begrenzt die Giralgeldschöpfung?",
+     "hinten": "Mindestreserve, Barabhebungen der Kunden, Kreditnachfrage und Eigenkapitalvorschriften."
     }
    ],
    "mc": [
@@ -1498,6 +1894,123 @@ window.ZUSAMMENFASSUNGEN = [
      ],
      "richtig": 1,
      "erklaerung": "Der Euro wertet ab. US-Kunden brauchen weniger Dollar für dieselbe Euro-Rechnung, der Export wird gestützt."
+    },
+    {
+     "thema": "wiso-lf01-k9",
+     "operator": "Beurteilen",
+     "frage": "Ein Privatkunde erklärt eine Bürgschaft nur mündlich am Schalter. Wie ist die Bürgschaft zu beurteilen?",
+     "optionen": [
+      "Wirksam, weil Verträge formfrei sind",
+      "Nichtig, weil die Bürgschaft eines Nichtkaufmanns Schriftform braucht",
+      "Anfechtbar wegen Irrtums",
+      "Schwebend unwirksam bis zur Genehmigung der Eltern"
+     ],
+     "richtig": 1,
+     "erklaerung": "§ 766 BGB verlangt die schriftliche Bürgschaftserklärung, ohne Form ist sie nach § 125 BGB nichtig. Nur für Kaufleute gilt die Ausnahme nach § 350 HGB."
+    },
+    {
+     "thema": "wiso-lf01-k9",
+     "operator": "Zuordnen",
+     "frage": "Ein Kunde kauft Aktien in der Hoffnung auf steigende Kurse. Die Kurse fallen. Was liegt vor?",
+     "optionen": [
+      "Inhaltsirrtum, anfechtbar",
+      "Erklärungsirrtum, anfechtbar",
+      "Motivirrtum, nicht anfechtbar",
+      "Sittenwidrigkeit, nichtig"
+     ],
+     "richtig": 2,
+     "erklaerung": "Eine enttäuschte Erwartung ist ein Irrtum im Beweggrund (Motiv). Er berechtigt nicht zur Anfechtung."
+    },
+    {
+     "thema": "wiso-lf01-k10",
+     "operator": "Beurteilen",
+     "frage": "Ein Kunde reklamiert einen defekten Laptop und verlangt sofort sein Geld zurück. Wie ist das zu beurteilen?",
+     "optionen": [
+      "Berechtigt, Rücktritt ist immer sofort möglich",
+      "Nicht berechtigt, zuerst hat der Verkäufer das Recht auf Nacherfüllung",
+      "Berechtigt, wenn der Kaufpreis über 500 € liegt",
+      "Nicht berechtigt, weil Laptops vom Umtausch ausgeschlossen sind"
+     ],
+     "richtig": 1,
+     "erklaerung": "Nach §§ 437, 439, 323 BGB hat die Nacherfüllung Vorrang. Erst wenn sie fehlschlägt oder verweigert wird, kann der Käufer zurücktreten."
+    },
+    {
+     "thema": "wiso-lf01-k11",
+     "operator": "Ermitteln",
+     "frage": "Ein Darlehensrückzahlungsanspruch wird am 15.08.2024 fällig. Wann verjährt er ohne Hemmung oder Neubeginn?",
+     "optionen": [
+      "15.08.2027",
+      "31.12.2027",
+      "31.12.2026",
+      "15.08.2034"
+     ],
+     "richtig": 1,
+     "erklaerung": "Regelmäßige Verjährung 3 Jahre ab Ende 2024: Ablauf am 31.12.2027."
+    },
+    {
+     "thema": "wiso-lf01-k11",
+     "operator": "Nennen",
+     "frage": "Was passiert, wenn der Schuldner gegen einen Mahnbescheid nichts unternimmt?",
+     "optionen": [
+      "Die Forderung erlischt",
+      "Der Gläubiger kann einen Vollstreckungsbescheid beantragen",
+      "Es folgt automatisch ein Gerichtsverfahren",
+      "Die Verjährung beginnt neu"
+     ],
+     "richtig": 1,
+     "erklaerung": "Ohne Widerspruch binnen 2 Wochen kann der Gläubiger den Vollstreckungsbescheid beantragen. Er ist ein Titel für die Zwangsvollstreckung."
+    },
+    {
+     "thema": "wiso-lf01-k12",
+     "operator": "Zuordnen",
+     "frage": "Welche Note bedeutet „Sie erledigte ihre Aufgaben stets zu unserer vollen Zufriedenheit“?",
+     "optionen": [
+      "sehr gut",
+      "gut",
+      "befriedigend",
+      "ausreichend"
+     ],
+     "richtig": 1,
+     "erklaerung": "„stets zur vollsten“ = sehr gut, „stets zur vollen“ = gut, „zur vollen“ = befriedigend, „zur“ = ausreichend."
+    },
+    {
+     "thema": "wiso-lf06-k9",
+     "operator": "Zuordnen",
+     "frage": "Zwei Banken sprechen ihre Kontoentgelte ab. Welches Gesetz ist verletzt?",
+     "optionen": [
+      "UWG, weil die Werbung irreführend ist",
+      "GWB, weil eine Preisabsprache den Wettbewerb beschränkt",
+      "BGB, weil der Kontovertrag nichtig ist",
+      "Kein Gesetz, Absprachen sind erlaubt"
+     ],
+     "richtig": 1,
+     "erklaerung": "Preisabsprachen sind Kartelle und nach § 1 GWB verboten. Das UWG betrifft unfaire Mittel einzelner Anbieter, z. B. irreführende Werbung."
+    },
+    {
+     "thema": "wiso-lf10-k9",
+     "operator": "Beurteilen",
+     "frage": "Die Geldmenge steigt um 8 %, Umlaufgeschwindigkeit und Handelsvolumen bleiben gleich. Was folgt nach der Verkehrsgleichung?",
+     "optionen": [
+      "Das Preisniveau sinkt um 8 %",
+      "Das Preisniveau steigt um 8 %",
+      "Das Handelsvolumen steigt um 8 %",
+      "Keine Wirkung"
+     ],
+     "richtig": 1,
+     "erklaerung": "G · U = H · P. Steigt G bei konstantem U und H, muss P im gleichen Verhältnis steigen."
+    },
+    {
+     "thema": "wiso-lf10-k9",
+     "operator": "Zuordnen",
+     "frage": "Zu welcher Geldmenge gehört ein Festgeld mit 1 Jahr Laufzeit erstmals?",
+     "optionen": [
+      "M1",
+      "M2",
+      "M3",
+      "zu keiner"
+     ],
+     "richtig": 1,
+     "erklaerung": "Einlagen mit vereinbarter Laufzeit bis 2 Jahre gehören zu M2 (und damit auch zu M3), nicht zu M1."
     }
    ],
    "rechnen": [
@@ -1610,6 +2123,36 @@ window.ZUSAMMENFASSUNGEN = [
      "toleranz": 0.01,
      "ergaenzt": true,
      "weg": "Mengennotierung: 24.000 : 1,0850 = 22.119,82 €."
+    },
+    {
+     "thema": "wiso-lf01-k10",
+     "operator": "Ermitteln",
+     "frage": "Ein Verbraucher zahlt eine Rechnung über 2.400 € 45 Tage zu spät. Basiszinssatz angenommen 1,27 %. Ermitteln Sie die Verzugszinsen (taggenau, Jahr mit 365 Tagen).",
+     "ergebnis": 18.55,
+     "einheit": "€",
+     "toleranz": 0.02,
+     "ergaenzt": true,
+     "weg": "Verzugszins mit Verbraucher: 1,27 % + 5 Prozentpunkte = 6,27 % (§ 288 Abs. 1 BGB). 2.400 · 6,27 % · 45 : 365 = 18,55 €."
+    },
+    {
+     "thema": "wiso-lf10-k9",
+     "operator": "Ermitteln",
+     "frage": "Geldmenge 800 Mrd. €, Umlaufgeschwindigkeit 3, Handelsvolumen 2.000 Mrd. Einheiten. Die Geldmenge steigt um 10 %, alles andere bleibt gleich. Ermitteln Sie das neue Preisniveau.",
+     "ergebnis": 1.32,
+     "einheit": "",
+     "toleranz": 0.005,
+     "ergaenzt": true,
+     "weg": "Vorher P = 800 · 3 : 2.000 = 1,20. Neue Geldmenge 880 Mrd. €: P = 880 · 3 : 2.000 = 1,32."
+    },
+    {
+     "thema": "wiso-lf10-k9",
+     "operator": "Ermitteln",
+     "frage": "Bareinzahlung 50.000 € bei Bank A. Mindestreserve 1 %, die Kunden heben von jedem Kredit 10 % bar ab. Ermitteln Sie die maximale Kreditschöpfung aller Banken zusammen.",
+     "ergebnis": 454128.44,
+     "einheit": "€",
+     "toleranz": 1,
+     "ergaenzt": true,
+     "weg": "Bank A darf 50.000 − 1 % = 49.500 € ausleihen. Von jedem Kredit kommen 90 % als Einlage zurück, davon sind 99 % ausleihbar: Faktor 0,9 · 0,99 = 0,891. Summe: 49.500 : (1 − 0,891) = 49.500 : 0,109 = 454.128,44 €."
     }
    ],
    "frei": [
@@ -1654,6 +2197,30 @@ window.ZUSAMMENFASSUNGEN = [
      "operator": "Beurteilen",
      "frage": "Beurteilen Sie antizyklische Fiskalpolitik.",
      "loesung": "Vorteil: Sie kann Konjunkturschwankungen glätten, im Abschwung Nachfrage und Beschäftigung stützen. Nachteile: Entscheidungen und Wirkung kommen oft zu spät (Zeitverzögerung), die Maßnahmen wirken dann prozyklisch; im Boom werden Schulden selten abgebaut, die Staatsverschuldung steigt; die Schuldenbremse begrenzt den Spielraum. Fazit: sinnvoll, wenn rechtzeitig und zeitlich begrenzt eingesetzt."
+    },
+    {
+     "thema": "wiso-lf01-k10",
+     "operator": "Unterscheiden",
+     "frage": "Unterscheiden Sie Verpflichtungsgeschäft und Erfüllungsgeschäft am Beispiel eines Autokaufs.",
+     "loesung": "Verpflichtungsgeschäft: Der Kaufvertrag (§ 433 BGB) begründet nur Pflichten: Der Verkäufer muss das Auto übergeben und übereignen, der Käufer muss zahlen und abnehmen. Erfüllungsgeschäft: Die Pflichten werden erfüllt. Eigentum am Auto geht durch Einigung und Übergabe über (§ 929 BGB), das Eigentum am Geld ebenso. Beide Geschäfte sind rechtlich getrennt (Abstraktionsprinzip)."
+    },
+    {
+     "thema": "wiso-lf01-k11",
+     "operator": "Erläutern",
+     "frage": "Erläutern Sie, wie sich eine Abschlagszahlung des Schuldners auf die Verjährung auswirkt.",
+     "loesung": "Eine Abschlagszahlung ist ein Anerkenntnis des Schuldners (§ 212 Abs. 1 Nr. 1 BGB). Dadurch beginnt die Verjährung neu, und zwar ab dem Tag der Zahlung, nicht erst am Jahresende. Die volle Frist läuft also noch einmal."
+    },
+    {
+     "thema": "wiso-lf06-k9",
+     "operator": "Unterscheiden",
+     "frage": "Unterscheiden Sie GWB und UWG nach Schutzziel und nennen Sie je ein Beispiel für einen Verstoß.",
+     "loesung": "GWB (Kartellrecht): schützt den Wettbewerb als solchen vor Beschränkung, Beispiel: Preisabsprache zwischen Banken, Missbrauch einer marktbeherrschenden Stellung. UWG: schützt die Lauterkeit, also faire Mittel im Wettbewerb, Beispiel: irreführende Zinswerbung oder Werbeanrufe ohne Einwilligung."
+    },
+    {
+     "thema": "wiso-lf10-k9",
+     "operator": "Erläutern",
+     "frage": "Erläutern Sie, wie eine Sparkasse durch Kreditvergabe Giralgeld schafft und was diesen Vorgang begrenzt.",
+     "loesung": "Bewilligt die Sparkasse einen Kredit, schreibt sie den Betrag dem Girokonto des Kunden gut. Damit entsteht neues Sichtguthaben (Giralgeld), ohne dass jemand anderem Geld fehlt. Überweist der Kunde weiter, entsteht bei der Empfängerbank eine Einlage, die wieder als Kredit ausgeliehen werden kann. Grenzen: Die Bank muss 1 % Mindestreserve in Zentralbankgeld halten, Kunden heben einen Teil bar ab (Abfluss von Zentralbankgeld), die Kreditnachfrage und die Eigenkapitalvorschriften begrenzen das Volumen."
     }
    ]
   }
