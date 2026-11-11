@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Lernpfad Bank</title>
+<meta name="theme-color" content="#f2f2f3">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Lernpfad">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="bar">
+  <div class="bar-in">
+    <button class="brand" id="brandBtn" aria-label="Heute"><span class="brand-mark">L</span><span class="brand-name">Lernpfad Bank</span></button>
+    <button class="lf-btn" id="lfBtn" aria-haspopup="true"><span class="lf-chip num" id="lfChip">LF01</span><span class="lf-title" id="lfTitle"></span><span class="lf-ring" id="lfRing"></span><span class="caret"></span></button>
+    <div class="bar-right">
+      <button class="icon-btn" id="searchBtn" aria-label="Suchen und Glossar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg></button>
+      <button class="mode-btn" id="modeBtn" aria-haspopup="true"><span id="modeIcon"></span><span class="mode-label" id="modeLabel">Lesen</span></button>
+    </div>
+  </div>
+  <div class="bar-progress"><i id="barFill" style="width:0"></i></div>
+</header>
+<div class="scrim" id="scrim" hidden></div>
+<div class="sheet sheet-lf" id="sheetLf" hidden></div>
+<div class="sheet sheet-mode" id="sheetMode" hidden></div>
+<div class="sheet sheet-search" id="sheetSearch" hidden></div>
+<button class="fokus-exit" id="fokusExit" hidden>Fokus beenden</button>
+<main class="main" id="main"></main>
+<script src="data/lernfelder.js"></script>
+<script src="data/zusammenfassungen.js"></script>
+<script src="data/zusammenfassungen-teil2.js"></script>
+<script src="data/pruefung.js"></script>
+<script src="data/beispielpruefungen.js"></script>
+<script src="rechner.js"></script>
+<script src="app.js"></script>
+</body></html>

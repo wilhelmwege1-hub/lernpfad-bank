@@ -1,0 +1,16 @@
+{
+  "name": "Lernpfad Bank",
+  "short_name": "Lernpfad",
+  "description": "Trainings-App für die IHK-Abschlussprüfung Bankkaufmann (AO 2020)",
+  "lang": "de",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f2f2f3",
+  "theme_color": "#f2f2f3",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
