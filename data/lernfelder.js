@@ -22,7 +22,7 @@ window.LERNFELDER = [
   "nr": 1,
   "titel": "Die eigene Rolle im Betrieb und im Wirtschaftsleben mitgestalten",
   "std": 80,
-  "quelle": "Ergänzt aus offiziellen Quellen (Gesetze, Rahmenlehrplan AO 2020) und den Zusammenfassungen der Prüfungsbereiche. Wird durch deine Mitschrift ersetzt bzw. abgeglichen. Wechselnde Werte Stand 09.11.2026: SV 2026, Mindestlohn 13,90 €, EZB-Sätze seit 16.09.2026 (2,65 / 2,90 / 2,50 %), Inflation Euroraum Okt. 2026 4,0 % vorläufig. Nächste EZB-Sitzung 17.12.2026.",
+  "quelle": "Ergänzt aus offiziellen Quellen (Gesetze, Rahmenlehrplan AO 2020) und den Zusammenfassungen der Prüfungsbereiche. Wird durch deine Mitschrift ersetzt bzw. abgeglichen. Wechselnde Werte Stand 09.11.2026: SV 2026, Mindestlohn 13,90 €, EZB-Sätze seit 16.09.2026 (2,65 / 2,90 / 2,50 %), Inflation Euroraum Okt. 2026 4,0 % vorläufig. EZB-Sitzung 29.10.2026: Sätze unverändert. Nächste EZB-Sitzung 17.12.2026.",
   "kapitel": [
    {
     "id": "lf01-k1",
@@ -736,7 +736,7 @@ window.LERNFELDER = [
     },
     "merksatz": "**Oder** heißt allein, **Und** heißt gemeinsam.",
     "tipp": "Operator „Unterscheiden“: Nenne immer das Merkmal (Verfügung) und die Ausprägung bei beiden Kontoarten.",
-    "achtung": "Den Grundfreibetrag des P-Kontos nicht auswendig aus alten Büchern lernen. Er ändert sich jedes Jahr zum 1. Juli (Pfändungsfreigrenzenbekanntmachung im Bundesgesetzblatt). Seit 01.07.2025 beträgt er 1.555,00 € im Monat; Stand 07/2025, den Wert ab 01.07.2026 bitte im Unterricht prüfen. Und: Seit 2021 regelt § 899 ZPO das P-Konto, nicht mehr § 850k ZPO."
+    "achtung": "Den Grundfreibetrag des P-Kontos nicht auswendig aus alten Büchern lernen. Er ändert sich jedes Jahr zum 1. Juli (Pfändungsfreigrenzenbekanntmachung im Bundesgesetzblatt). Seit 01.07.2026 beträgt er 1.590 € im Monat (01.07.2025 bis 30.06.2026: 1.560 €). Er wird auf volle 10 € aufgerundet und ist deshalb etwas höher als die Pfändungsfreigrenze für Arbeitseinkommen (seit 01.07.2026 1.587,40 €). Stand 07/2026, Pfändungsfreigrenzenbekanntmachung 2026. Und: Seit 2021 regelt § 899 ZPO das P-Konto, nicht mehr § 850k ZPO."
    },
    {
     "id": "lf02-k4",
@@ -1396,7 +1396,7 @@ window.LERNFELDER = [
   "nr": 4,
   "titel": "Kunden über Anlagen auf Konten und staatlich gefördertes Sparen beraten",
   "std": 40,
-  "quelle": "Ergänzt aus offiziellen Quellen (Gesetze, Rahmenlehrplan AO 2020) und den Zusammenfassungen der Prüfungsbereiche. Wird durch deine Mitschrift ersetzt bzw. abgeglichen. Wechselnde Werte Stand 09.11.2026: Sparer-Pauschbetrag 1.000/2.000 € (seit 2023), Sparzulage-Grenzen 40.000/80.000 € (seit 2024), BBG RV 2026 8.450 € im Monat, Riester-Zulagen nach bisherigem Recht (Reform angekündigt), Basisrente-Höchstbetrag 2025 29.344 €. Nicht eingetragen, weil unsicher: Basiszins Vorabpauschale 2026 (BMF) und aktueller Rentenwert ab 01.07.2026 (Deutsche Rentenversicherung).",
+  "quelle": "Ergänzt aus offiziellen Quellen (Gesetze, Rahmenlehrplan AO 2020) und den Zusammenfassungen der Prüfungsbereiche. Wird durch deine Mitschrift ersetzt bzw. abgeglichen. Wechselnde Werte Stand 09.11.2026: Sparer-Pauschbetrag 1.000/2.000 € (seit 2023), Sparzulage-Grenzen 40.000/80.000 € (seit 2024), BBG RV 2026 8.450 € im Monat, Riester-Zulagen nach bisherigem Recht (Reform ab 01.01.2027 beschlossen), Basisrente-Höchstbetrag 2026 30.826 €. Basiszins Vorabpauschale 2026 3,20 % (BMF), aktueller Rentenwert ab 01.07.2026 42,52 € (DRV); nachgetragen am 11.11.2026.",
   "kapitel": [
    {
     "id": "lf04-k1",
@@ -2165,7 +2165,7 @@ window.LERNFELDER = [
   "nr": 6,
   "titel": "Marktmodelle anwenden",
   "std": 40,
-  "quelle": "Ergänzt aus offiziellen Quellen (Gesetze, Rahmenlehrplan AO 2020) und den Zusammenfassungen der Prüfungsbereiche. Wird durch deine Mitschrift ersetzt bzw. abgeglichen. Wechselnde Werte Stand 09.11.2026: SV 2026, Mindestlohn 13,90 €, EZB-Sätze seit 16.09.2026 (2,65 / 2,90 / 2,50 %), Inflation Euroraum Okt. 2026 4,0 % vorläufig. Nächste EZB-Sitzung 17.12.2026.",
+  "quelle": "Ergänzt aus offiziellen Quellen (Gesetze, Rahmenlehrplan AO 2020) und den Zusammenfassungen der Prüfungsbereiche. Wird durch deine Mitschrift ersetzt bzw. abgeglichen. Wechselnde Werte Stand 09.11.2026: SV 2026, Mindestlohn 13,90 €, EZB-Sätze seit 16.09.2026 (2,65 / 2,90 / 2,50 %), Inflation Euroraum Okt. 2026 4,0 % vorläufig. EZB-Sitzung 29.10.2026: Sätze unverändert. Nächste EZB-Sitzung 17.12.2026.",
   "kapitel": [
    {
     "id": "lf06-k1",
@@ -3019,7 +3019,7 @@ window.LERNFELDER = [
   "nr": 8,
   "titel": "Kunden über die Anlage in Finanzinstrumenten beraten",
   "std": 120,
-  "quelle": "Ergänzt aus offiziellen Quellen (Gesetze, Rahmenlehrplan AO 2020) und den Zusammenfassungen der Prüfungsbereiche. Wird durch deine Mitschrift ersetzt bzw. abgeglichen. Wechselnde Werte Stand 09.11.2026: Sparer-Pauschbetrag 1.000/2.000 € (seit 2023), Sparzulage-Grenzen 40.000/80.000 € (seit 2024), BBG RV 2026 8.450 € im Monat, Riester-Zulagen nach bisherigem Recht (Reform angekündigt), Basisrente-Höchstbetrag 2025 29.344 €. Nicht eingetragen, weil unsicher: Basiszins Vorabpauschale 2026 (BMF) und aktueller Rentenwert ab 01.07.2026 (Deutsche Rentenversicherung).",
+  "quelle": "Ergänzt aus offiziellen Quellen (Gesetze, Rahmenlehrplan AO 2020) und den Zusammenfassungen der Prüfungsbereiche. Wird durch deine Mitschrift ersetzt bzw. abgeglichen. Wechselnde Werte Stand 09.11.2026: Sparer-Pauschbetrag 1.000/2.000 € (seit 2023), Sparzulage-Grenzen 40.000/80.000 € (seit 2024), BBG RV 2026 8.450 € im Monat, Riester-Zulagen nach bisherigem Recht (Reform ab 01.01.2027 beschlossen), Basisrente-Höchstbetrag 2026 30.826 €. Basiszins Vorabpauschale 2026 3,20 % (BMF), aktueller Rentenwert ab 01.07.2026 42,52 € (DRV); nachgetragen am 11.11.2026.",
   "kapitel": [
    {
     "id": "lf08-k1",
@@ -3168,7 +3168,7 @@ window.LERNFELDER = [
     },
     "merksatz": "Aktienfonds 30, Mischfonds 15, Immobilienfonds 60 oder 80 Prozent steuerfrei.",
     "tipp": "Bei „Erläutern“ zum Vorteil von Fonds: Streuung (Risikominderung), Sondervermögen (Insolvenzschutz), kleine Sparraten möglich.",
-    "achtung": "Der Basiszins für die Vorabpauschale wechselt jährlich (2025: 2,53 %). Den Wert für 2026 bitte beim Bundesfinanzministerium prüfen, er ist hier bewusst nicht eingetragen."
+    "achtung": "Der Basiszins für die Vorabpauschale wechselt jährlich: 2025 2,53 %, 2026 3,20 % (BMF-Schreiben vom 13.01.2026). Die Vorabpauschale für 2026 fließt erst Anfang 2027 zu."
    },
    {
     "id": "lf08-k5",
@@ -3923,7 +3923,7 @@ window.LERNFELDER = [
   "nr": 10,
   "titel": "Gesamtwirtschaftliche Einflüsse analysieren und beurteilen",
   "std": 80,
-  "quelle": "Ergänzt aus offiziellen Quellen (Gesetze, Rahmenlehrplan AO 2020) und den Zusammenfassungen der Prüfungsbereiche. Wird durch deine Mitschrift ersetzt bzw. abgeglichen. Wechselnde Werte Stand 09.11.2026: SV 2026, Mindestlohn 13,90 €, EZB-Sätze seit 16.09.2026 (2,65 / 2,90 / 2,50 %), Inflation Euroraum Okt. 2026 4,0 % vorläufig. Nächste EZB-Sitzung 17.12.2026.",
+  "quelle": "Ergänzt aus offiziellen Quellen (Gesetze, Rahmenlehrplan AO 2020) und den Zusammenfassungen der Prüfungsbereiche. Wird durch deine Mitschrift ersetzt bzw. abgeglichen. Wechselnde Werte Stand 09.11.2026: SV 2026, Mindestlohn 13,90 €, EZB-Sätze seit 16.09.2026 (2,65 / 2,90 / 2,50 %), Inflation Euroraum Okt. 2026 4,0 % vorläufig. EZB-Sitzung 29.10.2026: Sätze unverändert. Nächste EZB-Sitzung 17.12.2026.",
   "kapitel": [
    {
     "id": "lf10-k1",
@@ -4789,7 +4789,7 @@ window.LERNFELDER = [
   "nr": 12,
   "titel": "Kunden über Produkte der Vorsorge und Absicherung informieren",
   "std": 60,
-  "quelle": "Ergänzt aus offiziellen Quellen (Gesetze, Rahmenlehrplan AO 2020) und den Zusammenfassungen der Prüfungsbereiche. Wird durch deine Mitschrift ersetzt bzw. abgeglichen. Wechselnde Werte Stand 09.11.2026: Sparer-Pauschbetrag 1.000/2.000 € (seit 2023), Sparzulage-Grenzen 40.000/80.000 € (seit 2024), BBG RV 2026 8.450 € im Monat, Riester-Zulagen nach bisherigem Recht (Reform angekündigt), Basisrente-Höchstbetrag 2025 29.344 €. Nicht eingetragen, weil unsicher: Basiszins Vorabpauschale 2026 (BMF) und aktueller Rentenwert ab 01.07.2026 (Deutsche Rentenversicherung).",
+  "quelle": "Ergänzt aus offiziellen Quellen (Gesetze, Rahmenlehrplan AO 2020) und den Zusammenfassungen der Prüfungsbereiche. Wird durch deine Mitschrift ersetzt bzw. abgeglichen. Wechselnde Werte Stand 09.11.2026: Sparer-Pauschbetrag 1.000/2.000 € (seit 2023), Sparzulage-Grenzen 40.000/80.000 € (seit 2024), BBG RV 2026 8.450 € im Monat, Riester-Zulagen nach bisherigem Recht (Reform ab 01.01.2027 beschlossen), Basisrente-Höchstbetrag 2026 30.826 €. Basiszins Vorabpauschale 2026 3,20 % (BMF), aktueller Rentenwert ab 01.07.2026 42,52 € (DRV); nachgetragen am 11.11.2026.",
   "kapitel": [
    {
     "id": "lf12-k1",
@@ -4827,13 +4827,13 @@ window.LERNFELDER = [
     },
     "merksatz": "Basis, Zusatz, Privat: je höher die Schicht, desto flexibler und desto weniger gefördert.",
     "tipp": "Bei „Erläutern“ zur Versorgungslücke: Umlageverfahren, demografischer Wandel, sinkendes Rentenniveau nennen.",
-    "achtung": "Der aktuelle Rentenwert ändert sich jedes Jahr zum 1. Juli. Er ist hier nicht eingetragen; den Wert ab 01.07.2026 bitte bei der Deutschen Rentenversicherung prüfen."
+    "achtung": "Der aktuelle Rentenwert ändert sich jedes Jahr zum 1. Juli. Seit 01.07.2026 beträgt er 42,52 € je Entgeltpunkt (Rentenanpassung + 4,24 %, Deutsche Rentenversicherung)."
    },
    {
     "id": "lf12-k2",
     "titel": "Riester-Rente und Basisrente",
     "ergaenzt": true,
-    "erklaert": "Riester fördern darf, wer in der gesetzlichen Rentenversicherung pflichtversichert ist (auch Azubis) oder Beamter ist; der Ehepartner ist mittelbar förderberechtigt. Zulagen: Grundzulage 175 € im Jahr, Kinderzulage 300 € je Kind (ab 2008 geboren) bzw. 185 € (vor 2008), einmalig 200 € Berufseinsteigerbonus unter 25 Jahren. Volle Zulagen gibt es nur, wenn der Mindesteigenbeitrag gezahlt wird: 4 % des rentenversicherungspflichtigen Vorjahresbruttos, höchstens 2.100 €, abzüglich der Zulagen, mindestens 60 € Sockelbetrag. Zusätzlich prüft das Finanzamt, ob der Sonderausgabenabzug bis 2.100 € günstiger ist (Günstigerprüfung). Die Basisrente (Rürup) ist vor allem für Selbstständige gedacht: Beiträge sind seit 2023 zu 100 % als Sonderausgaben abziehbar, bis zum Höchstbetrag (2025: 29.344 € für Ledige). Sie zahlt nur eine lebenslange Rente.",
+    "erklaert": "Riester fördern darf, wer in der gesetzlichen Rentenversicherung pflichtversichert ist (auch Azubis) oder Beamter ist; der Ehepartner ist mittelbar förderberechtigt. Zulagen: Grundzulage 175 € im Jahr, Kinderzulage 300 € je Kind (ab 2008 geboren) bzw. 185 € (vor 2008), einmalig 200 € Berufseinsteigerbonus unter 25 Jahren. Volle Zulagen gibt es nur, wenn der Mindesteigenbeitrag gezahlt wird: 4 % des rentenversicherungspflichtigen Vorjahresbruttos, höchstens 2.100 €, abzüglich der Zulagen, mindestens 60 € Sockelbetrag. Zusätzlich prüft das Finanzamt, ob der Sonderausgabenabzug bis 2.100 € günstiger ist (Günstigerprüfung). Die Basisrente (Rürup) ist vor allem für Selbstständige gedacht: Beiträge sind seit 2023 zu 100 % als Sonderausgaben abziehbar, bis zum Höchstbetrag (2026: 30.826 € für Ledige, 61.652 € für Verheiratete). Sie zahlt nur eine lebenslange Rente.",
     "beispiel": "Frau Neumann, Vorjahresbrutto 40.000 €, ein Kind (geboren 2015). 4 % von 40.000 € = 1.600 €. Zulagen: 175 + 300 = 475 €. Mindesteigenbeitrag: 1.600 − 475 = 1.125 € im Jahr, also 93,75 € im Monat.",
     "tabelle": {
      "kopf": [
@@ -4869,7 +4869,7 @@ window.LERNFELDER = [
     },
     "merksatz": "4 Prozent vom Vorjahr, minus Zulagen, mindestens 60 Euro.",
     "tipp": "Operator „Ermitteln“ beim Mindesteigenbeitrag: Vorjahresbrutto · 4 %, Deckel 2.100 € prüfen, Zulagen abziehen, Sockel 60 € prüfen.",
-    "achtung": "Eine Reform der geförderten privaten Altersvorsorge ist politisch angekündigt. Die Werte hier gelten nach bisherigem Recht; Stand bitte mit Unterricht und IHK abgleichen."
+    "achtung": "Das Altersvorsorgereformgesetz ist beschlossen (BGBl. I Nr. 156 vom 29.05.2026). Ab 01.01.2027 gibt es für neue Verträge das Altersvorsorgedepot mit neuen Zulagen; bestehende Riester-Verträge laufen weiter. Für 2026 und deine Prüfung gelten die Riester-Werte hier (bisheriges Recht)."
    },
    {
     "id": "lf12-k3",

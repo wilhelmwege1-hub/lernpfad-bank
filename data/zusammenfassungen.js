@@ -13,7 +13,7 @@ window.ZUSAMMENFASSUNGEN = [
    10
   ],
   "titel": "Wirtschafts- und Sozialkunde, alle drei Lernfelder in einem",
-  "quelle": "Zusammenfassung aus dem Doc „WiSo-Zusammenfassung: LF01, LF06, LF10“. Alles Ergänzt (Gesetze, offizielle Werte), bis die Mitschriften abgeglichen sind. Wechselnde Werte Stand 09.11.2026: SV 2026, Mindestlohn 13,90 €, EZB-Sätze seit 16.09.2026 (2,65 / 2,90 / 2,50 %), Inflation Euroraum Okt. 2026 4,0 % vorläufig. Nächste EZB-Sitzung 17.12.2026.",
+  "quelle": "Zusammenfassung aus dem Doc „WiSo-Zusammenfassung: LF01, LF06, LF10“. Alles Ergänzt (Gesetze, offizielle Werte), bis die Mitschriften abgeglichen sind. Wechselnde Werte Stand 09.11.2026: SV 2026, Mindestlohn 13,90 €, EZB-Sätze seit 16.09.2026 (2,65 / 2,90 / 2,50 %), Inflation Euroraum Okt. 2026 4,0 % vorläufig. EZB-Sitzung 29.10.2026: Sätze unverändert. Nächste EZB-Sitzung 17.12.2026.",
   "kapitel": [
    {
     "id": "wiso-lf01-k1",
